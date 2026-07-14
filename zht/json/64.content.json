@@ -36,18 +36,18 @@
 "preferred_label": "Gaius"
 },
 {
-"id": "keyterm:Beloved",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Beloved"
-},
-{
 "id": "keyterm:Truth",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Truth"
+},
+{
+"id": "keyterm:Beloved",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Beloved"
 },
 {
 "id": "keyterm:Love",
@@ -109,6 +109,20 @@
 "preferred_label": "Gaius"
 },
 {
+"id": "keyterm:BearWitness",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "Bear Witness"
+},
+{
+"id": "keyterm:Pray",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "Pray"
+},
+{
 "id": "keyterm:CauseOfJoy",
 "type": "keyterm",
 "confidence": 0.2625,
@@ -121,20 +135,6 @@
 "confidence": 0.2625,
 "match_method": "canonical",
 "preferred_label": "Love"
-},
-{
-"id": "keyterm:Pray",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "Pray"
-},
-{
-"id": "keyterm:BearWitness",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "Bear Witness"
 }
 ]
 }
@@ -251,18 +251,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Faithfulness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Faithfulness"
-},
-{
 "id": "keyterm:Beloved",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Beloved"
+},
+{
+"id": "keyterm:Faithfulness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Faithfulness"
 }
 ]
 }
@@ -289,18 +289,25 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "Name"
-},
-{
 "id": "keyterm:Faithfulness",
 "type": "keyterm",
 "confidence": 0.2625,
 "match_method": "canonical",
 "preferred_label": "Faithfulness"
+},
+{
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "Truth"
+},
+{
+"id": "keyterm:BearWitness",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "Bear Witness"
 },
 {
 "id": "deity:Lord",
@@ -310,11 +317,11 @@
 "preferred_label": "LORD"
 },
 {
-"id": "keyterm:Church",
+"id": "keyterm:Name",
 "type": "keyterm",
 "confidence": 0.2625,
 "match_method": "canonical",
-"preferred_label": "Church"
+"preferred_label": "Name"
 },
 {
 "id": "keyterm:Beloved",
@@ -331,25 +338,18 @@
 "preferred_label": "Obligated"
 },
 {
+"id": "keyterm:Church",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "Church"
+},
+{
 "id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.2625,
 "match_method": "canonical",
 "preferred_label": "Love"
-},
-{
-"id": "keyterm:Truth",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "Truth"
-},
-{
-"id": "keyterm:BearWitness",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "Bear Witness"
 }
 ]
 }
@@ -376,6 +376,13 @@
 "resource": [],
 "acai": [
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "LORD"
+},
+{
 "id": "keyterm:Church",
 "type": "keyterm",
 "confidence": 0.6,
@@ -395,13 +402,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Bear Witness"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "LORD"
 }
 ]
 }
@@ -428,13 +428,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Name"
-},
-{
 "id": "keyterm:Truth",
 "type": "keyterm",
 "confidence": 0.375,
@@ -447,6 +440,13 @@
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "Obligated"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "Name"
 }
 ]
 }
@@ -518,13 +518,6 @@
 "preferred_label": "Church"
 },
 {
-"id": "person:Demetrius",
-"type": "person",
-"confidence": 0.3125,
-"match_method": "canonical",
-"preferred_label": "Demetrius"
-},
-{
 "id": "person:Diotrephes",
 "type": "person",
 "confidence": 0.3125,
@@ -532,11 +525,39 @@
 "preferred_label": "Diotrephes"
 },
 {
+"id": "person:Demetrius",
+"type": "person",
+"confidence": 0.3125,
+"match_method": "canonical",
+"preferred_label": "Demetrius"
+},
+{
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "Truth"
+},
+{
+"id": "keyterm:BearWitness",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "Bear Witness"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.2625,
 "match_method": "canonical",
 "preferred_label": "LORD"
+},
+{
+"id": "keyterm:Good",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "Good"
 },
 {
 "id": "keyterm:True",
@@ -558,27 +579,6 @@
 "confidence": 0.2625,
 "match_method": "canonical",
 "preferred_label": "Do Good"
-},
-{
-"id": "keyterm:Good",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "Good"
-},
-{
-"id": "keyterm:Truth",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "Truth"
-},
-{
-"id": "keyterm:BearWitness",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "Bear Witness"
 }
 ]
 }
@@ -605,13 +605,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Good",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Good"
-},
-{
 "id": "keyterm:Beloved",
 "type": "keyterm",
 "confidence": 0.6,
@@ -619,18 +612,25 @@
 "preferred_label": "Beloved"
 },
 {
-"id": "keyterm:DoGood",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Do Good"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "LORD"
+},
+{
+"id": "keyterm:Good",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Good"
+},
+{
+"id": "keyterm:DoGood",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Do Good"
 }
 ]
 }
@@ -754,6 +754,13 @@
 "resource": [],
 "acai": [
 {
+"id": "realia:Ink",
+"type": "realia",
+"confidence": 0.3067,
+"match_method": "canonical",
+"preferred_label": "Ink"
+},
+{
 "id": "realia:Pen",
 "type": "realia",
 "confidence": 0.3067,
@@ -761,11 +768,11 @@
 "preferred_label": "Pen"
 },
 {
-"id": "realia:Ink",
-"type": "realia",
-"confidence": 0.3067,
+"id": "keyterm:Peace",
+"type": "keyterm",
+"confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "Ink"
+"preferred_label": "Make Peace"
 },
 {
 "id": "keyterm:Name",
@@ -780,13 +787,6 @@
 "confidence": 0.3,
 "match_method": "canonical",
 "preferred_label": "Hope"
-},
-{
-"id": "keyterm:Peace",
-"type": "keyterm",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "Make Peace"
 },
 {
 "id": "flora:Reed",
@@ -851,18 +851,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Name"
-},
-{
 "id": "keyterm:Peace",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Make Peace"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Name"
 }
 ]
 }

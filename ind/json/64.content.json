@@ -28,18 +28,18 @@
 "preferred_label": "Gayus"
 },
 {
-"id": "keyterm:Beloved",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "kekasih"
-},
-{
 "id": "keyterm:Truth",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "kebenaran"
+},
+{
+"id": "keyterm:Beloved",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "kekasih"
 },
 {
 "id": "keyterm:Love",
@@ -101,6 +101,20 @@
 "preferred_label": "Gayus"
 },
 {
+"id": "keyterm:BearWitness",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "bersaksi"
+},
+{
+"id": "keyterm:Pray",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "berdoa"
+},
+{
 "id": "keyterm:CauseOfJoy",
 "type": "keyterm",
 "confidence": 0.2625,
@@ -113,20 +127,6 @@
 "confidence": 0.2625,
 "match_method": "canonical",
 "preferred_label": "kasihi"
-},
-{
-"id": "keyterm:Pray",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "berdoa"
-},
-{
-"id": "keyterm:BearWitness",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "bersaksi"
 }
 ]
 }
@@ -243,18 +243,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Faithfulness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "kesetiaan"
-},
-{
 "id": "keyterm:Beloved",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "kekasih"
+},
+{
+"id": "keyterm:Faithfulness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "kesetiaan"
 }
 ]
 }
@@ -281,18 +281,25 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "nama"
-},
-{
 "id": "keyterm:Faithfulness",
 "type": "keyterm",
 "confidence": 0.2625,
 "match_method": "canonical",
 "preferred_label": "kesetiaan"
+},
+{
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "kebenaran"
+},
+{
+"id": "keyterm:BearWitness",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "bersaksi"
 },
 {
 "id": "deity:Lord",
@@ -302,11 +309,11 @@
 "preferred_label": "Tuhan"
 },
 {
-"id": "keyterm:Church",
+"id": "keyterm:Name",
 "type": "keyterm",
 "confidence": 0.2625,
 "match_method": "canonical",
-"preferred_label": "jemaat"
+"preferred_label": "nama"
 },
 {
 "id": "keyterm:Beloved",
@@ -323,25 +330,18 @@
 "preferred_label": "wajib"
 },
 {
+"id": "keyterm:Church",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "jemaat"
+},
+{
 "id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.2625,
 "match_method": "canonical",
 "preferred_label": "kasihi"
-},
-{
-"id": "keyterm:Truth",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "kebenaran"
-},
-{
-"id": "keyterm:BearWitness",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "bersaksi"
 }
 ]
 }
@@ -368,6 +368,13 @@
 "resource": [],
 "acai": [
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Tuhan"
+},
+{
 "id": "keyterm:Church",
 "type": "keyterm",
 "confidence": 0.6,
@@ -387,13 +394,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "bersaksi"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Tuhan"
 }
 ]
 }
@@ -420,13 +420,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "nama"
-},
-{
 "id": "keyterm:Truth",
 "type": "keyterm",
 "confidence": 0.375,
@@ -439,6 +432,13 @@
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "wajib"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "nama"
 }
 ]
 }
@@ -510,13 +510,6 @@
 "preferred_label": "jemaat"
 },
 {
-"id": "person:Demetrius",
-"type": "person",
-"confidence": 0.3125,
-"match_method": "canonical",
-"preferred_label": "Demetrius"
-},
-{
 "id": "person:Diotrephes",
 "type": "person",
 "confidence": 0.3125,
@@ -524,11 +517,39 @@
 "preferred_label": "Diotrefes"
 },
 {
+"id": "person:Demetrius",
+"type": "person",
+"confidence": 0.3125,
+"match_method": "canonical",
+"preferred_label": "Demetrius"
+},
+{
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "kebenaran"
+},
+{
+"id": "keyterm:BearWitness",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "bersaksi"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.2625,
 "match_method": "canonical",
 "preferred_label": "Tuhan"
+},
+{
+"id": "keyterm:Good",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "yang baik"
 },
 {
 "id": "keyterm:True",
@@ -550,27 +571,6 @@
 "confidence": 0.2625,
 "match_method": "canonical",
 "preferred_label": "lakukan baik"
-},
-{
-"id": "keyterm:Good",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "yang baik"
-},
-{
-"id": "keyterm:Truth",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "kebenaran"
-},
-{
-"id": "keyterm:BearWitness",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "bersaksi"
 }
 ]
 }
@@ -597,13 +597,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Good",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "yang baik"
-},
-{
 "id": "keyterm:Beloved",
 "type": "keyterm",
 "confidence": 0.6,
@@ -611,18 +604,25 @@
 "preferred_label": "kekasih"
 },
 {
-"id": "keyterm:DoGood",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "lakukan baik"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Tuhan"
+},
+{
+"id": "keyterm:Good",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "yang baik"
+},
+{
+"id": "keyterm:DoGood",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "lakukan baik"
 }
 ]
 }
@@ -746,6 +746,13 @@
 "resource": [],
 "acai": [
 {
+"id": "realia:Ink",
+"type": "realia",
+"confidence": 0.3067,
+"match_method": "canonical",
+"preferred_label": "Ink"
+},
+{
 "id": "realia:Pen",
 "type": "realia",
 "confidence": 0.3067,
@@ -753,11 +760,11 @@
 "preferred_label": "Pen"
 },
 {
-"id": "realia:Ink",
-"type": "realia",
-"confidence": 0.3067,
+"id": "keyterm:Peace",
+"type": "keyterm",
+"confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "Ink"
+"preferred_label": "memperdamaikan"
 },
 {
 "id": "keyterm:Name",
@@ -772,13 +779,6 @@
 "confidence": 0.3,
 "match_method": "canonical",
 "preferred_label": "harapan"
-},
-{
-"id": "keyterm:Peace",
-"type": "keyterm",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "memperdamaikan"
 },
 {
 "id": "flora:Reed",
@@ -843,18 +843,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "nama"
-},
-{
 "id": "keyterm:Peace",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "memperdamaikan"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "nama"
 }
 ]
 }
