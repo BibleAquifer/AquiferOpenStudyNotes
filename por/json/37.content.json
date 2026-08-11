@@ -21,20 +21,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Darius.2",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Dario"
-},
-{
-"id": "person:Joshua.5",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Josué"
-},
-{
 "id": "person:Jehozadak",
 "type": "person",
 "confidence": 0.8,
@@ -49,18 +35,25 @@
 "preferred_label": "Sealtiel"
 },
 {
+"id": "person:Darius.2",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Dario"
+},
+{
+"id": "person:Joshua.5",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Josué"
+},
+{
 "id": "person:Haggai",
 "type": "person",
 "confidence": 0.8,
 "match_method": "canonical",
 "preferred_label": "Ageu"
-},
-{
-"id": "person:Zerubbabel.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Zorobabel"
 },
 {
 "id": "group:Judah",
@@ -70,11 +63,11 @@
 "preferred_label": "Judá"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Judá"
+"preferred_label": "SENHOR"
 },
 {
 "id": "keyterm:WordOfTheLord",
@@ -84,11 +77,18 @@
 "preferred_label": "Word of the Lord"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "person:Judah.4",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "Judá"
+},
+{
+"id": "person:Zerubbabel.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Zorobabel"
 }
 ]
 }
@@ -143,6 +143,13 @@
 "preferred_label": "Jeozadaque"
 },
 {
+"id": "person:Zerubbabel.2",
+"type": "person",
+"confidence": 0.3533,
+"match_method": "canonical",
+"preferred_label": "Zorobabel"
+},
+{
 "id": "person:Joshua.5",
 "type": "person",
 "confidence": 0.3533,
@@ -157,18 +164,18 @@
 "preferred_label": "Sealtiel"
 },
 {
-"id": "person:Zerubbabel.2",
-"type": "person",
-"confidence": 0.3533,
-"match_method": "canonical",
-"preferred_label": "Zorobabel"
-},
-{
 "id": "person:Darius.2",
 "type": "person",
 "confidence": 0.2733,
 "match_method": "canonical",
 "preferred_label": "Dario"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.26,
+"match_method": "canonical",
+"preferred_label": "Judá"
 },
 {
 "id": "person:Judah.4",
@@ -185,20 +192,6 @@
 "preferred_label": "Word of the Lord"
 },
 {
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.26,
-"match_method": "canonical",
-"preferred_label": "Judá"
-},
-{
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "being honor and glory on oneself"
-},
-{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.18,
@@ -213,25 +206,11 @@
 "preferred_label": "An Angel"
 },
 {
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.12,
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Must"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "Vine"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "Anointing Oil"
+"preferred_label": "being honor and glory on oneself"
 },
 {
 "id": "flora:OliveTree",
@@ -241,13 +220,6 @@
 "preferred_label": "Olive Tree"
 },
 {
-"id": "flora:Grain",
-"type": "flora",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "Grain"
-},
-{
 "id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.12,
@@ -255,11 +227,25 @@
 "preferred_label": "Olive Oil"
 },
 {
-"id": "fauna:Mule",
-"type": "fauna",
+"id": "realia:AnointingOil",
+"type": "realia",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "Mule"
+"preferred_label": "Anointing Oil"
+},
+{
+"id": "realia:Must",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "Must"
+},
+{
+"id": "flora:Grain",
+"type": "flora",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "Grain"
 },
 {
 "id": "realia:Bag",
@@ -267,6 +253,20 @@
 "confidence": 0.12,
 "match_method": "canonical",
 "preferred_label": "Bag"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "Vine"
+},
+{
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "Mule"
 }
 ]
 }
@@ -424,18 +424,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "keyterm:BringHonorAndGloryOnOneself",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "being honor and glory on oneself"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 },
 {
 "id": "realia:House",
@@ -507,13 +507,6 @@
 "resource": [],
 "acai": [
 {
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Must"
-},
-{
 "id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.54,
@@ -521,18 +514,25 @@
 "preferred_label": "Olive Oil"
 },
 {
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Mule"
-},
-{
 "id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Olive Tree"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Anointing Oil"
+},
+{
+"id": "realia:Must",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Must"
 },
 {
 "id": "flora:Grain",
@@ -549,11 +549,11 @@
 "preferred_label": "Vine"
 },
 {
-"id": "realia:AnointingOil",
-"type": "realia",
+"id": "fauna:Mule",
+"type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Anointing Oil"
+"preferred_label": "Mule"
 }
 ]
 }
@@ -587,32 +587,11 @@
 "preferred_label": "Zorobabel"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "fear"
-},
-{
-"id": "person:Joshua.5",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Josué"
-},
-{
 "id": "person:Jehozadak",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Jeozadaque"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
 },
 {
 "id": "person:Shealtiel.2",
@@ -622,11 +601,32 @@
 "preferred_label": "Sealtiel"
 },
 {
+"id": "person:Joshua.5",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Josué"
+},
+{
 "id": "person:Haggai",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Ageu"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "fear"
 }
 ]
 }
@@ -660,18 +660,18 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "An Angel"
-},
-{
 "id": "person:Haggai",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Ageu"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "An Angel"
 }
 ]
 }
@@ -705,18 +705,11 @@
 "preferred_label": "Jeozadaque"
 },
 {
-"id": "person:Zerubbabel.2",
+"id": "person:Shealtiel.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Zorobabel"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Judá"
+"preferred_label": "Sealtiel"
 },
 {
 "id": "person:Joshua.5",
@@ -726,8 +719,8 @@
 "preferred_label": "Josué"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Judá"
@@ -740,11 +733,18 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "person:Shealtiel.2",
+"id": "person:Judah.4",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Sealtiel"
+"preferred_label": "Judá"
+},
+{
+"id": "person:Zerubbabel.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Zorobabel"
 },
 {
 "id": "realia:House",
@@ -844,11 +844,11 @@
 "preferred_label": "House"
 },
 {
-"id": "person:Zerubbabel.2",
+"id": "person:Jehozadak",
 "type": "person",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "Zorobabel"
+"preferred_label": "Jeozadaque"
 },
 {
 "id": "person:Joshua.5",
@@ -858,11 +858,11 @@
 "preferred_label": "Josué"
 },
 {
-"id": "person:Jehozadak",
+"id": "person:Zerubbabel.2",
 "type": "person",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "Jeozadaque"
+"preferred_label": "Zorobabel"
 },
 {
 "id": "person:Haggai",
@@ -872,11 +872,11 @@
 "preferred_label": "Ageu"
 },
 {
-"id": "place:Egypt",
-"type": "place",
+"id": "person:Shealtiel.2",
+"type": "person",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "Egito"
+"preferred_label": "Sealtiel"
 },
 {
 "id": "keyterm:IntactState",
@@ -886,11 +886,25 @@
 "preferred_label": "peace"
 },
 {
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Egito"
+},
+{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "fear"
+},
+{
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Word of the Lord"
 },
 {
 "id": "group:Judah",
@@ -905,20 +919,6 @@
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "Judá"
-},
-{
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Word of the Lord"
-},
-{
-"id": "person:Shealtiel.2",
-"type": "person",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Sealtiel"
 },
 {
 "id": "realia:Money",
@@ -990,11 +990,11 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "person:Jehozadak",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "Jeozadaque"
 },
 {
 "id": "person:Joshua.5",
@@ -1004,18 +1004,18 @@
 "preferred_label": "Josué"
 },
 {
-"id": "person:Jehozadak",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Jeozadaque"
-},
-{
 "id": "person:Zerubbabel.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Zorobabel"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 }
 ]
 }
@@ -1170,6 +1170,13 @@
 "resource": [],
 "acai": [
 {
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "peace"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -1182,13 +1189,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Glory"
-},
-{
-"id": "keyterm:IntactState",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "peace"
 },
 {
 "id": "realia:House",
@@ -1250,18 +1250,11 @@
 "preferred_label": "Vine"
 },
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
+"id": "person:Darius.2",
+"type": "person",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "bless"
-},
-{
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Word of the Lord"
+"preferred_label": "Dario"
 },
 {
 "id": "keyterm:Instruction",
@@ -1271,6 +1264,13 @@
 "preferred_label": "Instruction"
 },
 {
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "bless"
+},
+{
 "id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.195,
@@ -1278,46 +1278,18 @@
 "preferred_label": "holy"
 },
 {
-"id": "person:Darius.2",
-"type": "person",
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Dario"
+"preferred_label": "Word of the Lord"
 },
 {
-"id": "realia:Winepress",
-"type": "realia",
-"confidence": 0.135,
-"match_method": "canonical",
-"preferred_label": "Winepress"
-},
-{
-"id": "flora:Barley",
+"id": "flora:Pomegranate",
 "type": "flora",
 "confidence": 0.135,
 "match_method": "canonical",
-"preferred_label": "Barley"
-},
-{
-"id": "flora:Coriander",
-"type": "flora",
-"confidence": 0.135,
-"match_method": "canonical",
-"preferred_label": "Coriander"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.135,
-"match_method": "canonical",
-"preferred_label": "Anointing Oil"
-},
-{
-"id": "realia:Stew",
-"type": "realia",
-"confidence": 0.135,
-"match_method": "canonical",
-"preferred_label": "Stew"
+"preferred_label": "Pomegranate"
 },
 {
 "id": "flora:OliveTree",
@@ -1334,18 +1306,18 @@
 "preferred_label": "Wine"
 },
 {
-"id": "flora:Grain",
-"type": "flora",
-"confidence": 0.135,
-"match_method": "canonical",
-"preferred_label": "Grain"
-},
-{
 "id": "flora:Fig",
 "type": "flora",
 "confidence": 0.135,
 "match_method": "canonical",
 "preferred_label": "Fig"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.135,
+"match_method": "canonical",
+"preferred_label": "Barley"
 },
 {
 "id": "realia:OliveOil",
@@ -1355,11 +1327,39 @@
 "preferred_label": "Olive Oil"
 },
 {
-"id": "flora:Pomegranate",
+"id": "flora:Coriander",
 "type": "flora",
 "confidence": 0.135,
 "match_method": "canonical",
-"preferred_label": "Pomegranate"
+"preferred_label": "Coriander"
+},
+{
+"id": "realia:Winepress",
+"type": "realia",
+"confidence": 0.135,
+"match_method": "canonical",
+"preferred_label": "Winepress"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.135,
+"match_method": "canonical",
+"preferred_label": "Anointing Oil"
+},
+{
+"id": "flora:Grain",
+"type": "flora",
+"confidence": 0.135,
+"match_method": "canonical",
+"preferred_label": "Grain"
+},
+{
+"id": "realia:Stew",
+"type": "realia",
+"confidence": 0.135,
+"match_method": "canonical",
+"preferred_label": "Stew"
 }
 ]
 }
@@ -1386,18 +1386,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "keyterm:Instruction",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Instruction"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 }
 ]
 }
@@ -1439,13 +1439,6 @@
 "preferred_label": "holy"
 },
 {
-"id": "realia:Stew",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Stew"
-},
-{
 "id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.54,
@@ -1453,11 +1446,18 @@
 "preferred_label": "Olive Oil"
 },
 {
-"id": "realia:Wine",
+"id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Wine"
+"preferred_label": "Anointing Oil"
+},
+{
+"id": "realia:Stew",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Stew"
 },
 {
 "id": "flora:Vine",
@@ -1467,11 +1467,11 @@
 "preferred_label": "Vine"
 },
 {
-"id": "realia:AnointingOil",
+"id": "realia:Wine",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Anointing Oil"
+"preferred_label": "Wine"
 }
 ]
 }
@@ -1536,18 +1536,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "keyterm:Defilement",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "defilement"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 },
 {
 "id": "person:Haggai",
@@ -1696,18 +1696,11 @@
 "preferred_label": "bless"
 },
 {
-"id": "flora:Barley",
+"id": "flora:Pomegranate",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Barley"
-},
-{
-"id": "flora:Fig",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Fig"
+"preferred_label": "Pomegranate"
 },
 {
 "id": "flora:Coriander",
@@ -1724,18 +1717,25 @@
 "preferred_label": "Olive Tree"
 },
 {
+"id": "flora:Fig",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Fig"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Barley"
+},
+{
 "id": "flora:Vine",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Vine"
-},
-{
-"id": "flora:Pomegranate",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Pomegranate"
 }
 ]
 }
@@ -1762,13 +1762,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Zerubbabel.2",
-"type": "person",
-"confidence": 0.425,
-"match_method": "canonical",
-"preferred_label": "Zorobabel"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.425,
@@ -1776,25 +1769,11 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "Judá"
-},
-{
-"id": "person:Judah.4",
+"id": "person:Zerubbabel.2",
 "type": "person",
-"confidence": 0.2625,
+"confidence": 0.425,
 "match_method": "canonical",
-"preferred_label": "Judá"
-},
-{
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "Word of the Lord"
+"preferred_label": "Zorobabel"
 },
 {
 "id": "person:Shealtiel.2",
@@ -1811,11 +1790,25 @@
 "preferred_label": "Ageu"
 },
 {
-"id": "realia:Chariot",
-"type": "realia",
-"confidence": 0.2025,
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"confidence": 0.2625,
 "match_method": "canonical",
-"preferred_label": "Chariot"
+"preferred_label": "Word of the Lord"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "Judá"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "Judá"
 },
 {
 "id": "fauna:Horse",
@@ -1823,6 +1816,13 @@
 "confidence": 0.2025,
 "match_method": "canonical",
 "preferred_label": "Horse"
+},
+{
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.2025,
+"match_method": "canonical",
+"preferred_label": "Chariot"
 },
 {
 "id": "realia:Sword",
@@ -1863,18 +1863,18 @@
 "preferred_label": "Judá"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Judá"
-},
-{
 "id": "person:Zerubbabel.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Zorobabel"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Judá"
 }
 ]
 }
@@ -1901,18 +1901,18 @@
 "resource": [],
 "acai": [
 {
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Horse"
-},
-{
 "id": "realia:Sword",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Sword"
+},
+{
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Horse"
 },
 {
 "id": "realia:Chariot",
@@ -1954,18 +1954,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "person:Shealtiel.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Sealtiel"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 },
 {
 "id": "person:Zerubbabel.2",
