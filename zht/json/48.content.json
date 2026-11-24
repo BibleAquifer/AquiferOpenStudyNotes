@@ -21,20 +21,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Paul",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "保羅"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "耶穌"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -42,11 +28,25 @@
 "preferred_label": "耶和華"
 },
 {
+"id": "person:Paul",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "保羅"
+},
+{
 "id": "keyterm:Resurrection",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "復活（事件）"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "耶穌"
 }
 ]
 }
@@ -80,13 +80,6 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.38,
-"match_method": "canonical",
-"preferred_label": "耶穌"
-},
-{
 "id": "keyterm:Always",
 "type": "keyterm",
 "confidence": 0.38,
@@ -94,11 +87,11 @@
 "preferred_label": "永遠"
 },
 {
-"id": "place:Galatia",
-"type": "place",
-"confidence": 0.28,
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.38,
 "match_method": "canonical",
-"preferred_label": "加拉太"
+"preferred_label": "耶穌"
 },
 {
 "id": "keyterm:Rescue",
@@ -108,18 +101,18 @@
 "preferred_label": "拯救"
 },
 {
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.24,
+"id": "place:Galatia",
+"type": "place",
+"confidence": 0.28,
 "match_method": "canonical",
-"preferred_label": "能力（技能）"
+"preferred_label": "加拉太"
 },
 {
-"id": "keyterm:Peace",
+"id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "使人和睦"
+"preferred_label": "榮耀（神的同在）"
 },
 {
 "id": "keyterm:Church",
@@ -136,27 +129,6 @@
 "preferred_label": "復活（事件）"
 },
 {
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "恩寵（仁慈）"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "榮耀（神的同在）"
-},
-{
-"id": "person:Paul",
-"type": "person",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "保羅"
-},
-{
 "id": "keyterm:Surely",
 "type": "keyterm",
 "confidence": 0.24,
@@ -164,11 +136,39 @@
 "preferred_label": "實在！"
 },
 {
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "恩寵（仁慈）"
+},
+{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
 "preferred_label": "犯罪"
+},
+{
+"id": "keyterm:Peace",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "使人和睦"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "能力（技能）"
+},
+{
+"id": "person:Paul",
+"type": "person",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "保羅"
 }
 ]
 }
@@ -272,39 +272,11 @@
 "preferred_label": "教會"
 },
 {
-"id": "keyterm:InChrist",
-"type": "keyterm",
-"confidence": 0.28,
-"match_method": "canonical",
-"preferred_label": "在基督裏"
-},
-{
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.28,
-"match_method": "canonical",
-"preferred_label": "身體（實體）"
-},
-{
 "id": "keyterm:Life",
 "type": "keyterm",
 "confidence": 0.28,
 "match_method": "canonical",
 "preferred_label": "生命"
-},
-{
-"id": "group:Jews",
-"type": "group",
-"confidence": 0.28,
-"match_method": "canonical",
-"preferred_label": "猶大人"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.28,
-"match_method": "canonical",
-"preferred_label": "耶路撒冷"
 },
 {
 "id": "keyterm:Law",
@@ -321,25 +293,39 @@
 "preferred_label": "顯為公義／行事公正"
 },
 {
+"id": "keyterm:InChrist",
+"type": "keyterm",
+"confidence": 0.28,
+"match_method": "canonical",
+"preferred_label": "在基督裏"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.28,
+"match_method": "canonical",
+"preferred_label": "身體（實體）"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.28,
+"match_method": "canonical",
+"preferred_label": "耶路撒冷"
+},
+{
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.28,
+"match_method": "canonical",
+"preferred_label": "猶大人"
+},
+{
 "id": "person:Titus",
 "type": "person",
 "confidence": 0.2244,
 "match_method": "canonical",
 "preferred_label": "提多"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.22,
-"match_method": "canonical",
-"preferred_label": "榮耀（神的同在）"
-},
-{
-"id": "keyterm:Truth",
-"type": "keyterm",
-"confidence": 0.22,
-"match_method": "canonical",
-"preferred_label": "信實（誠實）"
 },
 {
 "id": "keyterm:Sin",
@@ -349,11 +335,39 @@
 "preferred_label": "犯罪"
 },
 {
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.22,
+"match_method": "canonical",
+"preferred_label": "信實（誠實）"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.22,
+"match_method": "canonical",
+"preferred_label": "榮耀（神的同在）"
+},
+{
 "id": "keyterm:Always",
 "type": "keyterm",
 "confidence": 0.22,
 "match_method": "canonical",
 "preferred_label": "永遠"
+},
+{
+"id": "place:Galatia",
+"type": "place",
+"confidence": 0.1644,
+"match_method": "canonical",
+"preferred_label": "加拉太"
+},
+{
+"id": "place:Arabia",
+"type": "place",
+"confidence": 0.1644,
+"match_method": "canonical",
+"preferred_label": "阿拉伯"
 },
 {
 "id": "place:Antioch",
@@ -370,25 +384,11 @@
 "preferred_label": "假冒為善"
 },
 {
-"id": "place:Galatia",
-"type": "place",
-"confidence": 0.1644,
-"match_method": "canonical",
-"preferred_label": "加拉太"
-},
-{
 "id": "keyterm:Persuade",
 "type": "keyterm",
 "confidence": 0.1644,
 "match_method": "canonical",
 "preferred_label": "勸導"
-},
-{
-"id": "place:Arabia",
-"type": "place",
-"confidence": 0.1644,
-"match_method": "canonical",
-"preferred_label": "阿拉伯"
 },
 {
 "id": "keyterm:Behavior",
@@ -405,74 +405,11 @@
 "preferred_label": "拯救"
 },
 {
-"id": "place:Judea",
-"type": "place",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "猶太"
-},
-{
-"id": "keyterm:Ability",
+"id": "keyterm:Empty",
 "type": "keyterm",
 "confidence": 0.16,
 "match_method": "canonical",
-"preferred_label": "能力（技能）"
-},
-{
-"id": "keyterm:Teaching",
-"type": "keyterm",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "教訓"
-},
-{
-"id": "keyterm:Peace",
-"type": "keyterm",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "使人和睦"
-},
-{
-"id": "keyterm:Proclaim",
-"type": "keyterm",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "宣告"
-},
-{
-"id": "place:Damascus",
-"type": "place",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "大馬士革"
-},
-{
-"id": "keyterm:Surely",
-"type": "keyterm",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "實在！"
-},
-{
-"id": "keyterm:Condemn",
-"type": "keyterm",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "定罪"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "天"
-},
-{
-"id": "place:Cilicia",
-"type": "place",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "基利家"
+"preferred_label": "徒然"
 },
 {
 "id": "keyterm:Resurrection",
@@ -482,18 +419,11 @@
 "preferred_label": "復活（事件）"
 },
 {
-"id": "keyterm:Empty",
-"type": "keyterm",
+"id": "deity:Angel",
+"type": "deity",
 "confidence": 0.16,
 "match_method": "canonical",
-"preferred_label": "徒然"
-},
-{
-"id": "person:John.2",
-"type": "person",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "約翰（西庇太的兒子）"
+"preferred_label": "天使"
 },
 {
 "id": "keyterm:Love",
@@ -503,39 +433,46 @@
 "preferred_label": "愛"
 },
 {
-"id": "keyterm:Fellowship",
+"id": "keyterm:Proclaim",
 "type": "keyterm",
 "confidence": 0.16,
 "match_method": "canonical",
-"preferred_label": "相交"
+"preferred_label": "宣告"
 },
 {
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "天使"
-},
-{
-"id": "person:Paul",
+"id": "person:John.2",
 "type": "person",
 "confidence": 0.16,
 "match_method": "canonical",
-"preferred_label": "保羅"
+"preferred_label": "約翰（西庇太的兒子）"
 },
 {
-"id": "group:Greek",
-"type": "group",
+"id": "person:Javan",
+"type": "person",
 "confidence": 0.16,
 "match_method": "canonical",
-"preferred_label": "希臘人"
+"preferred_label": "雅完"
 },
 {
-"id": "keyterm:Blood",
+"id": "keyterm:Peace",
 "type": "keyterm",
 "confidence": 0.16,
 "match_method": "canonical",
-"preferred_label": "血"
+"preferred_label": "使人和睦"
+},
+{
+"id": "place:Cilicia",
+"type": "place",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "基利家"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "天"
 },
 {
 "id": "keyterm:Fear",
@@ -545,11 +482,74 @@
 "preferred_label": "懼怕"
 },
 {
-"id": "person:Javan",
+"id": "keyterm:Fellowship",
+"type": "keyterm",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "相交"
+},
+{
+"id": "keyterm:Condemn",
+"type": "keyterm",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "定罪"
+},
+{
+"id": "keyterm:Teaching",
+"type": "keyterm",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "教訓"
+},
+{
+"id": "place:Damascus",
+"type": "place",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "大馬士革"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "能力（技能）"
+},
+{
+"id": "place:Judea",
+"type": "place",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "猶太"
+},
+{
+"id": "group:Greek",
+"type": "group",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "希臘人"
+},
+{
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "實在！"
+},
+{
+"id": "keyterm:Blood",
+"type": "keyterm",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "血"
+},
+{
+"id": "person:Paul",
 "type": "person",
 "confidence": 0.16,
 "match_method": "canonical",
-"preferred_label": "雅完"
+"preferred_label": "保羅"
 },
 {
 "id": "realia:Cross",
@@ -583,18 +583,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Church",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "教會"
-},
-{
 "id": "place:Galatia",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "加拉太"
+},
+{
+"id": "keyterm:Church",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "教會"
 }
 ]
 }
@@ -636,6 +636,13 @@
 "preferred_label": "耶和華"
 },
 {
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "恩寵（仁慈）"
+},
+{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.6,
@@ -648,13 +655,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "使人和睦"
-},
-{
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "恩寵（仁慈）"
 }
 ]
 }
@@ -702,25 +702,18 @@
 "preferred_label": "拯救"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "耶穌"
-},
-{
-"id": "keyterm:Ability",
+"id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "能力（技能）"
+"preferred_label": "榮耀（神的同在）"
 },
 {
-"id": "keyterm:Peace",
+"id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "使人和睦"
+"preferred_label": "犯罪"
 },
 {
 "id": "keyterm:Favor",
@@ -730,13 +723,6 @@
 "preferred_label": "恩寵（仁慈）"
 },
 {
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "榮耀（神的同在）"
-},
-{
 "id": "keyterm:Surely",
 "type": "keyterm",
 "confidence": 0.3,
@@ -744,11 +730,25 @@
 "preferred_label": "實在！"
 },
 {
-"id": "keyterm:Sin",
+"id": "keyterm:Peace",
 "type": "keyterm",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "犯罪"
+"preferred_label": "使人和睦"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "能力（技能）"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "耶穌"
 }
 ]
 }
@@ -782,18 +782,18 @@
 "preferred_label": "拯救"
 },
 {
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "能力（技能）"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "耶和華"
+},
+{
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "永遠"
 },
 {
 "id": "keyterm:Sin",
@@ -803,11 +803,11 @@
 "preferred_label": "犯罪"
 },
 {
-"id": "keyterm:Always",
+"id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "永遠"
+"preferred_label": "能力（技能）"
 }
 ]
 }
@@ -848,13 +848,6 @@
 "preferred_label": "拯救"
 },
 {
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "能力（技能）"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.375,
@@ -869,6 +862,13 @@
 "preferred_label": "榮耀（神的同在）"
 },
 {
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "犯罪"
+},
+{
 "id": "keyterm:Surely",
 "type": "keyterm",
 "confidence": 0.375,
@@ -876,11 +876,11 @@
 "preferred_label": "實在！"
 },
 {
-"id": "keyterm:Sin",
+"id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "犯罪"
+"preferred_label": "能力（技能）"
 }
 ]
 }
@@ -907,6 +907,13 @@
 "resource": [],
 "acai": [
 {
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "永遠"
+},
+{
 "id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.6,
@@ -919,13 +926,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "實在！"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "永遠"
 }
 ]
 }
@@ -952,6 +952,13 @@
 "resource": [],
 "acai": [
 {
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "恩寵（仁慈）"
+},
+{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.6,
@@ -964,13 +971,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "福音"
-},
-{
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "恩寵（仁慈）"
 }
 ]
 }
@@ -1018,11 +1018,11 @@
 "preferred_label": "勸導"
 },
 {
-"id": "deity:Angel",
+"id": "deity:Lord",
 "type": "deity",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "天使"
+"preferred_label": "耶和華"
 },
 {
 "id": "keyterm:Favor",
@@ -1032,11 +1032,11 @@
 "preferred_label": "恩寵（仁慈）"
 },
 {
-"id": "deity:Lord",
+"id": "deity:Angel",
 "type": "deity",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "耶和華"
+"preferred_label": "天使"
 },
 {
 "id": "keyterm:Heaven",
@@ -1070,18 +1070,18 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "耶穌"
-},
-{
 "id": "keyterm:GoodNews",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "福音"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "耶穌"
 }
 ]
 }
@@ -1267,13 +1267,6 @@
 "preferred_label": "耶穌"
 },
 {
-"id": "keyterm:GoodNews",
-"type": "keyterm",
-"confidence": 0.44,
-"match_method": "canonical",
-"preferred_label": "福音"
-},
-{
 "id": "group:Gentile",
 "type": "group",
 "confidence": 0.44,
@@ -1281,11 +1274,11 @@
 "preferred_label": "外邦人"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.4271,
+"id": "keyterm:GoodNews",
+"type": "keyterm",
+"confidence": 0.44,
 "match_method": "canonical",
-"preferred_label": "耶和華"
+"preferred_label": "福音"
 },
 {
 "id": "person:Peter",
@@ -1293,6 +1286,13 @@
 "confidence": 0.4271,
 "match_method": "canonical",
 "preferred_label": "彼得"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.4271,
+"match_method": "canonical",
+"preferred_label": "耶和華"
 },
 {
 "id": "keyterm:Circumcision",
@@ -1330,39 +1330,11 @@
 "preferred_label": "恩寵（仁慈）"
 },
 {
-"id": "keyterm:InChrist",
-"type": "keyterm",
-"confidence": 0.2886,
-"match_method": "canonical",
-"preferred_label": "在基督裏"
-},
-{
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.2886,
-"match_method": "canonical",
-"preferred_label": "身體（實體）"
-},
-{
 "id": "keyterm:Life",
 "type": "keyterm",
 "confidence": 0.2886,
 "match_method": "canonical",
 "preferred_label": "生命"
-},
-{
-"id": "group:Jews",
-"type": "group",
-"confidence": 0.2886,
-"match_method": "canonical",
-"preferred_label": "猶大人"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.2886,
-"match_method": "canonical",
-"preferred_label": "耶路撒冷"
 },
 {
 "id": "keyterm:Law",
@@ -1379,11 +1351,46 @@
 "preferred_label": "顯為公義／行事公正"
 },
 {
+"id": "keyterm:InChrist",
+"type": "keyterm",
+"confidence": 0.2886,
+"match_method": "canonical",
+"preferred_label": "在基督裏"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.2886,
+"match_method": "canonical",
+"preferred_label": "身體（實體）"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.2886,
+"match_method": "canonical",
+"preferred_label": "耶路撒冷"
+},
+{
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.2886,
+"match_method": "canonical",
+"preferred_label": "猶大人"
+},
+{
 "id": "person:Titus",
 "type": "person",
 "confidence": 0.2314,
 "match_method": "canonical",
 "preferred_label": "提多"
+},
+{
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.2257,
+"match_method": "canonical",
+"preferred_label": "信實（誠實）"
 },
 {
 "id": "keyterm:Church",
@@ -1393,11 +1400,11 @@
 "preferred_label": "教會"
 },
 {
-"id": "keyterm:Truth",
-"type": "keyterm",
-"confidence": 0.2257,
+"id": "place:Arabia",
+"type": "place",
+"confidence": 0.1686,
 "match_method": "canonical",
-"preferred_label": "信實（誠實）"
+"preferred_label": "阿拉伯"
 },
 {
 "id": "place:Antioch",
@@ -1414,67 +1421,11 @@
 "preferred_label": "假冒為善"
 },
 {
-"id": "place:Arabia",
-"type": "place",
-"confidence": 0.1686,
-"match_method": "canonical",
-"preferred_label": "阿拉伯"
-},
-{
 "id": "keyterm:Behavior",
 "type": "keyterm",
 "confidence": 0.1686,
 "match_method": "canonical",
 "preferred_label": "行為"
-},
-{
-"id": "place:Judea",
-"type": "place",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "猶太"
-},
-{
-"id": "keyterm:Teaching",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "教訓"
-},
-{
-"id": "keyterm:Proclaim",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "宣告"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "榮耀（神的同在）"
-},
-{
-"id": "place:Damascus",
-"type": "place",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "大馬士革"
-},
-{
-"id": "keyterm:Condemn",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "定罪"
-},
-{
-"id": "place:Cilicia",
-"type": "place",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "基利家"
 },
 {
 "id": "keyterm:Empty",
@@ -1484,11 +1435,11 @@
 "preferred_label": "徒然"
 },
 {
-"id": "person:John.2",
-"type": "person",
+"id": "keyterm:Sin",
+"type": "keyterm",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "約翰（西庇太的兒子）"
+"preferred_label": "犯罪"
 },
 {
 "id": "keyterm:Love",
@@ -1498,11 +1449,81 @@
 "preferred_label": "愛"
 },
 {
+"id": "keyterm:Proclaim",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "宣告"
+},
+{
+"id": "person:John.2",
+"type": "person",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "約翰（西庇太的兒子）"
+},
+{
+"id": "person:Javan",
+"type": "person",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "雅完"
+},
+{
+"id": "place:Cilicia",
+"type": "place",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "基利家"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "懼怕"
+},
+{
 "id": "keyterm:Fellowship",
 "type": "keyterm",
 "confidence": 0.1629,
 "match_method": "canonical",
 "preferred_label": "相交"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "榮耀（神的同在）"
+},
+{
+"id": "keyterm:Condemn",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "定罪"
+},
+{
+"id": "keyterm:Teaching",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "教訓"
+},
+{
+"id": "place:Damascus",
+"type": "place",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "大馬士革"
+},
+{
+"id": "place:Judea",
+"type": "place",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "猶太"
 },
 {
 "id": "group:Greek",
@@ -1517,27 +1538,6 @@
 "confidence": 0.1629,
 "match_method": "canonical",
 "preferred_label": "血"
-},
-{
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "犯罪"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "懼怕"
-},
-{
-"id": "person:Javan",
-"type": "person",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "雅完"
 },
 {
 "id": "realia:Cross",
@@ -1616,18 +1616,18 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "keyterm:Teaching",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "教訓"
-},
-{
 "id": "keyterm:Church",
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "教會"
+},
+{
+"id": "keyterm:Teaching",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "教訓"
 }
 ]
 }
@@ -1685,27 +1685,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "恩寵（仁慈）"
-},
-{
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "身體（實體）"
-},
-{
-"id": "keyterm:Blood",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "血"
-},
-{
 "id": "group:Gentile",
 "type": "group",
 "confidence": 0.375,
@@ -1718,6 +1697,27 @@
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "福音"
+},
+{
+"id": "keyterm:Blood",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "血"
+},
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "恩寵（仁慈）"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "身體（實體）"
 }
 ]
 }
@@ -1751,13 +1751,6 @@
 "preferred_label": "耶路撒冷"
 },
 {
-"id": "place:Arabia",
-"type": "place",
-"confidence": 0.28,
-"match_method": "canonical",
-"preferred_label": "阿拉伯"
-},
-{
 "id": "person:James.3",
 "type": "person",
 "confidence": 0.28,
@@ -1765,25 +1758,11 @@
 "preferred_label": "雅各（耶穌的兄弟）"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "耶穌"
-},
-{
-"id": "place:Damascus",
+"id": "place:Arabia",
 "type": "place",
-"confidence": 0.24,
+"confidence": 0.28,
 "match_method": "canonical",
-"preferred_label": "大馬士革"
-},
-{
-"id": "person:Peter",
-"type": "person",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "彼得"
+"preferred_label": "阿拉伯"
 },
 {
 "id": "deity:Lord",
@@ -1793,18 +1772,25 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "身體（實體）"
-},
-{
 "id": "group:Gentile",
 "type": "group",
 "confidence": 0.24,
 "match_method": "canonical",
 "preferred_label": "外邦人"
+},
+{
+"id": "person:Peter",
+"type": "person",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "彼得"
+},
+{
+"id": "keyterm:GoodNews",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "福音"
 },
 {
 "id": "keyterm:Blood",
@@ -1814,11 +1800,25 @@
 "preferred_label": "血"
 },
 {
-"id": "keyterm:GoodNews",
+"id": "place:Damascus",
+"type": "place",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "大馬士革"
+},
+{
+"id": "keyterm:Body.3",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "福音"
+"preferred_label": "身體（實體）"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "耶穌"
 }
 ]
 }
@@ -1890,18 +1890,18 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Peter",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "彼得"
-},
-{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "耶路撒冷"
+},
+{
+"id": "person:Peter",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "彼得"
 }
 ]
 }
@@ -1935,11 +1935,11 @@
 "preferred_label": "雅各（耶穌的兄弟）"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "耶穌"
+"preferred_label": "耶和華"
 },
 {
 "id": "person:Peter",
@@ -1949,18 +1949,18 @@
 "preferred_label": "彼得"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "耶和華"
-},
-{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.3,
 "match_method": "canonical",
 "preferred_label": "耶路撒冷"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "耶穌"
 }
 ]
 }
@@ -2018,18 +2018,11 @@
 "resource": [],
 "acai": [
 {
-"id": "place:Judea",
-"type": "place",
+"id": "keyterm:InChrist",
+"type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "猶太"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "耶穌"
+"preferred_label": "在基督裏"
 },
 {
 "id": "keyterm:Church",
@@ -2046,11 +2039,18 @@
 "preferred_label": "基利家"
 },
 {
-"id": "keyterm:InChrist",
-"type": "keyterm",
+"id": "person:Jesus.2",
+"type": "person",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "在基督裏"
+"preferred_label": "耶穌"
+},
+{
+"id": "place:Judea",
+"type": "place",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "猶太"
 }
 ]
 }
@@ -2077,13 +2077,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "榮耀（神的同在）"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.375,
@@ -2091,18 +2084,25 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "相信"
-},
-{
 "id": "keyterm:GoodNews",
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "福音"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "榮耀（神的同在）"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "相信"
 }
 ]
 }
@@ -2182,18 +2182,18 @@
 "resource": [],
 "acai": [
 {
+"id": "group:Gentile",
+"type": "group",
+"confidence": 0.385,
+"match_method": "canonical",
+"preferred_label": "外邦人"
+},
+{
 "id": "keyterm:Circumcision",
 "type": "keyterm",
 "confidence": 0.385,
 "match_method": "canonical",
 "preferred_label": "割禮"
-},
-{
-"id": "keyterm:GoodNews",
-"type": "keyterm",
-"confidence": 0.385,
-"match_method": "canonical",
-"preferred_label": "福音"
 },
 {
 "id": "person:Peter",
@@ -2203,11 +2203,11 @@
 "preferred_label": "彼得"
 },
 {
-"id": "group:Gentile",
-"type": "group",
+"id": "keyterm:GoodNews",
+"type": "keyterm",
 "confidence": 0.385,
 "match_method": "canonical",
-"preferred_label": "外邦人"
+"preferred_label": "福音"
 },
 {
 "id": "person:Titus",
@@ -2224,39 +2224,11 @@
 "preferred_label": "巴拿巴"
 },
 {
-"id": "keyterm:Favor",
+"id": "keyterm:Empty",
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "恩寵（仁慈）"
-},
-{
-"id": "keyterm:InChrist",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "在基督裏"
-},
-{
-"id": "keyterm:Proclaim",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "宣告"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "耶穌"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "耶和華"
+"preferred_label": "徒然"
 },
 {
 "id": "keyterm:Truth",
@@ -2266,46 +2238,25 @@
 "preferred_label": "信實（誠實）"
 },
 {
-"id": "keyterm:Empty",
+"id": "keyterm:Favor",
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "徒然"
+"preferred_label": "恩寵（仁慈）"
 },
 {
-"id": "person:John.2",
-"type": "person",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "約翰（西庇太的兒子）"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "耶路撒冷"
-},
-{
-"id": "keyterm:Fellowship",
+"id": "keyterm:Proclaim",
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "相交"
+"preferred_label": "宣告"
 },
 {
-"id": "keyterm:Believe",
+"id": "keyterm:InChrist",
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "相信"
-},
-{
-"id": "group:Greek",
-"type": "group",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "希臘人"
+"preferred_label": "在基督裏"
 },
 {
 "id": "person:Javan",
@@ -2315,11 +2266,60 @@
 "preferred_label": "雅完"
 },
 {
+"id": "person:John.2",
+"type": "person",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "約翰（西庇太的兒子）"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "相信"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "耶和華"
+},
+{
+"id": "keyterm:Fellowship",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "相交"
+},
+{
 "id": "person:James.3",
 "type": "person",
 "confidence": 0.195,
 "match_method": "canonical",
 "preferred_label": "雅各（耶穌的兄弟）"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "耶路撒冷"
+},
+{
+"id": "group:Greek",
+"type": "group",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "希臘人"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "耶穌"
 }
 ]
 }
@@ -2346,6 +2346,20 @@
 "resource": [],
 "acai": [
 {
+"id": "keyterm:Proclaim",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "宣告"
+},
+{
+"id": "group:Gentile",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "外邦人"
+},
+{
 "id": "keyterm:GoodNews",
 "type": "keyterm",
 "confidence": 0.6,
@@ -2358,20 +2372,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "徒然"
-},
-{
-"id": "group:Gentile",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "外邦人"
-},
-{
-"id": "keyterm:Proclaim",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "宣告"
 }
 ]
 }
@@ -2398,13 +2398,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Javan",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "雅完"
-},
-{
 "id": "group:Greek",
 "type": "group",
 "confidence": 0.6,
@@ -2417,6 +2410,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "提多"
+},
+{
+"id": "person:Javan",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "雅完"
 }
 ]
 }
@@ -2481,13 +2481,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:InChrist",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "在基督裏"
-},
-{
 "id": "keyterm:Truth",
 "type": "keyterm",
 "confidence": 0.375,
@@ -2495,18 +2488,25 @@
 "preferred_label": "信實（誠實）"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "耶穌"
-},
-{
 "id": "keyterm:GoodNews",
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "福音"
+},
+{
+"id": "keyterm:InChrist",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "在基督裏"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "耶穌"
 }
 ]
 }
@@ -2602,18 +2602,18 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Peter",
-"type": "person",
-"confidence": 0.52,
-"match_method": "canonical",
-"preferred_label": "彼得"
-},
-{
 "id": "keyterm:Circumcision",
 "type": "keyterm",
 "confidence": 0.52,
 "match_method": "canonical",
 "preferred_label": "割禮"
+},
+{
+"id": "person:Peter",
+"type": "person",
+"confidence": 0.52,
+"match_method": "canonical",
+"preferred_label": "彼得"
 },
 {
 "id": "group:Gentile",
@@ -2623,46 +2623,11 @@
 "preferred_label": "外邦人"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "相信"
-},
-{
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "恩寵（仁慈）"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.24,
 "match_method": "canonical",
 "preferred_label": "耶和華"
-},
-{
-"id": "person:Barnabas",
-"type": "person",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "巴拿巴"
-},
-{
-"id": "person:John.2",
-"type": "person",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "約翰（西庇太的兒子）"
-},
-{
-"id": "keyterm:Fellowship",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "相交"
 },
 {
 "id": "keyterm:GoodNews",
@@ -2672,11 +2637,46 @@
 "preferred_label": "福音"
 },
 {
+"id": "person:John.2",
+"type": "person",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "約翰（西庇太的兒子）"
+},
+{
 "id": "person:James.3",
 "type": "person",
 "confidence": 0.24,
 "match_method": "canonical",
 "preferred_label": "雅各（耶穌的兄弟）"
+},
+{
+"id": "person:Barnabas",
+"type": "person",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "巴拿巴"
+},
+{
+"id": "keyterm:Fellowship",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "相交"
+},
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "恩寵（仁慈）"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "相信"
 }
 ]
 }
@@ -2717,13 +2717,6 @@
 "preferred_label": "割禮"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "相信"
-},
-{
 "id": "group:Gentile",
 "type": "group",
 "confidence": 0.375,
@@ -2736,6 +2729,13 @@
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "福音"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "相信"
 }
 ]
 }
@@ -2770,25 +2770,11 @@
 ],
 "acai": [
 {
-"id": "person:Peter",
-"type": "person",
+"id": "group:Gentile",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "彼得"
-},
-{
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "恩寵（仁慈）"
-},
-{
-"id": "person:Barnabas",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "巴拿巴"
+"preferred_label": "外邦人"
 },
 {
 "id": "person:John.2",
@@ -2798,18 +2784,11 @@
 "preferred_label": "約翰（西庇太的兒子）"
 },
 {
-"id": "group:Gentile",
-"type": "group",
+"id": "person:Peter",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "外邦人"
-},
-{
-"id": "keyterm:Fellowship",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "相交"
+"preferred_label": "彼得"
 },
 {
 "id": "keyterm:Circumcision",
@@ -2824,6 +2803,27 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "雅各（耶穌的兄弟）"
+},
+{
+"id": "keyterm:Fellowship",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "相交"
+},
+{
+"id": "person:Barnabas",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "巴拿巴"
+},
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "恩寵（仁慈）"
 }
 ]
 }
@@ -2925,18 +2925,18 @@
 "preferred_label": "耶穌"
 },
 {
+"id": "group:Gentile",
+"type": "group",
+"confidence": 0.3727,
+"match_method": "canonical",
+"preferred_label": "外邦人"
+},
+{
 "id": "keyterm:Life",
 "type": "keyterm",
 "confidence": 0.3727,
 "match_method": "canonical",
 "preferred_label": "生命"
-},
-{
-"id": "group:Jews",
-"type": "group",
-"confidence": 0.3727,
-"match_method": "canonical",
-"preferred_label": "猶大人"
 },
 {
 "id": "keyterm:Law",
@@ -2953,25 +2953,18 @@
 "preferred_label": "顯為公義／行事公正"
 },
 {
-"id": "group:Gentile",
+"id": "group:Jews",
 "type": "group",
 "confidence": 0.3727,
 "match_method": "canonical",
-"preferred_label": "外邦人"
+"preferred_label": "猶大人"
 },
 {
-"id": "keyterm:Body.3",
-"type": "keyterm",
+"id": "person:Peter",
+"type": "person",
 "confidence": 0.2818,
 "match_method": "canonical",
-"preferred_label": "身體（實體）"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.2818,
-"match_method": "canonical",
-"preferred_label": "耶和華"
+"preferred_label": "彼得"
 },
 {
 "id": "keyterm:Believe",
@@ -2981,11 +2974,18 @@
 "preferred_label": "相信"
 },
 {
-"id": "person:Peter",
-"type": "person",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.2818,
 "match_method": "canonical",
-"preferred_label": "彼得"
+"preferred_label": "耶和華"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.2818,
+"match_method": "canonical",
+"preferred_label": "身體（實體）"
 },
 {
 "id": "place:Antioch",
@@ -3002,32 +3002,18 @@
 "preferred_label": "假冒為善"
 },
 {
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "犯罪"
+},
+{
 "id": "keyterm:Favor",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
 "preferred_label": "恩寵（仁慈）"
-},
-{
-"id": "keyterm:InChrist",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "在基督裏"
-},
-{
-"id": "keyterm:Condemn",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "定罪"
-},
-{
-"id": "keyterm:Circumcision",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "割禮"
 },
 {
 "id": "keyterm:Truth",
@@ -3044,11 +3030,18 @@
 "preferred_label": "愛"
 },
 {
-"id": "keyterm:GoodNews",
+"id": "keyterm:Circumcision",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "福音"
+"preferred_label": "割禮"
+},
+{
+"id": "keyterm:InChrist",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "在基督裏"
 },
 {
 "id": "person:Barnabas",
@@ -3058,18 +3051,25 @@
 "preferred_label": "巴拿巴"
 },
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "犯罪"
-},
-{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
 "preferred_label": "懼怕"
+},
+{
+"id": "keyterm:Condemn",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "定罪"
+},
+{
+"id": "keyterm:GoodNews",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "福音"
 },
 {
 "id": "person:James.3",
@@ -3117,18 +3117,18 @@
 "preferred_label": "懼怕"
 },
 {
-"id": "keyterm:Circumcision",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "割禮"
-},
-{
 "id": "group:Gentile",
 "type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "外邦人"
+},
+{
+"id": "keyterm:Circumcision",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "割禮"
 },
 {
 "id": "person:James.3",
@@ -3207,11 +3207,11 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Truth",
-"type": "keyterm",
+"id": "group:Gentile",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "信實（誠實）"
+"preferred_label": "外邦人"
 },
 {
 "id": "person:Peter",
@@ -3221,6 +3221,20 @@
 "preferred_label": "彼得"
 },
 {
+"id": "keyterm:GoodNews",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "福音"
+},
+{
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "信實（誠實）"
+},
+{
 "id": "keyterm:Life",
 "type": "keyterm",
 "confidence": 0.6,
@@ -3228,25 +3242,11 @@
 "preferred_label": "生命"
 },
 {
-"id": "group:Gentile",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "外邦人"
-},
-{
 "id": "group:Jews",
 "type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "猶大人"
-},
-{
-"id": "keyterm:GoodNews",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "福音"
 }
 ]
 }
@@ -3288,13 +3288,6 @@
 "preferred_label": "耶穌"
 },
 {
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.4187,
-"match_method": "canonical",
-"preferred_label": "顯為公義／行事公正"
-},
-{
 "id": "keyterm:Life",
 "type": "keyterm",
 "confidence": 0.4187,
@@ -3309,11 +3302,11 @@
 "preferred_label": "律法"
 },
 {
-"id": "keyterm:Believe",
+"id": "keyterm:Just",
 "type": "keyterm",
-"confidence": 0.3125,
+"confidence": 0.4187,
 "match_method": "canonical",
-"preferred_label": "相信"
+"preferred_label": "顯為公義／行事公正"
 },
 {
 "id": "deity:Lord",
@@ -3323,11 +3316,18 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "group:Jews",
+"id": "group:Gentile",
 "type": "group",
 "confidence": 0.3125,
 "match_method": "canonical",
-"preferred_label": "猶大人"
+"preferred_label": "外邦人"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.3125,
+"match_method": "canonical",
+"preferred_label": "相信"
 },
 {
 "id": "keyterm:Body.3",
@@ -3337,18 +3337,11 @@
 "preferred_label": "身體（實體）"
 },
 {
-"id": "group:Gentile",
+"id": "group:Jews",
 "type": "group",
 "confidence": 0.3125,
 "match_method": "canonical",
-"preferred_label": "外邦人"
-},
-{
-"id": "keyterm:Truth",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "信實（誠實）"
+"preferred_label": "猶大人"
 },
 {
 "id": "person:Peter",
@@ -3358,13 +3351,6 @@
 "preferred_label": "彼得"
 },
 {
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "恩寵（仁慈）"
-},
-{
 "id": "keyterm:InChrist",
 "type": "keyterm",
 "confidence": 0.2063,
@@ -3372,11 +3358,11 @@
 "preferred_label": "在基督裏"
 },
 {
-"id": "keyterm:Love",
+"id": "keyterm:GoodNews",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "愛"
+"preferred_label": "福音"
 },
 {
 "id": "keyterm:Sin",
@@ -3386,11 +3372,25 @@
 "preferred_label": "犯罪"
 },
 {
-"id": "keyterm:GoodNews",
+"id": "keyterm:Favor",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "福音"
+"preferred_label": "恩寵（仁慈）"
+},
+{
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "信實（誠實）"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "愛"
 },
 {
 "id": "realia:Cross",
@@ -3424,18 +3424,18 @@
 "resource": [],
 "acai": [
 {
-"id": "group:Jews",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "猶大人"
-},
-{
 "id": "group:Gentile",
 "type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "外邦人"
+},
+{
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "猶大人"
 }
 ]
 }
@@ -3462,11 +3462,11 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Jesus.2",
-"type": "person",
+"id": "keyterm:Law",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "耶穌"
+"preferred_label": "律法"
 },
 {
 "id": "keyterm:Believe",
@@ -3490,11 +3490,11 @@
 "preferred_label": "身體（實體）"
 },
 {
-"id": "keyterm:Law",
-"type": "keyterm",
+"id": "person:Jesus.2",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "律法"
+"preferred_label": "耶穌"
 }
 ]
 }
@@ -3528,13 +3528,6 @@
 "preferred_label": "耶穌"
 },
 {
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.38,
-"match_method": "canonical",
-"preferred_label": "顯為公義／行事公正"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.38,
@@ -3556,18 +3549,11 @@
 "preferred_label": "律法"
 },
 {
-"id": "keyterm:Believe",
+"id": "keyterm:Just",
 "type": "keyterm",
-"confidence": 0.24,
+"confidence": 0.38,
 "match_method": "canonical",
-"preferred_label": "相信"
-},
-{
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "恩寵（仁慈）"
+"preferred_label": "顯為公義／行事公正"
 },
 {
 "id": "keyterm:InChrist",
@@ -3577,11 +3563,25 @@
 "preferred_label": "在基督裏"
 },
 {
-"id": "keyterm:Body.3",
+"id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "身體（實體）"
+"preferred_label": "犯罪"
+},
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "恩寵（仁慈）"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "相信"
 },
 {
 "id": "keyterm:Love",
@@ -3591,11 +3591,11 @@
 "preferred_label": "愛"
 },
 {
-"id": "keyterm:Sin",
+"id": "keyterm:Body.3",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "犯罪"
+"preferred_label": "身體（實體）"
 },
 {
 "id": "realia:Cross",
@@ -3660,18 +3660,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Life",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "生命"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "耶和華"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "生命"
 },
 {
 "id": "keyterm:Law",
@@ -3712,11 +3712,11 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Jesus.2",
-"type": "person",
+"id": "keyterm:Life",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "耶穌"
+"preferred_label": "生命"
 },
 {
 "id": "keyterm:Believe",
@@ -3726,6 +3726,13 @@
 "preferred_label": "相信"
 },
 {
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "愛"
+},
+{
 "id": "keyterm:Body.3",
 "type": "keyterm",
 "confidence": 0.6,
@@ -3733,18 +3740,11 @@
 "preferred_label": "身體（實體）"
 },
 {
-"id": "keyterm:Life",
-"type": "keyterm",
+"id": "person:Jesus.2",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "生命"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "愛"
+"preferred_label": "耶穌"
 }
 ]
 }
@@ -3771,18 +3771,11 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Jesus.2",
-"type": "person",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "耶穌"
-},
-{
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "顯為公義／行事公正"
+"preferred_label": "耶和華"
 },
 {
 "id": "keyterm:Favor",
@@ -3792,18 +3785,25 @@
 "preferred_label": "恩寵（仁慈）"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "耶和華"
-},
-{
 "id": "keyterm:Law",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "律法"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "顯為公義／行事公正"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "耶穌"
 }
 ]
 }
@@ -3837,18 +3837,18 @@
 "preferred_label": "加拉太人"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "耶穌"
-},
-{
 "id": "place:Galatia",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "加拉太"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "耶穌"
 },
 {
 "id": "realia:Cross",
@@ -3903,13 +3903,6 @@
 "preferred_label": "聖靈"
 },
 {
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "顯為公義／行事公正"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.3,
@@ -3924,53 +3917,18 @@
 "preferred_label": "律法"
 },
 {
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "顯為公義／行事公正"
+},
+{
 "id": "group:Galatia",
 "type": "group",
 "confidence": 0.2222,
 "match_method": "canonical",
 "preferred_label": "加拉太人"
-},
-{
-"id": "keyterm:BringTheGoodNewsAheadOfTime",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "預先傳好消息"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "能力（技能）"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "賜福（認可）"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "耶穌"
-},
-{
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "身體（實體）"
-},
-{
-"id": "place:Galatia",
-"type": "place",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "加拉太"
 },
 {
 "id": "keyterm:Scripture",
@@ -3985,6 +3943,48 @@
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "信實（真實）"
+},
+{
+"id": "place:Galatia",
+"type": "place",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "加拉太"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "能力（技能）"
+},
+{
+"id": "keyterm:BringTheGoodNewsAheadOfTime",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "預先傳好消息"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "身體（實體）"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "賜福（認可）"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "耶穌"
 },
 {
 "id": "realia:Cross",
@@ -4060,18 +4060,18 @@
 "preferred_label": "亞伯拉罕"
 },
 {
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.3938,
-"match_method": "canonical",
-"preferred_label": "聖靈"
-},
-{
 "id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.3938,
 "match_method": "canonical",
 "preferred_label": "顯為公義／行事公正"
+},
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.3938,
+"match_method": "canonical",
+"preferred_label": "聖靈"
 },
 {
 "id": "keyterm:Body.3",
@@ -4102,6 +4102,13 @@
 "preferred_label": "心（比喻）"
 },
 {
+"id": "keyterm:Scripture",
+"type": "keyterm",
+"confidence": 0.2687,
+"match_method": "canonical",
+"preferred_label": "經卷（實體）"
+},
+{
 "id": "keyterm:Covenant",
 "type": "keyterm",
 "confidence": 0.2687,
@@ -4109,11 +4116,11 @@
 "preferred_label": "約"
 },
 {
-"id": "keyterm:Scripture",
+"id": "keyterm:FundamentalPrinciples",
 "type": "keyterm",
-"confidence": 0.2687,
+"confidence": 0.2153,
 "match_method": "canonical",
-"preferred_label": "經卷（實體）"
+"preferred_label": "小學"
 },
 {
 "id": "person:Hagar",
@@ -4130,13 +4137,6 @@
 "preferred_label": "割禮"
 },
 {
-"id": "keyterm:FundamentalPrinciples",
-"type": "keyterm",
-"confidence": 0.2153,
-"match_method": "canonical",
-"preferred_label": "小學"
-},
-{
 "id": "keyterm:Slavery",
 "type": "keyterm",
 "confidence": 0.2153,
@@ -4151,18 +4151,11 @@
 "preferred_label": "西奈山"
 },
 {
-"id": "keyterm:Ability",
-"type": "keyterm",
+"id": "deity:Angel",
+"type": "deity",
 "confidence": 0.2125,
 "match_method": "canonical",
-"preferred_label": "能力（技能）"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.2125,
-"match_method": "canonical",
-"preferred_label": "賜福（認可）"
+"preferred_label": "天使"
 },
 {
 "id": "keyterm:Life",
@@ -4179,11 +4172,18 @@
 "preferred_label": "救贖"
 },
 {
-"id": "keyterm:Persuade",
+"id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.2125,
 "match_method": "canonical",
-"preferred_label": "勸導"
+"preferred_label": "賜福（認可）"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.2125,
+"match_method": "canonical",
+"preferred_label": "能力（技能）"
 },
 {
 "id": "place:Jerusalem",
@@ -4193,11 +4193,11 @@
 "preferred_label": "耶路撒冷"
 },
 {
-"id": "deity:Angel",
-"type": "deity",
+"id": "keyterm:Persuade",
+"type": "keyterm",
 "confidence": 0.2125,
 "match_method": "canonical",
-"preferred_label": "天使"
+"preferred_label": "勸導"
 },
 {
 "id": "realia:Cross",
@@ -4214,18 +4214,18 @@
 "preferred_label": "加拉太人"
 },
 {
-"id": "keyterm:BringTheGoodNewsAheadOfTime",
+"id": "keyterm:ThatWhichPersuades",
 "type": "keyterm",
 "confidence": 0.1562,
 "match_method": "canonical",
-"preferred_label": "預先傳好消息"
+"preferred_label": "使人信服的證據"
 },
 {
-"id": "keyterm:Favor",
-"type": "keyterm",
+"id": "group:Gentile",
+"type": "group",
 "confidence": 0.1562,
 "match_method": "canonical",
-"preferred_label": "恩寵（仁慈）"
+"preferred_label": "外邦人"
 }
 ]
 }
@@ -4252,13 +4252,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Law",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "律法"
-},
-{
 "id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.6,
@@ -4271,6 +4264,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "聖靈"
+},
+{
+"id": "keyterm:Law",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "律法"
 }
 ]
 }
@@ -4297,18 +4297,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "聖靈"
-},
-{
 "id": "keyterm:Body.3",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "身體（實體）"
+},
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "聖靈"
 }
 ]
 }
@@ -4358,11 +4358,11 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Law",
+"id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "律法"
+"preferred_label": "相信"
 },
 {
 "id": "keyterm:Ability",
@@ -4372,18 +4372,18 @@
 "preferred_label": "能力（技能）"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "相信"
-},
-{
 "id": "deity:HolySpirit",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "聖靈"
+},
+{
+"id": "keyterm:Law",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "律法"
 }
 ]
 }
@@ -4417,18 +4417,18 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "相信"
-},
-{
 "id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "顯為公義／行事公正"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "相信"
 },
 {
 "id": "person:Abraham",
@@ -4476,13 +4476,6 @@
 "preferred_label": "亞伯拉罕"
 },
 {
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.425,
-"match_method": "canonical",
-"preferred_label": "顯為公義／行事公正"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.425,
@@ -4490,18 +4483,11 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "keyterm:BringTheGoodNewsAheadOfTime",
+"id": "keyterm:Just",
 "type": "keyterm",
-"confidence": 0.2625,
+"confidence": 0.425,
 "match_method": "canonical",
-"preferred_label": "預先傳好消息"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "賜福（認可）"
+"preferred_label": "顯為公義／行事公正"
 },
 {
 "id": "keyterm:Scripture",
@@ -4516,6 +4502,20 @@
 "confidence": 0.2625,
 "match_method": "canonical",
 "preferred_label": "信實（真實）"
+},
+{
+"id": "keyterm:BringTheGoodNewsAheadOfTime",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "預先傳好消息"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "賜福（認可）"
 }
 ]
 }
@@ -4580,11 +4580,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:BringTheGoodNewsAheadOfTime",
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "耶和華"
+},
+{
+"id": "keyterm:Scripture",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "預先傳好消息"
+"preferred_label": "經卷（實體）"
 },
 {
 "id": "keyterm:Believe",
@@ -4601,18 +4608,11 @@
 "preferred_label": "顯為公義／行事公正"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "耶和華"
-},
-{
-"id": "keyterm:Scripture",
+"id": "keyterm:BringTheGoodNewsAheadOfTime",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "經卷（實體）"
+"preferred_label": "預先傳好消息"
 },
 {
 "id": "person:Abraham",
@@ -4684,13 +4684,6 @@
 "preferred_label": "律法"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.5,
-"match_method": "canonical",
-"preferred_label": "相信"
-},
-{
 "id": "keyterm:Life",
 "type": "keyterm",
 "confidence": 0.5,
@@ -4698,11 +4691,11 @@
 "preferred_label": "生命"
 },
 {
-"id": "keyterm:Just",
+"id": "keyterm:Believe",
 "type": "keyterm",
-"confidence": 0.3,
+"confidence": 0.5,
 "match_method": "canonical",
-"preferred_label": "顯為公義／行事公正"
+"preferred_label": "相信"
 },
 {
 "id": "deity:Lord",
@@ -4710,6 +4703,13 @@
 "confidence": 0.3,
 "match_method": "canonical",
 "preferred_label": "耶和華"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "顯為公義／行事公正"
 }
 ]
 }
@@ -4736,20 +4736,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "相信"
-},
-{
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "顯為公義／行事公正"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -4769,6 +4755,20 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "律法"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "相信"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "顯為公義／行事公正"
 }
 ]
 }
@@ -4795,6 +4795,13 @@
 "resource": [],
 "acai": [
 {
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "相信"
+},
+{
 "id": "keyterm:Life",
 "type": "keyterm",
 "confidence": 0.6,
@@ -4807,13 +4814,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "律法"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "相信"
 }
 ]
 }
@@ -4907,39 +4907,11 @@
 "preferred_label": "耶穌"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "相信"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "賜福（認可）"
-},
-{
 "id": "keyterm:Redeem",
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "救贖"
-},
-{
-"id": "keyterm:InChrist",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "在基督裏"
-},
-{
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "聖靈"
 },
 {
 "id": "group:Gentile",
@@ -4949,6 +4921,13 @@
 "preferred_label": "外邦人"
 },
 {
+"id": "keyterm:InChrist",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "在基督裏"
+},
+{
 "id": "keyterm:Law",
 "type": "keyterm",
 "confidence": 0.375,
@@ -4956,11 +4935,11 @@
 "preferred_label": "律法"
 },
 {
-"id": "keyterm:Promise",
+"id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "應許"
+"preferred_label": "相信"
 },
 {
 "id": "person:Abraham",
@@ -4968,6 +4947,27 @@
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "亞伯拉罕"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "賜福（認可）"
+},
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "聖靈"
+},
+{
+"id": "keyterm:Promise",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "應許"
 },
 {
 "id": "realia:Cross",
@@ -5001,25 +5001,11 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Jesus.2",
-"type": "person",
+"id": "group:Gentile",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "耶穌"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "相信"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "賜福（認可）"
+"preferred_label": "外邦人"
 },
 {
 "id": "keyterm:InChrist",
@@ -5029,25 +5015,11 @@
 "preferred_label": "在基督裏"
 },
 {
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "聖靈"
-},
-{
-"id": "group:Gentile",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "外邦人"
-},
-{
-"id": "keyterm:Promise",
+"id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "應許"
+"preferred_label": "相信"
 },
 {
 "id": "person:Abraham",
@@ -5055,6 +5027,34 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "亞伯拉罕"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "賜福（認可）"
+},
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "聖靈"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "耶穌"
+},
+{
+"id": "keyterm:Promise",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "應許"
 }
 ]
 }
@@ -5126,18 +5126,18 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "keyterm:Covenant",
-"type": "keyterm",
-"confidence": 0.425,
-"match_method": "canonical",
-"preferred_label": "約"
-},
-{
 "id": "keyterm:Law",
 "type": "keyterm",
 "confidence": 0.425,
 "match_method": "canonical",
 "preferred_label": "律法"
+},
+{
+"id": "keyterm:Covenant",
+"type": "keyterm",
+"confidence": 0.425,
+"match_method": "canonical",
+"preferred_label": "約"
 },
 {
 "id": "person:Abraham",
@@ -5147,18 +5147,18 @@
 "preferred_label": "亞伯拉罕"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "耶穌"
-},
-{
 "id": "keyterm:Forgive",
 "type": "keyterm",
 "confidence": 0.2625,
 "match_method": "canonical",
 "preferred_label": "赦免"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "耶穌"
 }
 ]
 }
@@ -5245,11 +5245,11 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "keyterm:Law",
+"id": "keyterm:Covenant",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "律法"
+"preferred_label": "約"
 },
 {
 "id": "keyterm:Promise",
@@ -5259,11 +5259,11 @@
 "preferred_label": "應許"
 },
 {
-"id": "keyterm:Covenant",
+"id": "keyterm:Law",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "約"
+"preferred_label": "律法"
 }
 ]
 }
@@ -5290,13 +5290,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Forgive",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "赦免"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -5311,18 +5304,25 @@
 "preferred_label": "律法"
 },
 {
-"id": "keyterm:Promise",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "應許"
-},
-{
 "id": "person:Abraham",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "亞伯拉罕"
+},
+{
+"id": "keyterm:Forgive",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "赦免"
+},
+{
+"id": "keyterm:Promise",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "應許"
 }
 ]
 }
@@ -5349,11 +5349,11 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Law",
-"type": "keyterm",
+"id": "deity:Angel",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "律法"
+"preferred_label": "天使"
 },
 {
 "id": "keyterm:Promise",
@@ -5363,11 +5363,11 @@
 "preferred_label": "應許"
 },
 {
-"id": "deity:Angel",
-"type": "deity",
+"id": "keyterm:Law",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "天使"
+"preferred_label": "律法"
 }
 ]
 }
@@ -5415,11 +5415,25 @@
 "preferred_label": "律法"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
+"id": "keyterm:Scripture",
+"type": "keyterm",
 "confidence": 0.2625,
 "match_method": "canonical",
-"preferred_label": "耶穌"
+"preferred_label": "經卷（實體）"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "犯罪"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "天使"
 },
 {
 "id": "keyterm:Believe",
@@ -5436,25 +5450,11 @@
 "preferred_label": "顯為公義／行事公正"
 },
 {
-"id": "deity:Angel",
-"type": "deity",
+"id": "person:Jesus.2",
+"type": "person",
 "confidence": 0.2625,
 "match_method": "canonical",
-"preferred_label": "天使"
-},
-{
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "犯罪"
-},
-{
-"id": "keyterm:Scripture",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "經卷（實體）"
+"preferred_label": "耶穌"
 }
 ]
 }
@@ -5519,11 +5519,11 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "keyterm:Law",
+"id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "律法"
+"preferred_label": "顯為公義／行事公正"
 },
 {
 "id": "keyterm:Promise",
@@ -5533,11 +5533,11 @@
 "preferred_label": "應許"
 },
 {
-"id": "keyterm:Just",
+"id": "keyterm:Law",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "顯為公義／行事公正"
+"preferred_label": "律法"
 }
 ]
 }
@@ -5578,6 +5578,13 @@
 "preferred_label": "律法"
 },
 {
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.38,
+"match_method": "canonical",
+"preferred_label": "顯為公義／行事公正"
+},
+{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.38,
@@ -5592,13 +5599,6 @@
 "preferred_label": "應許"
 },
 {
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.38,
-"match_method": "canonical",
-"preferred_label": "顯為公義／行事公正"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.24,
@@ -5606,18 +5606,18 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "犯罪"
-},
-{
 "id": "keyterm:Scripture",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
 "preferred_label": "經卷（實體）"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "犯罪"
 }
 ]
 }
@@ -5644,25 +5644,11 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "耶穌"
-},
-{
-"id": "keyterm:Believe",
+"id": "keyterm:Scripture",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "相信"
-},
-{
-"id": "keyterm:Promise",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "應許"
+"preferred_label": "經卷（實體）"
 },
 {
 "id": "keyterm:Sin",
@@ -5672,11 +5658,25 @@
 "preferred_label": "犯罪"
 },
 {
-"id": "keyterm:Scripture",
+"id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "經卷（實體）"
+"preferred_label": "相信"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "耶穌"
+},
+{
+"id": "keyterm:Promise",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "應許"
 }
 ]
 }
@@ -5703,18 +5703,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Law",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "律法"
-},
-{
 "id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "相信"
+},
+{
+"id": "keyterm:Law",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "律法"
 }
 ]
 }
@@ -5769,39 +5769,11 @@
 "preferred_label": "律法"
 },
 {
-"id": "keyterm:Baptism",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "洗禮"
-},
-{
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "顯為公義／行事公正"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.2143,
 "match_method": "canonical",
 "preferred_label": "耶和華"
-},
-{
-"id": "group:Jews",
-"type": "group",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "猶大人"
-},
-{
-"id": "group:Greek",
-"type": "group",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "希臘人"
 },
 {
 "id": "person:Javan",
@@ -5811,11 +5783,18 @@
 "preferred_label": "雅完"
 },
 {
-"id": "keyterm:Promise",
+"id": "group:Greek",
+"type": "group",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "希臘人"
+},
+{
+"id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "應許"
+"preferred_label": "顯為公義／行事公正"
 },
 {
 "id": "person:Abraham",
@@ -5823,6 +5802,27 @@
 "confidence": 0.2143,
 "match_method": "canonical",
 "preferred_label": "亞伯拉罕"
+},
+{
+"id": "keyterm:Baptism",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "洗禮"
+},
+{
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "猶大人"
+},
+{
+"id": "keyterm:Promise",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "應許"
 }
 ]
 }
@@ -5856,13 +5856,6 @@
 "preferred_label": "律法"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "耶穌"
-},
-{
 "id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.6,
@@ -5875,6 +5868,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "顯為公義／行事公正"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "耶穌"
 }
 ]
 }
@@ -5932,18 +5932,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:InChrist",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "在基督裏"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "耶和華"
+},
+{
+"id": "keyterm:InChrist",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "在基督裏"
 },
 {
 "id": "person:Jesus.2",
@@ -5998,25 +5998,18 @@
 "preferred_label": "在基督裏"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "相信"
-},
-{
-"id": "keyterm:Baptism",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "洗禮"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.2625,
 "match_method": "canonical",
 "preferred_label": "耶和華"
+},
+{
+"id": "person:Javan",
+"type": "person",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "雅完"
 },
 {
 "id": "group:Greek",
@@ -6026,11 +6019,25 @@
 "preferred_label": "希臘人"
 },
 {
-"id": "person:Javan",
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "相信"
+},
+{
+"id": "person:Abraham",
 "type": "person",
 "confidence": 0.2625,
 "match_method": "canonical",
-"preferred_label": "雅完"
+"preferred_label": "亞伯拉罕"
+},
+{
+"id": "keyterm:Baptism",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "洗禮"
 },
 {
 "id": "group:Jews",
@@ -6045,13 +6052,6 @@
 "confidence": 0.2625,
 "match_method": "canonical",
 "preferred_label": "應許"
-},
-{
-"id": "person:Abraham",
-"type": "person",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "亞伯拉罕"
 }
 ]
 }
@@ -6078,18 +6078,18 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "耶穌"
-},
-{
 "id": "keyterm:Baptism",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "洗禮"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "耶穌"
 }
 ]
 }
@@ -6123,11 +6123,11 @@
 "preferred_label": "在基督裏"
 },
 {
-"id": "person:Jesus.2",
+"id": "person:Javan",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "耶穌"
+"preferred_label": "雅完"
 },
 {
 "id": "group:Greek",
@@ -6137,18 +6137,18 @@
 "preferred_label": "希臘人"
 },
 {
-"id": "person:Javan",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "雅完"
-},
-{
 "id": "group:Jews",
 "type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "猶大人"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "耶穌"
 }
 ]
 }
@@ -6279,13 +6279,6 @@
 "preferred_label": "小學"
 },
 {
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "能力（技能）"
-},
-{
 "id": "keyterm:Redeem",
 "type": "keyterm",
 "confidence": 0.2143,
@@ -6298,6 +6291,13 @@
 "confidence": 0.2143,
 "match_method": "canonical",
 "preferred_label": "心（比喻）"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "能力（技能）"
 },
 {
 "id": "deity:HolySpirit",
@@ -6376,18 +6376,18 @@
 "preferred_label": "律法"
 },
 {
-"id": "keyterm:Redeem",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "救贖"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "耶和華"
+},
+{
+"id": "keyterm:Redeem",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "救贖"
 }
 ]
 }
@@ -6414,13 +6414,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Heart",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "心（比喻）"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -6433,6 +6426,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "聖靈"
+},
+{
+"id": "keyterm:Heart",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "心（比喻）"
 }
 ]
 }
@@ -6687,13 +6687,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "耶穌"
-},
-{
 "id": "keyterm:Body.3",
 "type": "keyterm",
 "confidence": 0.3,
@@ -6701,39 +6694,11 @@
 "preferred_label": "身體（實體）"
 },
 {
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.2,
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "天使"
-},
-{
-"id": "keyterm:SpeakTheTruth",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "說實話"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "耶和華"
-},
-{
-"id": "keyterm:ActWickedly",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "作惡"
-},
-{
-"id": "keyterm:BearWitness",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "作見證"
+"preferred_label": "耶穌"
 },
 {
 "id": "keyterm:Happiness",
@@ -6743,11 +6708,46 @@
 "preferred_label": "快樂"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "耶和華"
+},
+{
 "id": "keyterm:GoodNews",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "福音"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "天使"
+},
+{
+"id": "keyterm:BearWitness",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "作見證"
+},
+{
+"id": "keyterm:ActWickedly",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "作惡"
+},
+{
+"id": "keyterm:SpeakTheTruth",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "說實話"
 }
 ]
 }
@@ -6781,20 +6781,6 @@
 "preferred_label": "身體（實體）"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "耶穌"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "天使"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.375,
@@ -6807,6 +6793,20 @@
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "福音"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "天使"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "耶穌"
 }
 ]
 }
@@ -7041,18 +7041,18 @@
 ],
 "acai": [
 {
-"id": "place:SinaiMount",
-"type": "place",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "西奈山"
-},
-{
 "id": "person:Hagar",
 "type": "person",
 "confidence": 0.3,
 "match_method": "canonical",
 "preferred_label": "夏甲"
+},
+{
+"id": "place:SinaiMount",
+"type": "place",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "西奈山"
 },
 {
 "id": "place:Jerusalem",
@@ -7083,6 +7083,13 @@
 "preferred_label": "為奴"
 },
 {
+"id": "keyterm:Scripture",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "經卷（實體）"
+},
+{
 "id": "keyterm:Serve.2",
 "type": "keyterm",
 "confidence": 0.1909,
@@ -7097,18 +7104,11 @@
 "preferred_label": "以撒"
 },
 {
-"id": "deity:HolySpirit",
-"type": "deity",
+"id": "keyterm:Law",
+"type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "聖靈"
-},
-{
-"id": "place:Arabia",
-"type": "place",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "阿拉伯"
+"preferred_label": "律法"
 },
 {
 "id": "keyterm:Covenant",
@@ -7118,25 +7118,25 @@
 "preferred_label": "約"
 },
 {
-"id": "keyterm:Scripture",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "經卷（實體）"
-},
-{
-"id": "keyterm:Law",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "律法"
-},
-{
 "id": "person:Abraham",
 "type": "person",
 "confidence": 0.1909,
 "match_method": "canonical",
 "preferred_label": "亞伯拉罕"
+},
+{
+"id": "place:Arabia",
+"type": "place",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "阿拉伯"
+},
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "聖靈"
 }
 ]
 }
@@ -7208,18 +7208,18 @@
 "resource": [],
 "acai": [
 {
-"id": "place:SinaiMount",
-"type": "place",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "西奈山"
-},
-{
 "id": "keyterm:Slavery",
 "type": "keyterm",
 "confidence": 0.8,
 "match_method": "canonical",
 "preferred_label": "為奴"
+},
+{
+"id": "place:SinaiMount",
+"type": "place",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "西奈山"
 },
 {
 "id": "person:Hagar",
@@ -7260,18 +7260,18 @@
 "resource": [],
 "acai": [
 {
-"id": "place:SinaiMount",
-"type": "place",
-"confidence": 0.75,
-"match_method": "canonical",
-"preferred_label": "西奈山"
-},
-{
 "id": "person:Hagar",
 "type": "person",
 "confidence": 0.75,
 "match_method": "canonical",
 "preferred_label": "夏甲"
+},
+{
+"id": "place:SinaiMount",
+"type": "place",
+"confidence": 0.75,
+"match_method": "canonical",
+"preferred_label": "西奈山"
 },
 {
 "id": "keyterm:Slavery",
@@ -7281,13 +7281,6 @@
 "preferred_label": "為奴"
 },
 {
-"id": "keyterm:Serve.2",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "作奴僕"
-},
-{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.375,
@@ -7295,18 +7288,25 @@
 "preferred_label": "耶路撒冷"
 },
 {
-"id": "place:Arabia",
-"type": "place",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "阿拉伯"
-},
-{
 "id": "keyterm:Covenant",
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "約"
+},
+{
+"id": "keyterm:Serve.2",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "作奴僕"
+},
+{
+"id": "place:Arabia",
+"type": "place",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "阿拉伯"
 }
 ]
 }
@@ -7340,20 +7340,6 @@
 "preferred_label": "夏甲"
 },
 {
-"id": "keyterm:Serve.2",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "作奴僕"
-},
-{
-"id": "place:SinaiMount",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "西奈山"
-},
-{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.6,
@@ -7361,11 +7347,25 @@
 "preferred_label": "耶路撒冷"
 },
 {
+"id": "keyterm:Serve.2",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "作奴僕"
+},
+{
 "id": "place:Arabia",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "阿拉伯"
+},
+{
+"id": "place:SinaiMount",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "西奈山"
 }
 ]
 }
@@ -7446,11 +7446,11 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Promise",
+"id": "keyterm:Scripture",
 "type": "keyterm",
 "confidence": 0.2625,
 "match_method": "canonical",
-"preferred_label": "應許"
+"preferred_label": "經卷（實體）"
 },
 {
 "id": "person:Isaac",
@@ -7460,13 +7460,6 @@
 "preferred_label": "以撒"
 },
 {
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "聖靈"
-},
-{
 "id": "keyterm:Body.3",
 "type": "keyterm",
 "confidence": 0.2625,
@@ -7474,11 +7467,18 @@
 "preferred_label": "身體（實體）"
 },
 {
-"id": "keyterm:Scripture",
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "聖靈"
+},
+{
+"id": "keyterm:Promise",
 "type": "keyterm",
 "confidence": 0.2625,
 "match_method": "canonical",
-"preferred_label": "經卷（實體）"
+"preferred_label": "應許"
 }
 ]
 }
@@ -7505,18 +7505,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "聖靈"
-},
-{
 "id": "keyterm:Body.3",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "身體（實體）"
+},
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "聖靈"
 }
 ]
 }
@@ -7664,6 +7664,13 @@
 "preferred_label": "耶穌"
 },
 {
+"id": "keyterm:Law",
+"type": "keyterm",
+"confidence": 0.38,
+"match_method": "canonical",
+"preferred_label": "律法"
+},
+{
 "id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.38,
@@ -7678,25 +7685,11 @@
 "preferred_label": "顯為公義／行事公正"
 },
 {
-"id": "keyterm:Law",
-"type": "keyterm",
-"confidence": 0.38,
-"match_method": "canonical",
-"preferred_label": "律法"
-},
-{
 "id": "keyterm:Circumcision",
 "type": "keyterm",
 "confidence": 0.28,
 "match_method": "canonical",
 "preferred_label": "割禮"
-},
-{
-"id": "keyterm:Hope",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "盼望"
 },
 {
 "id": "keyterm:Favor",
@@ -7706,11 +7699,18 @@
 "preferred_label": "恩寵（仁慈）"
 },
 {
-"id": "deity:HolySpirit",
-"type": "deity",
+"id": "keyterm:Declare",
+"type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "聖靈"
+"preferred_label": "證明"
+},
+{
+"id": "keyterm:Hope",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "盼望"
 },
 {
 "id": "keyterm:Love",
@@ -7727,11 +7727,11 @@
 "preferred_label": "保羅"
 },
 {
-"id": "keyterm:Declare",
-"type": "keyterm",
+"id": "deity:HolySpirit",
+"type": "deity",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "證明"
+"preferred_label": "聖靈"
 }
 ]
 }
@@ -7796,11 +7796,11 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Jesus.2",
-"type": "person",
+"id": "keyterm:Favor",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "耶穌"
+"preferred_label": "恩寵（仁慈）"
 },
 {
 "id": "keyterm:Just",
@@ -7810,18 +7810,18 @@
 "preferred_label": "顯為公義／行事公正"
 },
 {
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "耶穌"
+},
+{
 "id": "keyterm:Law",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "律法"
-},
-{
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "恩寵（仁慈）"
 }
 ]
 }
@@ -7848,13 +7848,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "顯為公義／行事公正"
-},
-{
 "id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.6,
@@ -7874,6 +7867,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "聖靈"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "顯為公義／行事公正"
 }
 ]
 }
@@ -7907,11 +7907,11 @@
 "preferred_label": "割禮"
 },
 {
-"id": "keyterm:Love",
+"id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "愛"
+"preferred_label": "相信"
 },
 {
 "id": "person:Jesus.2",
@@ -7921,11 +7921,11 @@
 "preferred_label": "耶穌"
 },
 {
-"id": "keyterm:Believe",
+"id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "相信"
+"preferred_label": "愛"
 }
 ]
 }
@@ -7952,11 +7952,11 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Heart",
+"id": "keyterm:Persuade",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "心（比喻）"
+"preferred_label": "勸導"
 },
 {
 "id": "keyterm:Truth",
@@ -7966,11 +7966,11 @@
 "preferred_label": "信實（誠實）"
 },
 {
-"id": "keyterm:Persuade",
+"id": "keyterm:Heart",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "勸導"
+"preferred_label": "心（比喻）"
 }
 ]
 }
@@ -8051,20 +8051,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Judgment",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "審判"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "耶穌"
-},
-{
 "id": "keyterm:Heart",
 "type": "keyterm",
 "confidence": 0.6,
@@ -8084,6 +8070,20 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "思念"
+},
+{
+"id": "keyterm:Judgment",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "審判"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "耶穌"
 }
 ]
 }
@@ -8227,11 +8227,11 @@
 "preferred_label": "生命"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
+"id": "keyterm:Believe",
+"type": "keyterm",
 "confidence": 0.2375,
 "match_method": "canonical",
-"preferred_label": "耶穌"
+"preferred_label": "相信"
 },
 {
 "id": "deity:Lord",
@@ -8241,18 +8241,11 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
+"id": "person:Jesus.2",
+"type": "person",
 "confidence": 0.2375,
 "match_method": "canonical",
-"preferred_label": "相信"
-},
-{
-"id": "keyterm:Share",
-"type": "keyterm",
-"confidence": 0.1771,
-"match_method": "canonical",
-"preferred_label": "分享"
+"preferred_label": "耶穌"
 },
 {
 "id": "keyterm:Live.3",
@@ -8262,95 +8255,18 @@
 "preferred_label": "行事"
 },
 {
+"id": "keyterm:Share",
+"type": "keyterm",
+"confidence": 0.1771,
+"match_method": "canonical",
+"preferred_label": "分享"
+},
+{
 "id": "keyterm:Resentment",
 "type": "keyterm",
 "confidence": 0.1771,
 "match_method": "canonical",
 "preferred_label": "忌恨"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1688,
-"match_method": "canonical",
-"preferred_label": "能力（技能）"
-},
-{
-"id": "keyterm:Peace",
-"type": "keyterm",
-"confidence": 0.1688,
-"match_method": "canonical",
-"preferred_label": "使人和睦"
-},
-{
-"id": "keyterm:Spirit.2",
-"type": "keyterm",
-"confidence": 0.1688,
-"match_method": "canonical",
-"preferred_label": "心靈"
-},
-{
-"id": "keyterm:Kingdom",
-"type": "keyterm",
-"confidence": 0.1688,
-"match_method": "canonical",
-"preferred_label": "國度"
-},
-{
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.1688,
-"match_method": "canonical",
-"preferred_label": "慈愛（團結互助）"
-},
-{
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.1688,
-"match_method": "canonical",
-"preferred_label": "玷污（行為）"
-},
-{
-"id": "keyterm:Idolatry",
-"type": "keyterm",
-"confidence": 0.1688,
-"match_method": "canonical",
-"preferred_label": "拜偶像"
-},
-{
-"id": "keyterm:PutToTheTest",
-"type": "keyterm",
-"confidence": 0.1688,
-"match_method": "canonical",
-"preferred_label": "試探"
-},
-{
-"id": "keyterm:Interpret",
-"type": "keyterm",
-"confidence": 0.1688,
-"match_method": "canonical",
-"preferred_label": "察驗"
-},
-{
-"id": "keyterm:Fornication",
-"type": "keyterm",
-"confidence": 0.1688,
-"match_method": "canonical",
-"preferred_label": "淫亂"
-},
-{
-"id": "keyterm:Serve.2",
-"type": "keyterm",
-"confidence": 0.1688,
-"match_method": "canonical",
-"preferred_label": "作奴僕"
-},
-{
-"id": "keyterm:Conceit",
-"type": "keyterm",
-"confidence": 0.1688,
-"match_method": "canonical",
-"preferred_label": "虛榮"
 },
 {
 "id": "keyterm:CauseOfJoy",
@@ -8360,11 +8276,95 @@
 "preferred_label": "喜樂的由來"
 },
 {
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
+"confidence": 0.1688,
+"match_method": "canonical",
+"preferred_label": "心靈"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.1688,
+"match_method": "canonical",
+"preferred_label": "慈愛（團結互助）"
+},
+{
+"id": "keyterm:Conceit",
+"type": "keyterm",
+"confidence": 0.1688,
+"match_method": "canonical",
+"preferred_label": "虛榮"
+},
+{
+"id": "keyterm:Peace",
+"type": "keyterm",
+"confidence": 0.1688,
+"match_method": "canonical",
+"preferred_label": "使人和睦"
+},
+{
+"id": "keyterm:Fornication",
+"type": "keyterm",
+"confidence": 0.1688,
+"match_method": "canonical",
+"preferred_label": "淫亂"
+},
+{
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.1688,
+"match_method": "canonical",
+"preferred_label": "國度"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.1688,
+"match_method": "canonical",
+"preferred_label": "玷污（行為）"
+},
+{
 "id": "keyterm:Always",
 "type": "keyterm",
 "confidence": 0.1688,
 "match_method": "canonical",
 "preferred_label": "永遠"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1688,
+"match_method": "canonical",
+"preferred_label": "能力（技能）"
+},
+{
+"id": "keyterm:Serve.2",
+"type": "keyterm",
+"confidence": 0.1688,
+"match_method": "canonical",
+"preferred_label": "作奴僕"
+},
+{
+"id": "keyterm:Idolatry",
+"type": "keyterm",
+"confidence": 0.1688,
+"match_method": "canonical",
+"preferred_label": "拜偶像"
+},
+{
+"id": "keyterm:Interpret",
+"type": "keyterm",
+"confidence": 0.1688,
+"match_method": "canonical",
+"preferred_label": "察驗"
+},
+{
+"id": "keyterm:PutToTheTest",
+"type": "keyterm",
+"confidence": 0.1688,
+"match_method": "canonical",
+"preferred_label": "試探"
 },
 {
 "id": "realia:Cross",
@@ -8501,11 +8501,11 @@
 "preferred_label": "忌恨"
 },
 {
-"id": "keyterm:Peace",
+"id": "keyterm:CauseOfJoy",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "使人和睦"
+"preferred_label": "喜樂的由來"
 },
 {
 "id": "keyterm:Life",
@@ -8515,11 +8515,11 @@
 "preferred_label": "生命"
 },
 {
-"id": "keyterm:Kingdom",
+"id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "國度"
+"preferred_label": "愛"
 },
 {
 "id": "keyterm:Kindness",
@@ -8529,11 +8529,46 @@
 "preferred_label": "慈愛（團結互助）"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
+"id": "keyterm:Conceit",
+"type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "耶穌"
+"preferred_label": "虛榮"
+},
+{
+"id": "keyterm:Peace",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "使人和睦"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "相信"
+},
+{
+"id": "keyterm:Fornication",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "淫亂"
+},
+{
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "國度"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "耶和華"
 },
 {
 "id": "keyterm:Defilement",
@@ -8550,46 +8585,11 @@
 "preferred_label": "拜偶像"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "person:Jesus.2",
+"type": "person",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "耶和華"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "愛"
-},
-{
-"id": "keyterm:Fornication",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "淫亂"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "相信"
-},
-{
-"id": "keyterm:Conceit",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "虛榮"
-},
-{
-"id": "keyterm:CauseOfJoy",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "喜樂的由來"
+"preferred_label": "耶穌"
 },
 {
 "id": "realia:Cross",
@@ -8623,18 +8623,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "聖靈"
-},
-{
 "id": "keyterm:Body.3",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "身體（實體）"
+},
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "聖靈"
 }
 ]
 }
@@ -8661,18 +8661,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Law",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "律法"
-},
-{
 "id": "deity:HolySpirit",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "聖靈"
+},
+{
+"id": "keyterm:Law",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "律法"
 }
 ]
 }
@@ -8699,6 +8699,13 @@
 "resource": [],
 "acai": [
 {
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "身體（實體）"
+},
+{
 "id": "keyterm:Defilement",
 "type": "keyterm",
 "confidence": 0.6,
@@ -8711,13 +8718,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "淫亂"
-},
-{
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "身體（實體）"
 }
 ]
 }
@@ -8772,11 +8772,11 @@
 "preferred_label": "忌恨"
 },
 {
-"id": "keyterm:Peace",
+"id": "keyterm:CauseOfJoy",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "使人和睦"
+"preferred_label": "喜樂的由來"
 },
 {
 "id": "keyterm:Life",
@@ -8786,11 +8786,18 @@
 "preferred_label": "生命"
 },
 {
-"id": "keyterm:Kingdom",
+"id": "keyterm:Law",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "國度"
+"preferred_label": "律法"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "愛"
 },
 {
 "id": "keyterm:Kindness",
@@ -8800,11 +8807,46 @@
 "preferred_label": "慈愛（團結互助）"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
+"id": "keyterm:Conceit",
+"type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "耶穌"
+"preferred_label": "虛榮"
+},
+{
+"id": "keyterm:Peace",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "使人和睦"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "相信"
+},
+{
+"id": "keyterm:Fornication",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "淫亂"
+},
+{
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "國度"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "耶和華"
 },
 {
 "id": "keyterm:Defilement",
@@ -8821,53 +8863,11 @@
 "preferred_label": "拜偶像"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "person:Jesus.2",
+"type": "person",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "耶和華"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "愛"
-},
-{
-"id": "keyterm:Law",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "律法"
-},
-{
-"id": "keyterm:Fornication",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "淫亂"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "相信"
-},
-{
-"id": "keyterm:Conceit",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "虛榮"
-},
-{
-"id": "keyterm:CauseOfJoy",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "喜樂的由來"
+"preferred_label": "耶穌"
 },
 {
 "id": "realia:Cross",
@@ -8984,6 +8984,13 @@
 "preferred_label": "好（道德）"
 },
 {
+"id": "keyterm:CauseOfJoy",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "喜樂的由來"
+},
+{
 "id": "keyterm:Peace",
 "type": "keyterm",
 "confidence": 0.6,
@@ -8998,11 +9005,11 @@
 "preferred_label": "相信"
 },
 {
-"id": "deity:HolySpirit",
-"type": "deity",
+"id": "keyterm:Love",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "聖靈"
+"preferred_label": "愛"
 },
 {
 "id": "keyterm:Kindness",
@@ -9012,18 +9019,11 @@
 "preferred_label": "慈愛（團結互助）"
 },
 {
-"id": "keyterm:Love",
-"type": "keyterm",
+"id": "deity:HolySpirit",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "愛"
-},
-{
-"id": "keyterm:CauseOfJoy",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "喜樂的由來"
+"preferred_label": "聖靈"
 }
 ]
 }
@@ -9081,18 +9081,18 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "耶穌"
-},
-{
 "id": "keyterm:Body.3",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "身體（實體）"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "耶穌"
 },
 {
 "id": "realia:Cross",
@@ -9126,18 +9126,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Life",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "生命"
-},
-{
 "id": "deity:HolySpirit",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "聖靈"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "生命"
 }
 ]
 }
@@ -9210,18 +9210,18 @@
 "preferred_label": "能力（技能）"
 },
 {
-"id": "keyterm:PutToTheTest",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "試探"
-},
-{
 "id": "keyterm:Spirit.2",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "心靈"
+},
+{
+"id": "keyterm:PutToTheTest",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "試探"
 }
 ]
 }
@@ -9248,11 +9248,18 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Jesus.2",
-"type": "person",
+"id": "keyterm:PutToTheTest",
+"type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "耶穌"
+"preferred_label": "試探"
+},
+{
+"id": "keyterm:Law",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "律法"
 },
 {
 "id": "keyterm:Ability",
@@ -9262,20 +9269,6 @@
 "preferred_label": "能力（技能）"
 },
 {
-"id": "keyterm:Interpret",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "察驗"
-},
-{
-"id": "keyterm:PutToTheTest",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "試探"
-},
-{
 "id": "keyterm:Spirit.2",
 "type": "keyterm",
 "confidence": 0.24,
@@ -9283,11 +9276,18 @@
 "preferred_label": "心靈"
 },
 {
-"id": "keyterm:Law",
+"id": "keyterm:Interpret",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "律法"
+"preferred_label": "察驗"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "耶穌"
 }
 ]
 }
@@ -9328,34 +9328,6 @@
 "preferred_label": "分享"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "耶穌"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "相信"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "能力（技能）"
-},
-{
-"id": "keyterm:Interpret",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "察驗"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.195,
@@ -9370,25 +9342,11 @@
 "preferred_label": "試探"
 },
 {
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "聖靈"
-},
-{
-"id": "keyterm:Spirit.2",
+"id": "keyterm:Always",
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "心靈"
-},
-{
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "身體（實體）"
+"preferred_label": "永遠"
 },
 {
 "id": "keyterm:Life",
@@ -9405,11 +9363,53 @@
 "preferred_label": "律法"
 },
 {
-"id": "keyterm:Always",
+"id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "永遠"
+"preferred_label": "相信"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "能力（技能）"
+},
+{
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "心靈"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "身體（實體）"
+},
+{
+"id": "keyterm:Interpret",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "察驗"
+},
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "聖靈"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "耶穌"
 }
 ]
 }
@@ -9611,13 +9611,6 @@
 "preferred_label": "分享"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "相信"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.24,
@@ -9625,18 +9618,11 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "聖靈"
-},
-{
-"id": "keyterm:Body.3",
+"id": "keyterm:Always",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "身體（實體）"
+"preferred_label": "永遠"
 },
 {
 "id": "keyterm:Life",
@@ -9646,11 +9632,25 @@
 "preferred_label": "生命"
 },
 {
-"id": "keyterm:Always",
+"id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "永遠"
+"preferred_label": "相信"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "身體（實體）"
+},
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "聖靈"
 }
 ]
 }
@@ -9708,11 +9708,11 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Life",
+"id": "keyterm:Body.3",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "生命"
+"preferred_label": "身體（實體）"
 },
 {
 "id": "keyterm:Always",
@@ -9729,11 +9729,11 @@
 "preferred_label": "聖靈"
 },
 {
-"id": "keyterm:Body.3",
+"id": "keyterm:Life",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "身體（實體）"
+"preferred_label": "生命"
 }
 ]
 }
@@ -9842,67 +9842,11 @@
 "preferred_label": "十字架"
 },
 {
-"id": "keyterm:Peace",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "使人和睦"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "能力（技能）"
-},
-{
-"id": "keyterm:Mercy",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "憐憫（行動）"
-},
-{
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "恩寵（仁慈）"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.2063,
 "match_method": "canonical",
 "preferred_label": "耶和華"
-},
-{
-"id": "keyterm:Spirit.2",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "心靈"
-},
-{
-"id": "keyterm:Surely",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "實在！"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "以色列"
-},
-{
-"id": "keyterm:Mark",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "記號"
 },
 {
 "id": "keyterm:Circumcision",
@@ -9912,11 +9856,67 @@
 "preferred_label": "割禮"
 },
 {
+"id": "keyterm:Mark",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "記號"
+},
+{
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "實在！"
+},
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "恩寵（仁慈）"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "以色列"
+},
+{
+"id": "keyterm:Mercy",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "憐憫（行動）"
+},
+{
 "id": "keyterm:Law",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
 "preferred_label": "律法"
+},
+{
+"id": "keyterm:Peace",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "使人和睦"
+},
+{
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "心靈"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "能力（技能）"
 }
 ]
 }
@@ -9995,18 +9995,18 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "耶穌"
-},
-{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "能力（技能）"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "耶穌"
 },
 {
 "id": "realia:Cross",
@@ -10078,13 +10078,6 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "keyterm:Peace",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "使人和睦"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.6,
@@ -10097,6 +10090,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "憐憫（行動）"
+},
+{
+"id": "keyterm:Peace",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "使人和睦"
 }
 ]
 }
@@ -10123,11 +10123,11 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Jesus.2",
-"type": "person",
+"id": "keyterm:Body.3",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "耶穌"
+"preferred_label": "身體（實體）"
 },
 {
 "id": "keyterm:Mark",
@@ -10137,11 +10137,11 @@
 "preferred_label": "記號"
 },
 {
-"id": "keyterm:Body.3",
-"type": "keyterm",
+"id": "person:Jesus.2",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "身體（實體）"
+"preferred_label": "耶穌"
 }
 ]
 }
@@ -10175,13 +10175,6 @@
 "preferred_label": "實在！"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "耶穌"
-},
-{
 "id": "keyterm:Spirit.2",
 "type": "keyterm",
 "confidence": 0.6,
@@ -10194,6 +10187,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "恩寵（仁慈）"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "耶穌"
 }
 ]
 }
