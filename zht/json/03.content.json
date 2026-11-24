@@ -109,13 +109,6 @@
 "preferred_label": "宰殺祭牲"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.3984,
-"match_method": "canonical",
-"preferred_label": "祭壇"
-},
-{
 "id": "realia:TabernacleAltar",
 "type": "realia",
 "confidence": 0.3984,
@@ -123,9 +116,9 @@
 "preferred_label": "帳幕的壇"
 },
 {
-"id": "realia:Altar",
+"id": "realia:TempleAltar",
 "type": "realia",
-"confidence": 0.3973,
+"confidence": 0.3984,
 "match_method": "canonical",
 "preferred_label": "祭壇"
 },
@@ -135,6 +128,13 @@
 "confidence": 0.3973,
 "match_method": "canonical",
 "preferred_label": "石壇"
+},
+{
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.3973,
+"match_method": "canonical",
+"preferred_label": "祭壇"
 },
 {
 "id": "keyterm:Holy",
@@ -235,18 +235,18 @@
 "preferred_label": "膏油"
 },
 {
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.3214,
-"match_method": "canonical",
-"preferred_label": "山羊"
-},
-{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.3214,
 "match_method": "canonical",
 "preferred_label": "羊群"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.3214,
+"match_method": "canonical",
+"preferred_label": "山羊"
 },
 {
 "id": "fauna:Lamb",
@@ -256,13 +256,6 @@
 "preferred_label": "綿羊"
 },
 {
-"id": "keyterm:Smear",
-"type": "keyterm",
-"confidence": 0.3105,
-"match_method": "canonical",
-"preferred_label": "塗抹"
-},
-{
 "id": "keyterm:Anointed",
 "type": "keyterm",
 "confidence": 0.3105,
@@ -270,11 +263,11 @@
 "preferred_label": "受膏"
 },
 {
-"id": "realia:Foundation",
-"type": "realia",
-"confidence": 0.3057,
+"id": "keyterm:Smear",
+"type": "keyterm",
+"confidence": 0.3105,
 "match_method": "canonical",
-"preferred_label": "根基"
+"preferred_label": "塗抹"
 },
 {
 "id": "flora:Frankincense",
@@ -282,6 +275,13 @@
 "confidence": 0.3057,
 "match_method": "canonical",
 "preferred_label": "乳香"
+},
+{
+"id": "realia:Foundation",
+"type": "realia",
+"confidence": 0.3057,
+"match_method": "canonical",
+"preferred_label": "根基"
 }
 ]
 }
@@ -337,6 +337,13 @@
 "preferred_label": "牛"
 },
 {
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "以色列"
+},
+{
 "id": "keyterm:Complete",
 "type": "keyterm",
 "confidence": 0.375,
@@ -349,13 +356,6 @@
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "喜悅"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "以色列"
 },
 {
 "id": "realia:TentOfMeeting",
@@ -469,13 +469,6 @@
 "resource": [],
 "acai": [
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.6033,
-"match_method": "canonical",
-"preferred_label": "祭壇"
-},
-{
 "id": "realia:TabernacleAltar",
 "type": "realia",
 "confidence": 0.6033,
@@ -483,11 +476,11 @@
 "preferred_label": "帳幕的壇"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.59,
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.6033,
 "match_method": "canonical",
-"preferred_label": "供物"
+"preferred_label": "祭壇"
 },
 {
 "id": "realia:StoneAltar",
@@ -502,6 +495,13 @@
 "confidence": 0.59,
 "match_method": "canonical",
 "preferred_label": "祭壇"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.59,
+"match_method": "canonical",
+"preferred_label": "供物"
 },
 {
 "id": "deity:Lord",
@@ -560,20 +560,6 @@
 "preferred_label": "喜悅"
 },
 {
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "山羊"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "綿羊"
-},
-{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.12,
@@ -581,11 +567,25 @@
 "preferred_label": "羊群"
 },
 {
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "山羊"
+},
+{
 "id": "fauna:Dove",
 "type": "fauna",
 "confidence": 0.12,
 "match_method": "canonical",
 "preferred_label": "鴿子"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "綿羊"
 }
 ]
 }
@@ -650,13 +650,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "亞倫"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -664,25 +657,11 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "realia:TentOfMeeting",
-"type": "realia",
-"confidence": 0.54,
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "會幕"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "祭壇"
-},
-{
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "帳幕的壇"
+"preferred_label": "亞倫"
 },
 {
 "id": "realia:StoneAltar",
@@ -692,11 +671,18 @@
 "preferred_label": "石壇"
 },
 {
-"id": "realia:Altar",
+"id": "realia:TentOfMeeting",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "祭壇"
+"preferred_label": "會幕"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "帳幕的壇"
 },
 {
 "id": "fauna:Bull",
@@ -704,6 +690,20 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "牛"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "祭壇"
+},
+{
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "祭壇"
 }
 ]
 }
@@ -768,11 +768,11 @@
 "preferred_label": "亞倫"
 },
 {
-"id": "realia:TempleAltar",
+"id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "祭壇"
+"preferred_label": "石壇"
 },
 {
 "id": "realia:TabernacleAltar",
@@ -782,11 +782,11 @@
 "preferred_label": "帳幕的壇"
 },
 {
-"id": "realia:StoneAltar",
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "石壇"
+"preferred_label": "祭壇"
 },
 {
 "id": "realia:Altar",
@@ -848,18 +848,18 @@
 "preferred_label": "供物"
 },
 {
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "帳幕的壇"
-},
-{
 "id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "石壇"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "帳幕的壇"
 },
 {
 "id": "realia:Altar",
@@ -893,18 +893,18 @@
 "resource": [],
 "acai": [
 {
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.5275,
-"match_method": "canonical",
-"preferred_label": "帳幕的壇"
-},
-{
 "id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.5275,
 "match_method": "canonical",
 "preferred_label": "石壇"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.5275,
+"match_method": "canonical",
+"preferred_label": "帳幕的壇"
 },
 {
 "id": "realia:TempleAltar",
@@ -935,11 +935,11 @@
 "preferred_label": "供物"
 },
 {
-"id": "person:Aaron",
-"type": "person",
+"id": "keyterm:PleasingOdor",
+"type": "keyterm",
 "confidence": 0.2625,
 "match_method": "canonical",
-"preferred_label": "亞倫"
+"preferred_label": "馨香之氣"
 },
 {
 "id": "keyterm:Complete",
@@ -949,18 +949,11 @@
 "preferred_label": "完全"
 },
 {
-"id": "keyterm:PleasingOdor",
-"type": "keyterm",
+"id": "person:Aaron",
+"type": "person",
 "confidence": 0.2625,
 "match_method": "canonical",
-"preferred_label": "馨香之氣"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.2025,
-"match_method": "canonical",
-"preferred_label": "綿羊"
+"preferred_label": "亞倫"
 },
 {
 "id": "fauna:Flock",
@@ -975,6 +968,13 @@
 "confidence": 0.2025,
 "match_method": "canonical",
 "preferred_label": "山羊"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.2025,
+"match_method": "canonical",
+"preferred_label": "綿羊"
 }
 ]
 }
@@ -1001,11 +1001,11 @@
 "resource": [],
 "acai": [
 {
-"id": "realia:TempleAltar",
+"id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.5275,
 "match_method": "canonical",
-"preferred_label": "祭壇"
+"preferred_label": "石壇"
 },
 {
 "id": "realia:TabernacleAltar",
@@ -1015,11 +1015,11 @@
 "preferred_label": "帳幕的壇"
 },
 {
-"id": "realia:StoneAltar",
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.5275,
 "match_method": "canonical",
-"preferred_label": "石壇"
+"preferred_label": "祭壇"
 },
 {
 "id": "realia:Altar",
@@ -1088,13 +1088,6 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "供物"
-},
-{
 "id": "keyterm:PleasingOdor",
 "type": "keyterm",
 "confidence": 0.6,
@@ -1102,11 +1095,18 @@
 "preferred_label": "馨香之氣"
 },
 {
-"id": "realia:TempleAltar",
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "供物"
+},
+{
+"id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "祭壇"
+"preferred_label": "石壇"
 },
 {
 "id": "realia:TabernacleAltar",
@@ -1116,11 +1116,11 @@
 "preferred_label": "帳幕的壇"
 },
 {
-"id": "realia:StoneAltar",
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "石壇"
+"preferred_label": "祭壇"
 },
 {
 "id": "realia:Altar",
@@ -1175,18 +1175,18 @@
 "preferred_label": "供物"
 },
 {
-"id": "flora:Frankincense",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "乳香"
-},
-{
 "id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "膏油"
+},
+{
+"id": "flora:Frankincense",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "乳香"
 }
 ]
 }
@@ -1248,11 +1248,11 @@
 "preferred_label": "作為紀念的供物"
 },
 {
-"id": "realia:TempleAltar",
+"id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.3525,
 "match_method": "canonical",
-"preferred_label": "祭壇"
+"preferred_label": "石壇"
 },
 {
 "id": "realia:TabernacleAltar",
@@ -1262,14 +1262,7 @@
 "preferred_label": "帳幕的壇"
 },
 {
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.3525,
-"match_method": "canonical",
-"preferred_label": "石壇"
-},
-{
-"id": "realia:Altar",
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.3525,
 "match_method": "canonical",
@@ -1281,6 +1274,13 @@
 "confidence": 0.3525,
 "match_method": "canonical",
 "preferred_label": "乳香"
+},
+{
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.3525,
+"match_method": "canonical",
+"preferred_label": "祭壇"
 },
 {
 "id": "keyterm:PleasingOdor",
@@ -1325,18 +1325,18 @@
 "preferred_label": "約"
 },
 {
-"id": "realia:Cake",
-"type": "realia",
-"confidence": 0.1306,
-"match_method": "canonical",
-"preferred_label": "餅"
-},
-{
 "id": "realia:Griddle",
 "type": "realia",
 "confidence": 0.1306,
 "match_method": "canonical",
 "preferred_label": "鐵鏊"
+},
+{
+"id": "realia:Cake",
+"type": "realia",
+"confidence": 0.1306,
+"match_method": "canonical",
+"preferred_label": "餅"
 }
 ]
 }
@@ -1363,13 +1363,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:MemorialOrTokenPortion",
-"type": "keyterm",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "作為紀念的供物"
-},
-{
 "id": "keyterm:PleasingOdor",
 "type": "keyterm",
 "confidence": 0.8,
@@ -1377,11 +1370,11 @@
 "preferred_label": "馨香之氣"
 },
 {
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.6,
+"id": "keyterm:MemorialOrTokenPortion",
+"type": "keyterm",
+"confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "亞倫"
+"preferred_label": "作為紀念的供物"
 },
 {
 "id": "deity:Lord",
@@ -1398,32 +1391,11 @@
 "preferred_label": "供物"
 },
 {
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.54,
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "橄欖油"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "祭壇"
-},
-{
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "帳幕的壇"
-},
-{
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "石壇"
+"preferred_label": "亞倫"
 },
 {
 "id": "realia:AnointingOil",
@@ -1433,7 +1405,28 @@
 "preferred_label": "膏油"
 },
 {
-"id": "realia:Altar",
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "石壇"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "橄欖油"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "帳幕的壇"
+},
+{
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
@@ -1445,6 +1438,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "乳香"
+},
+{
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "祭壇"
 }
 ]
 }
@@ -1471,13 +1471,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "聖潔"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -1497,6 +1490,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "亞倫"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "聖潔"
 }
 ]
 }
@@ -1538,13 +1538,6 @@
 "preferred_label": "餅"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "供物"
-},
-{
 "id": "keyterm:Smear",
 "type": "keyterm",
 "confidence": 0.6,
@@ -1552,11 +1545,11 @@
 "preferred_label": "塗抹"
 },
 {
-"id": "realia:UnleavenedBread",
-"type": "realia",
-"confidence": 0.54,
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "無酵餅"
+"preferred_label": "供物"
 },
 {
 "id": "realia:AnointingOil",
@@ -1571,6 +1564,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "橄欖油"
+},
+{
+"id": "realia:UnleavenedBread",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "無酵餅"
 }
 ]
 }
@@ -1611,13 +1611,6 @@
 "preferred_label": "供物"
 },
 {
-"id": "realia:UnleavenedBread",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "無酵餅"
-},
-{
 "id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.54,
@@ -1630,6 +1623,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "橄欖油"
+},
+{
+"id": "realia:UnleavenedBread",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "無酵餅"
 }
 ]
 }
@@ -1663,18 +1663,18 @@
 "preferred_label": "供物"
 },
 {
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "橄欖油"
-},
-{
 "id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "膏油"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "橄欖油"
 }
 ]
 }
@@ -1746,13 +1746,6 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "供物"
-},
-{
 "id": "keyterm:PleasingOdor",
 "type": "keyterm",
 "confidence": 0.6,
@@ -1760,11 +1753,18 @@
 "preferred_label": "馨香之氣"
 },
 {
-"id": "realia:TempleAltar",
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "供物"
+},
+{
+"id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "祭壇"
+"preferred_label": "石壇"
 },
 {
 "id": "realia:TabernacleAltar",
@@ -1774,11 +1774,11 @@
 "preferred_label": "帳幕的壇"
 },
 {
-"id": "realia:StoneAltar",
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "石壇"
+"preferred_label": "祭壇"
 },
 {
 "id": "realia:Altar",
@@ -1834,18 +1834,18 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "keyterm:Covenant",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "約"
-},
-{
 "id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "供物"
+},
+{
+"id": "keyterm:Covenant",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "約"
 }
 ]
 }
@@ -1945,11 +1945,11 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "realia:TempleAltar",
+"id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.4488,
 "match_method": "canonical",
-"preferred_label": "祭壇"
+"preferred_label": "石壇"
 },
 {
 "id": "realia:TabernacleAltar",
@@ -1959,11 +1959,11 @@
 "preferred_label": "帳幕的壇"
 },
 {
-"id": "realia:StoneAltar",
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.4488,
 "match_method": "canonical",
-"preferred_label": "石壇"
+"preferred_label": "祭壇"
 },
 {
 "id": "realia:Altar",
@@ -2008,13 +2008,6 @@
 "preferred_label": "馨香之氣"
 },
 {
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.1929,
-"match_method": "canonical",
-"preferred_label": "山羊"
-},
-{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.1929,
@@ -2022,11 +2015,11 @@
 "preferred_label": "羊群"
 },
 {
-"id": "fauna:Lamb",
+"id": "fauna:Goat",
 "type": "fauna",
-"confidence": 0.1165,
+"confidence": 0.1929,
 "match_method": "canonical",
-"preferred_label": "綿羊"
+"preferred_label": "山羊"
 },
 {
 "id": "fauna:Bull",
@@ -2034,6 +2027,13 @@
 "confidence": 0.1165,
 "match_method": "canonical",
 "preferred_label": "牛"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "綿羊"
 }
 ]
 }
@@ -2083,25 +2083,11 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "亞倫"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "耶和華"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "供物"
 },
 {
 "id": "keyterm:PleasingOdor",
@@ -2111,11 +2097,25 @@
 "preferred_label": "馨香之氣"
 },
 {
-"id": "realia:TempleAltar",
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "供物"
+},
+{
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "亞倫"
+},
+{
+"id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "祭壇"
+"preferred_label": "石壇"
 },
 {
 "id": "realia:TabernacleAltar",
@@ -2125,11 +2125,11 @@
 "preferred_label": "帳幕的壇"
 },
 {
-"id": "realia:StoneAltar",
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "石壇"
+"preferred_label": "祭壇"
 },
 {
 "id": "realia:Altar",
@@ -2191,6 +2191,13 @@
 "preferred_label": "宰殺祭牲"
 },
 {
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.29,
+"match_method": "canonical",
+"preferred_label": "石壇"
+},
+{
 "id": "realia:TabernacleAltar",
 "type": "realia",
 "confidence": 0.29,
@@ -2203,13 +2210,6 @@
 "confidence": 0.29,
 "match_method": "canonical",
 "preferred_label": "祭壇"
-},
-{
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.29,
-"match_method": "canonical",
-"preferred_label": "石壇"
 },
 {
 "id": "realia:Altar",
@@ -2233,13 +2233,6 @@
 "preferred_label": "會幕"
 },
 {
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "綿羊"
-},
-{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.165,
@@ -2252,6 +2245,13 @@
 "confidence": 0.165,
 "match_method": "canonical",
 "preferred_label": "山羊"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "綿羊"
 }
 ]
 }
@@ -2278,20 +2278,6 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "耶和華"
-},
-{
-"id": "keyterm:Slaughtering",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "宰殺祭牲"
-},
-{
 "id": "keyterm:Complete",
 "type": "keyterm",
 "confidence": 0.6,
@@ -2299,11 +2285,25 @@
 "preferred_label": "完全"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "耶和華"
+},
+{
 "id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "供物"
+},
+{
+"id": "keyterm:Slaughtering",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "宰殺祭牲"
 }
 ]
 }
@@ -2352,11 +2352,11 @@
 "preferred_label": "供物"
 },
 {
-"id": "realia:TempleAltar",
+"id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "祭壇"
+"preferred_label": "石壇"
 },
 {
 "id": "realia:TabernacleAltar",
@@ -2366,11 +2366,11 @@
 "preferred_label": "帳幕的壇"
 },
 {
-"id": "realia:StoneAltar",
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "石壇"
+"preferred_label": "祭壇"
 },
 {
 "id": "realia:Altar",
@@ -2418,11 +2418,11 @@
 "preferred_label": "供物"
 },
 {
-"id": "realia:TempleAltar",
+"id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.32,
 "match_method": "canonical",
-"preferred_label": "祭壇"
+"preferred_label": "石壇"
 },
 {
 "id": "realia:TabernacleAltar",
@@ -2432,11 +2432,11 @@
 "preferred_label": "帳幕的壇"
 },
 {
-"id": "realia:StoneAltar",
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.32,
 "match_method": "canonical",
-"preferred_label": "石壇"
+"preferred_label": "祭壇"
 },
 {
 "id": "realia:Altar",
@@ -2446,13 +2446,6 @@
 "preferred_label": "祭壇"
 },
 {
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "亞倫"
-},
-{
 "id": "keyterm:PleasingOdor",
 "type": "keyterm",
 "confidence": 0.24,
@@ -2460,11 +2453,11 @@
 "preferred_label": "馨香之氣"
 },
 {
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.18,
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "山羊"
+"preferred_label": "亞倫"
 },
 {
 "id": "realia:TentOfMeeting",
@@ -2479,6 +2472,13 @@
 "confidence": 0.18,
 "match_method": "canonical",
 "preferred_label": "羊群"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "山羊"
 }
 ]
 }
@@ -2536,18 +2536,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.6125,
-"match_method": "canonical",
-"preferred_label": "供物"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.6125,
 "match_method": "canonical",
 "preferred_label": "犯罪"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.6125,
+"match_method": "canonical",
+"preferred_label": "供物"
 },
 {
 "id": "deity:Lord",
@@ -2578,25 +2578,18 @@
 "preferred_label": "赦免"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.4025,
-"match_method": "canonical",
-"preferred_label": "祭壇"
-},
-{
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.4025,
-"match_method": "canonical",
-"preferred_label": "祭壇"
-},
-{
 "id": "realia:TabernacleAltar",
 "type": "realia",
 "confidence": 0.4025,
 "match_method": "canonical",
 "preferred_label": "帳幕的壇"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.4025,
+"match_method": "canonical",
+"preferred_label": "祭壇"
 },
 {
 "id": "realia:StoneAltar",
@@ -2606,11 +2599,11 @@
 "preferred_label": "石壇"
 },
 {
-"id": "realia:Foundation",
+"id": "realia:Altar",
 "type": "realia",
-"confidence": 0.3463,
+"confidence": 0.4025,
 "match_method": "canonical",
-"preferred_label": "根基"
+"preferred_label": "祭壇"
 },
 {
 "id": "realia:TentOfMeeting",
@@ -2620,18 +2613,18 @@
 "preferred_label": "會幕"
 },
 {
+"id": "realia:Foundation",
+"type": "realia",
+"confidence": 0.3463,
+"match_method": "canonical",
+"preferred_label": "根基"
+},
+{
 "id": "realia:HornsOfAltar",
 "type": "realia",
 "confidence": 0.341,
 "match_method": "canonical",
 "preferred_label": "壇角"
-},
-{
-"id": "keyterm:Complete",
-"type": "keyterm",
-"confidence": 0.3375,
-"match_method": "canonical",
-"preferred_label": "完全"
 },
 {
 "id": "keyterm:Slaughtering",
@@ -2641,18 +2634,18 @@
 "preferred_label": "宰殺祭牲"
 },
 {
+"id": "keyterm:Complete",
+"type": "keyterm",
+"confidence": 0.3375,
+"match_method": "canonical",
+"preferred_label": "完全"
+},
+{
 "id": "keyterm:Anointed",
 "type": "keyterm",
 "confidence": 0.2781,
 "match_method": "canonical",
 "preferred_label": "受膏"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.2775,
-"match_method": "canonical",
-"preferred_label": "綿羊"
 },
 {
 "id": "fauna:Flock",
@@ -2669,11 +2662,11 @@
 "preferred_label": "山羊"
 },
 {
-"id": "keyterm:Oath",
-"type": "keyterm",
-"confidence": 0.2188,
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.2775,
 "match_method": "canonical",
-"preferred_label": "誓言"
+"preferred_label": "綿羊"
 },
 {
 "id": "person:Israel",
@@ -2681,6 +2674,13 @@
 "confidence": 0.2188,
 "match_method": "canonical",
 "preferred_label": "以色列"
+},
+{
+"id": "keyterm:Oath",
+"type": "keyterm",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "誓言"
 },
 {
 "id": "keyterm:Defilement",
@@ -2697,6 +2697,41 @@
 "preferred_label": "鴿子"
 },
 {
+"id": "keyterm:MemorialOrTokenPortion",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "作為紀念的供物"
+},
+{
+"id": "keyterm:Swear",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "起誓"
+},
+{
+"id": "keyterm:Repent",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "悔改"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "摩西"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "聖潔"
+},
+{
 "id": "keyterm:Ardour",
 "type": "keyterm",
 "confidence": 0.1594,
@@ -2711,41 +2746,6 @@
 "preferred_label": "馨香之氣"
 },
 {
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "潔淨"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "聖潔"
-},
-{
-"id": "keyterm:Swear",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "起誓"
-},
-{
-"id": "keyterm:MemorialOrTokenPortion",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "作為紀念的供物"
-},
-{
-"id": "keyterm:Repent",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "悔改"
-},
-{
 "id": "keyterm:BearTheConsequencesOf",
 "type": "keyterm",
 "confidence": 0.1594,
@@ -2753,11 +2753,11 @@
 "preferred_label": "擔當後果"
 },
 {
-"id": "person:Moses",
-"type": "person",
+"id": "keyterm:Pure",
+"type": "keyterm",
 "confidence": 0.1594,
 "match_method": "canonical",
-"preferred_label": "摩西"
+"preferred_label": "潔淨"
 },
 {
 "id": "realia:Curtain",
@@ -2781,18 +2781,18 @@
 "preferred_label": "橄欖油"
 },
 {
-"id": "realia:Ephah",
-"type": "realia",
-"confidence": 0.0994,
-"match_method": "canonical",
-"preferred_label": "伊法"
-},
-{
 "id": "flora:Frankincense",
 "type": "flora",
 "confidence": 0.0994,
 "match_method": "canonical",
 "preferred_label": "乳香"
+},
+{
+"id": "realia:Ephah",
+"type": "realia",
+"confidence": 0.0994,
+"match_method": "canonical",
+"preferred_label": "伊法"
 }
 ]
 }
@@ -2834,18 +2834,25 @@
 ],
 "acai": [
 {
-"id": "keyterm:Anointed",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "受膏"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "耶和華"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "犯罪"
+},
+{
+"id": "keyterm:Anointed",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "受膏"
 },
 {
 "id": "keyterm:Complete",
@@ -2860,13 +2867,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "供物"
-},
-{
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "犯罪"
 },
 {
 "id": "fauna:Bull",
@@ -2935,20 +2935,6 @@
 "preferred_label": "會幕"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.3347,
-"match_method": "canonical",
-"preferred_label": "祭壇"
-},
-{
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.3347,
-"match_method": "canonical",
-"preferred_label": "祭壇"
-},
-{
 "id": "realia:TabernacleAltar",
 "type": "realia",
 "confidence": 0.3347,
@@ -2956,11 +2942,25 @@
 "preferred_label": "帳幕的壇"
 },
 {
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.3347,
+"match_method": "canonical",
+"preferred_label": "祭壇"
+},
+{
 "id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.3347,
 "match_method": "canonical",
 "preferred_label": "石壇"
+},
+{
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.3347,
+"match_method": "canonical",
+"preferred_label": "祭壇"
 },
 {
 "id": "keyterm:Anointed",
@@ -2998,25 +2998,11 @@
 "preferred_label": "以色列"
 },
 {
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "潔淨"
-},
-{
 "id": "keyterm:Forgive",
 "type": "keyterm",
 "confidence": 0.1737,
 "match_method": "canonical",
 "preferred_label": "赦免"
-},
-{
-"id": "keyterm:Complete",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "完全"
 },
 {
 "id": "keyterm:Appease",
@@ -3026,6 +3012,13 @@
 "preferred_label": "平息"
 },
 {
+"id": "keyterm:Slaughtering",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "宰殺祭牲"
+},
+{
 "id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.1737,
@@ -3033,11 +3026,18 @@
 "preferred_label": "聖潔"
 },
 {
-"id": "keyterm:Slaughtering",
+"id": "keyterm:Complete",
 "type": "keyterm",
 "confidence": 0.1737,
 "match_method": "canonical",
-"preferred_label": "宰殺祭牲"
+"preferred_label": "完全"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "潔淨"
 }
 ]
 }
@@ -3072,18 +3072,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Anointed",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "受膏"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "耶和華"
+},
+{
+"id": "keyterm:Anointed",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "受膏"
 },
 {
 "id": "keyterm:Holy",
@@ -3100,18 +3100,18 @@
 "preferred_label": "會幕"
 },
 {
-"id": "realia:Curtain",
-"type": "realia",
-"confidence": 0.315,
-"match_method": "canonical",
-"preferred_label": "幔子"
-},
-{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.315,
 "match_method": "canonical",
 "preferred_label": "牛"
+},
+{
+"id": "realia:Curtain",
+"type": "realia",
+"confidence": 0.315,
+"match_method": "canonical",
+"preferred_label": "幔子"
 }
 ]
 }
@@ -3167,18 +3167,18 @@
 "preferred_label": "供物"
 },
 {
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "石壇"
+},
+{
 "id": "realia:TentOfMeeting",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "會幕"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "祭壇"
 },
 {
 "id": "realia:TabernacleAltar",
@@ -3188,20 +3188,6 @@
 "preferred_label": "帳幕的壇"
 },
 {
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "石壇"
-},
-{
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "祭壇"
-},
-{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.54,
@@ -3209,11 +3195,25 @@
 "preferred_label": "牛"
 },
 {
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "祭壇"
+},
+{
 "id": "realia:Foundation",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "根基"
+},
+{
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "祭壇"
 }
 ]
 }
@@ -3316,20 +3316,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Forgive",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "赦免"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "供物"
-},
-{
 "id": "keyterm:Appease",
 "type": "keyterm",
 "confidence": 0.6,
@@ -3337,11 +3323,25 @@
 "preferred_label": "平息"
 },
 {
+"id": "keyterm:Forgive",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "赦免"
+},
+{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "犯罪"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "供物"
 },
 {
 "id": "fauna:Bull",
@@ -3413,18 +3413,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.7357,
-"match_method": "canonical",
-"preferred_label": "供物"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.7357,
 "match_method": "canonical",
 "preferred_label": "犯罪"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.7357,
+"match_method": "canonical",
+"preferred_label": "供物"
 },
 {
 "id": "deity:Lord",
@@ -3434,11 +3434,11 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "realia:TempleAltar",
+"id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.4829,
 "match_method": "canonical",
-"preferred_label": "祭壇"
+"preferred_label": "石壇"
 },
 {
 "id": "realia:TabernacleAltar",
@@ -3448,11 +3448,11 @@
 "preferred_label": "帳幕的壇"
 },
 {
-"id": "realia:StoneAltar",
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.4829,
 "match_method": "canonical",
-"preferred_label": "石壇"
+"preferred_label": "祭壇"
 },
 {
 "id": "realia:Altar",
@@ -3460,6 +3460,13 @@
 "confidence": 0.4829,
 "match_method": "canonical",
 "preferred_label": "祭壇"
+},
+{
+"id": "keyterm:Appease",
+"type": "keyterm",
+"confidence": 0.3464,
+"match_method": "canonical",
+"preferred_label": "平息"
 },
 {
 "id": "keyterm:Forgive",
@@ -3474,13 +3481,6 @@
 "confidence": 0.3464,
 "match_method": "canonical",
 "preferred_label": "完全"
-},
-{
-"id": "keyterm:Appease",
-"type": "keyterm",
-"confidence": 0.3464,
-"match_method": "canonical",
-"preferred_label": "平息"
 },
 {
 "id": "keyterm:Slaughtering",
@@ -3556,6 +3556,13 @@
 "resource": [],
 "acai": [
 {
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "犯罪"
+},
+{
 "id": "keyterm:Complete",
 "type": "keyterm",
 "confidence": 0.6,
@@ -3568,13 +3575,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "供物"
-},
-{
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "犯罪"
 },
 {
 "id": "fauna:Flock",
@@ -3622,18 +3622,18 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "供物"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "犯罪"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "供物"
 },
 {
 "id": "fauna:Flock",
@@ -3674,13 +3674,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "供物"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.6,
@@ -3688,18 +3681,11 @@
 "preferred_label": "犯罪"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.54,
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "祭壇"
-},
-{
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "帳幕的壇"
+"preferred_label": "供物"
 },
 {
 "id": "realia:HornsOfAltar",
@@ -3716,7 +3702,14 @@
 "preferred_label": "石壇"
 },
 {
-"id": "realia:Altar",
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "帳幕的壇"
+},
+{
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
@@ -3728,6 +3721,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "根基"
+},
+{
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "祭壇"
 }
 ]
 }
@@ -3768,11 +3768,11 @@
 "preferred_label": "犯罪"
 },
 {
-"id": "realia:TempleAltar",
+"id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.44,
 "match_method": "canonical",
-"preferred_label": "祭壇"
+"preferred_label": "石壇"
 },
 {
 "id": "realia:TabernacleAltar",
@@ -3782,11 +3782,11 @@
 "preferred_label": "帳幕的壇"
 },
 {
-"id": "realia:StoneAltar",
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.44,
 "match_method": "canonical",
-"preferred_label": "石壇"
+"preferred_label": "祭壇"
 },
 {
 "id": "realia:Altar",
@@ -3803,6 +3803,13 @@
 "preferred_label": "耶和華"
 },
 {
+"id": "keyterm:Appease",
+"type": "keyterm",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "平息"
+},
+{
 "id": "keyterm:Forgive",
 "type": "keyterm",
 "confidence": 0.3,
@@ -3817,25 +3824,11 @@
 "preferred_label": "完全"
 },
 {
-"id": "keyterm:Appease",
-"type": "keyterm",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "平息"
-},
-{
 "id": "keyterm:Slaughtering",
 "type": "keyterm",
 "confidence": 0.3,
 "match_method": "canonical",
 "preferred_label": "宰殺祭牲"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "綿羊"
 },
 {
 "id": "realia:HornsOfAltar",
@@ -3852,6 +3845,13 @@
 "preferred_label": "根基"
 },
 {
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "綿羊"
+},
+{
 "id": "keyterm:PleasingOdor",
 "type": "keyterm",
 "confidence": 0.2,
@@ -3859,18 +3859,18 @@
 "preferred_label": "馨香之氣"
 },
 {
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.14,
-"match_method": "canonical",
-"preferred_label": "山羊"
-},
-{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.14,
 "match_method": "canonical",
 "preferred_label": "羊群"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.14,
+"match_method": "canonical",
+"preferred_label": "山羊"
 }
 ]
 }
@@ -3904,18 +3904,18 @@
 "preferred_label": "擔當後果"
 },
 {
-"id": "keyterm:Oath",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "誓言"
-},
-{
 "id": "keyterm:Ardour",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "熱情"
+},
+{
+"id": "keyterm:Oath",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "誓言"
 },
 {
 "id": "keyterm:Sin",
@@ -3970,18 +3970,11 @@
 "preferred_label": "誓言"
 },
 {
-"id": "keyterm:Swear",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "起誓"
-},
-{
-"id": "keyterm:Repent",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "悔改"
+"preferred_label": "耶和華"
 },
 {
 "id": "keyterm:Ardour",
@@ -3991,18 +3984,11 @@
 "preferred_label": "熱情"
 },
 {
-"id": "keyterm:BearTheConsequencesOf",
+"id": "keyterm:Repent",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "擔當後果"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "耶和華"
+"preferred_label": "悔改"
 },
 {
 "id": "keyterm:Appease",
@@ -4012,6 +3998,13 @@
 "preferred_label": "平息"
 },
 {
+"id": "keyterm:BearTheConsequencesOf",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "擔當後果"
+},
+{
 "id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.225,
@@ -4019,11 +4012,11 @@
 "preferred_label": "供物"
 },
 {
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.165,
+"id": "keyterm:Swear",
+"type": "keyterm",
+"confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "綿羊"
+"preferred_label": "起誓"
 },
 {
 "id": "fauna:Flock",
@@ -4033,6 +4026,13 @@
 "preferred_label": "羊群"
 },
 {
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "牛"
+},
+{
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.165,
@@ -4040,11 +4040,11 @@
 "preferred_label": "山羊"
 },
 {
-"id": "fauna:Bull",
+"id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.165,
 "match_method": "canonical",
-"preferred_label": "牛"
+"preferred_label": "綿羊"
 }
 ]
 }
@@ -4178,18 +4178,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Repent",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "悔改"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "犯罪"
+},
+{
+"id": "keyterm:Repent",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "悔改"
 }
 ]
 }
@@ -4238,13 +4238,6 @@
 "preferred_label": "平息"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "供物"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.6,
@@ -4252,11 +4245,11 @@
 "preferred_label": "犯罪"
 },
 {
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.54,
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "綿羊"
+"preferred_label": "供物"
 },
 {
 "id": "fauna:Flock",
@@ -4271,6 +4264,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "山羊"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "綿羊"
 }
 ]
 }
@@ -4304,13 +4304,6 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "供物"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.6,
@@ -4318,11 +4311,11 @@
 "preferred_label": "犯罪"
 },
 {
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.54,
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "綿羊"
+"preferred_label": "供物"
 },
 {
 "id": "fauna:Dove",
@@ -4330,6 +4323,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "鴿子"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "綿羊"
 }
 ]
 }
@@ -4356,13 +4356,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "供物"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.8,
@@ -4370,11 +4363,11 @@
 "preferred_label": "犯罪"
 },
 {
-"id": "keyterm:Forgive",
+"id": "keyterm:Offering",
 "type": "keyterm",
-"confidence": 0.3286,
+"confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "赦免"
+"preferred_label": "供物"
 },
 {
 "id": "deity:Lord",
@@ -4391,6 +4384,13 @@
 "preferred_label": "平息"
 },
 {
+"id": "keyterm:Forgive",
+"type": "keyterm",
+"confidence": 0.3286,
+"match_method": "canonical",
+"preferred_label": "赦免"
+},
+{
 "id": "fauna:Dove",
 "type": "fauna",
 "confidence": 0.2971,
@@ -4398,11 +4398,11 @@
 "preferred_label": "鴿子"
 },
 {
-"id": "realia:TempleAltar",
+"id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.2686,
 "match_method": "canonical",
-"preferred_label": "祭壇"
+"preferred_label": "石壇"
 },
 {
 "id": "realia:TabernacleAltar",
@@ -4412,11 +4412,11 @@
 "preferred_label": "帳幕的壇"
 },
 {
-"id": "realia:StoneAltar",
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.2686,
 "match_method": "canonical",
-"preferred_label": "石壇"
+"preferred_label": "祭壇"
 },
 {
 "id": "realia:Altar",
@@ -4433,32 +4433,11 @@
 "preferred_label": "作為紀念的供物"
 },
 {
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.1543,
-"match_method": "canonical",
-"preferred_label": "橄欖油"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.1543,
-"match_method": "canonical",
-"preferred_label": "綿羊"
-},
-{
 "id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.1543,
 "match_method": "canonical",
 "preferred_label": "膏油"
-},
-{
-"id": "flora:Frankincense",
-"type": "flora",
-"confidence": 0.1543,
-"match_method": "canonical",
-"preferred_label": "乳香"
 },
 {
 "id": "realia:Ephah",
@@ -4468,11 +4447,32 @@
 "preferred_label": "伊法"
 },
 {
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.1543,
+"match_method": "canonical",
+"preferred_label": "橄欖油"
+},
+{
+"id": "flora:Frankincense",
+"type": "flora",
+"confidence": 0.1543,
+"match_method": "canonical",
+"preferred_label": "乳香"
+},
+{
 "id": "realia:Foundation",
 "type": "realia",
 "confidence": 0.1543,
 "match_method": "canonical",
 "preferred_label": "根基"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.1543,
+"match_method": "canonical",
+"preferred_label": "綿羊"
 }
 ]
 }
@@ -4506,13 +4506,6 @@
 "preferred_label": "鴿子"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "供物"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.6,
@@ -4520,11 +4513,11 @@
 "preferred_label": "犯罪"
 },
 {
-"id": "flora:Frankincense",
-"type": "flora",
-"confidence": 0.54,
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "乳香"
+"preferred_label": "供物"
 },
 {
 "id": "realia:AnointingOil",
@@ -4534,6 +4527,13 @@
 "preferred_label": "膏油"
 },
 {
+"id": "realia:Ephah",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "伊法"
+},
+{
 "id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.54,
@@ -4541,11 +4541,11 @@
 "preferred_label": "橄欖油"
 },
 {
-"id": "realia:Ephah",
-"type": "realia",
+"id": "flora:Frankincense",
+"type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "伊法"
+"preferred_label": "乳香"
 }
 ]
 }
@@ -4594,11 +4594,11 @@
 ],
 "acai": [
 {
-"id": "keyterm:Offering",
+"id": "keyterm:Forgive",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "供物"
+"preferred_label": "赦免"
 },
 {
 "id": "keyterm:Sin",
@@ -4615,11 +4615,11 @@
 "preferred_label": "平息"
 },
 {
-"id": "keyterm:Forgive",
+"id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "赦免"
+"preferred_label": "供物"
 }
 ]
 }
@@ -4674,6 +4674,13 @@
 "preferred_label": "綿羊"
 },
 {
+"id": "keyterm:Appease",
+"type": "keyterm",
+"confidence": 0.3538,
+"match_method": "canonical",
+"preferred_label": "平息"
+},
+{
 "id": "keyterm:Forgive",
 "type": "keyterm",
 "confidence": 0.3538,
@@ -4686,13 +4693,6 @@
 "confidence": 0.3538,
 "match_method": "canonical",
 "preferred_label": "完全"
-},
-{
-"id": "keyterm:Appease",
-"type": "keyterm",
-"confidence": 0.3538,
-"match_method": "canonical",
-"preferred_label": "平息"
 },
 {
 "id": "fauna:Flock",
@@ -4716,13 +4716,6 @@
 "preferred_label": "行事不忠"
 },
 {
-"id": "keyterm:Swear",
-"type": "keyterm",
-"confidence": 0.2692,
-"match_method": "canonical",
-"preferred_label": "起誓"
-},
-{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.2692,
@@ -4735,6 +4728,13 @@
 "confidence": 0.2692,
 "match_method": "canonical",
 "preferred_label": "聖潔"
+},
+{
+"id": "keyterm:Swear",
+"type": "keyterm",
+"confidence": 0.2692,
+"match_method": "canonical",
+"preferred_label": "起誓"
 },
 {
 "id": "keyterm:BearTheConsequencesOf",
@@ -4803,6 +4803,13 @@
 "preferred_label": "耶和華"
 },
 {
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "犯罪"
+},
+{
 "id": "keyterm:Complete",
 "type": "keyterm",
 "confidence": 0.6,
@@ -4824,25 +4831,11 @@
 "preferred_label": "聖潔"
 },
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "犯罪"
-},
-{
 "id": "realia:Shekel",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "舍客勒"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "綿羊"
 },
 {
 "id": "fauna:Flock",
@@ -4852,6 +4845,13 @@
 "preferred_label": "羊群"
 },
 {
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "金錢"
+},
+{
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.54,
@@ -4859,11 +4859,11 @@
 "preferred_label": "山羊"
 },
 {
-"id": "realia:Money",
-"type": "realia",
+"id": "fauna:Lamb",
+"type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "金錢"
+"preferred_label": "綿羊"
 }
 ]
 }
@@ -4890,20 +4890,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Forgive",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "赦免"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "供物"
-},
-{
 "id": "keyterm:Appease",
 "type": "keyterm",
 "confidence": 0.6,
@@ -4911,11 +4897,25 @@
 "preferred_label": "平息"
 },
 {
+"id": "keyterm:Forgive",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "赦免"
+},
+{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "犯罪"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "供物"
 },
 {
 "id": "keyterm:Holy",
@@ -4984,13 +4984,6 @@
 "preferred_label": "熱情"
 },
 {
-"id": "keyterm:Forgive",
-"type": "keyterm",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "赦免"
-},
-{
 "id": "keyterm:Appease",
 "type": "keyterm",
 "confidence": 0.3,
@@ -4998,11 +4991,11 @@
 "preferred_label": "平息"
 },
 {
-"id": "keyterm:Complete",
+"id": "keyterm:Forgive",
 "type": "keyterm",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "完全"
+"preferred_label": "赦免"
 },
 {
 "id": "keyterm:Sin",
@@ -5012,11 +5005,11 @@
 "preferred_label": "犯罪"
 },
 {
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.24,
+"id": "keyterm:Complete",
+"type": "keyterm",
+"confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "綿羊"
+"preferred_label": "完全"
 },
 {
 "id": "fauna:Flock",
@@ -5031,6 +5024,13 @@
 "confidence": 0.24,
 "match_method": "canonical",
 "preferred_label": "山羊"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "綿羊"
 }
 ]
 }
@@ -5064,18 +5064,18 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "keyterm:Unfaithful",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "行事不忠"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "犯罪"
+},
+{
+"id": "keyterm:Unfaithful",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "行事不忠"
 }
 ]
 }
@@ -5155,18 +5155,18 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "keyterm:Appease",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "平息"
-},
-{
 "id": "keyterm:Forgive",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "赦免"
+},
+{
+"id": "keyterm:Appease",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "平息"
 }
 ]
 }
@@ -5242,13 +5242,6 @@
 "preferred_label": "摩西"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.3869,
-"match_method": "canonical",
-"preferred_label": "以色列"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.3869,
@@ -5256,18 +5249,11 @@
 "preferred_label": "犯罪"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.3564,
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.3869,
 "match_method": "canonical",
-"preferred_label": "祭壇"
-},
-{
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.3564,
-"match_method": "canonical",
-"preferred_label": "祭壇"
+"preferred_label": "以色列"
 },
 {
 "id": "realia:TabernacleAltar",
@@ -5277,11 +5263,25 @@
 "preferred_label": "帳幕的壇"
 },
 {
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.3564,
+"match_method": "canonical",
+"preferred_label": "祭壇"
+},
+{
 "id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.3564,
 "match_method": "canonical",
 "preferred_label": "石壇"
+},
+{
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.3564,
+"match_method": "canonical",
+"preferred_label": "祭壇"
 },
 {
 "id": "keyterm:Praise",
@@ -5291,18 +5291,18 @@
 "preferred_label": "稱謝"
 },
 {
-"id": "keyterm:Smear",
-"type": "keyterm",
-"confidence": 0.2721,
-"match_method": "canonical",
-"preferred_label": "塗抹"
-},
-{
 "id": "keyterm:Defilement",
 "type": "keyterm",
 "confidence": 0.2721,
 "match_method": "canonical",
 "preferred_label": "玷污（行為）"
+},
+{
+"id": "keyterm:Smear",
+"type": "keyterm",
+"confidence": 0.2721,
+"match_method": "canonical",
+"preferred_label": "塗抹"
 },
 {
 "id": "keyterm:Decree",
@@ -5326,20 +5326,6 @@
 "preferred_label": "橄欖油"
 },
 {
-"id": "keyterm:PleasingOdor",
-"type": "keyterm",
-"confidence": 0.2148,
-"match_method": "canonical",
-"preferred_label": "馨香之氣"
-},
-{
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.2148,
-"match_method": "canonical",
-"preferred_label": "潔淨"
-},
-{
 "id": "keyterm:Priesthood",
 "type": "keyterm",
 "confidence": 0.2148,
@@ -5352,6 +5338,20 @@
 "confidence": 0.2148,
 "match_method": "canonical",
 "preferred_label": "平息"
+},
+{
+"id": "keyterm:PleasingOdor",
+"type": "keyterm",
+"confidence": 0.2148,
+"match_method": "canonical",
+"preferred_label": "馨香之氣"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.2148,
+"match_method": "canonical",
+"preferred_label": "潔淨"
 },
 {
 "id": "realia:TentOfMeeting",
@@ -5375,20 +5375,6 @@
 "preferred_label": "鐵鏊"
 },
 {
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.1574,
-"match_method": "canonical",
-"preferred_label": "熱情"
-},
-{
-"id": "place:SinaiWilderness",
-"type": "place",
-"confidence": 0.1574,
-"match_method": "canonical",
-"preferred_label": "西奈的曠野"
-},
-{
 "id": "keyterm:Vow",
 "type": "keyterm",
 "confidence": 0.1574,
@@ -5396,11 +5382,25 @@
 "preferred_label": "許願"
 },
 {
+"id": "keyterm:MemorialOrTokenPortion",
+"type": "keyterm",
+"confidence": 0.1574,
+"match_method": "canonical",
+"preferred_label": "作為紀念的供物"
+},
+{
 "id": "keyterm:Anointed",
 "type": "keyterm",
 "confidence": 0.1574,
 "match_method": "canonical",
 "preferred_label": "受膏"
+},
+{
+"id": "place:HolyPlace",
+"type": "place",
+"confidence": 0.1574,
+"match_method": "canonical",
+"preferred_label": "聖所（會幕）"
 }
 ]
 }
@@ -5434,18 +5434,18 @@
 "preferred_label": "供物"
 },
 {
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "石壇"
+},
+{
 "id": "realia:Breeches",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "褲子"
-},
-{
-"id": "realia:Linen",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "細麻布"
 },
 {
 "id": "realia:TabernacleAltar",
@@ -5462,18 +5462,18 @@
 "preferred_label": "祭壇"
 },
 {
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "石壇"
-},
-{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "祭壇"
+},
+{
+"id": "realia:Linen",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "細麻布"
 }
 ]
 }
@@ -5531,11 +5531,11 @@
 "resource": [],
 "acai": [
 {
-"id": "realia:TempleAltar",
+"id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.59,
 "match_method": "canonical",
-"preferred_label": "祭壇"
+"preferred_label": "石壇"
 },
 {
 "id": "realia:TabernacleAltar",
@@ -5545,11 +5545,11 @@
 "preferred_label": "帳幕的壇"
 },
 {
-"id": "realia:StoneAltar",
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.59,
 "match_method": "canonical",
-"preferred_label": "石壇"
+"preferred_label": "祭壇"
 },
 {
 "id": "realia:Altar",
@@ -5590,13 +5590,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "聖潔"
-},
-{
 "id": "person:Aaron",
 "type": "person",
 "confidence": 0.6,
@@ -5604,11 +5597,11 @@
 "preferred_label": "亞倫"
 },
 {
-"id": "realia:TentOfMeeting",
-"type": "realia",
-"confidence": 0.54,
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "會幕"
+"preferred_label": "聖潔"
 },
 {
 "id": "realia:UnleavenedBread",
@@ -5616,6 +5609,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "無酵餅"
+},
+{
+"id": "realia:TentOfMeeting",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "會幕"
 }
 ]
 }
@@ -5657,13 +5657,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "聖潔"
-},
-{
 "id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.6,
@@ -5676,6 +5669,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "犯罪"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "聖潔"
 }
 ]
 }
@@ -5710,20 +5710,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Decree",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "律例"
-},
-{
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "亞倫"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -5731,11 +5717,25 @@
 "preferred_label": "耶和華"
 },
 {
+"id": "keyterm:Decree",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "律例"
+},
+{
 "id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "供物"
+},
+{
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "亞倫"
 },
 {
 "id": "keyterm:Holy",
@@ -5790,11 +5790,18 @@
 "preferred_label": "律例"
 },
 {
-"id": "person:Aaron",
+"id": "keyterm:PleasingOdor",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "馨香之氣"
+},
+{
+"id": "person:Moses",
 "type": "person",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "亞倫"
+"preferred_label": "摩西"
 },
 {
 "id": "keyterm:Anointed",
@@ -5811,18 +5818,11 @@
 "preferred_label": "塗抹"
 },
 {
-"id": "person:Moses",
+"id": "person:Aaron",
 "type": "person",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "摩西"
-},
-{
-"id": "keyterm:PleasingOdor",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "馨香之氣"
+"preferred_label": "亞倫"
 },
 {
 "id": "realia:Griddle",
@@ -5976,13 +5976,6 @@
 "resource": [],
 "acai": [
 {
-"id": "place:HolyPlace",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "聖所（會幕）"
-},
-{
 "id": "keyterm:Appease",
 "type": "keyterm",
 "confidence": 0.6,
@@ -5990,18 +5983,25 @@
 "preferred_label": "平息"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "供物"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "犯罪"
+},
+{
+"id": "place:HolyPlace",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "聖所（會幕）"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "供物"
 },
 {
 "id": "keyterm:Holy",
@@ -6107,13 +6107,6 @@
 "preferred_label": "塗抹"
 },
 {
-"id": "realia:UnleavenedBread",
-"type": "realia",
-"confidence": 0.2025,
-"match_method": "canonical",
-"preferred_label": "無酵餅"
-},
-{
 "id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.2025,
@@ -6126,6 +6119,13 @@
 "confidence": 0.2025,
 "match_method": "canonical",
 "preferred_label": "橄欖油"
+},
+{
+"id": "realia:UnleavenedBread",
+"type": "realia",
+"confidence": 0.2025,
+"match_method": "canonical",
+"preferred_label": "無酵餅"
 }
 ]
 }
@@ -6159,18 +6159,18 @@
 "preferred_label": "宰殺祭牲"
 },
 {
-"id": "keyterm:Praise",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "稱謝"
-},
-{
 "id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "供物"
+},
+{
+"id": "keyterm:Praise",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "稱謝"
 }
 ]
 }
@@ -6256,20 +6256,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:BearTheConsequencesOf",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "擔當後果"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "供物"
-},
-{
 "id": "keyterm:Slaughtering",
 "type": "keyterm",
 "confidence": 0.6,
@@ -6277,11 +6263,25 @@
 "preferred_label": "宰殺祭牲"
 },
 {
+"id": "keyterm:BearTheConsequencesOf",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "擔當後果"
+},
+{
 "id": "keyterm:Ardour",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "熱情"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "供物"
 }
 ]
 }
@@ -6374,18 +6374,18 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "keyterm:Slaughtering",
-"type": "keyterm",
-"confidence": 0.65,
-"match_method": "canonical",
-"preferred_label": "宰殺祭牲"
-},
-{
 "id": "keyterm:Defilement",
 "type": "keyterm",
 "confidence": 0.65,
 "match_method": "canonical",
 "preferred_label": "玷污（行為）"
+},
+{
+"id": "keyterm:Slaughtering",
+"type": "keyterm",
+"confidence": 0.65,
+"match_method": "canonical",
+"preferred_label": "宰殺祭牲"
 },
 {
 "id": "keyterm:Offering",
@@ -6433,13 +6433,6 @@
 "preferred_label": "牛"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "供物"
-},
-{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.225,
@@ -6454,11 +6447,11 @@
 "preferred_label": "以色列"
 },
 {
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.165,
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "綿羊"
+"preferred_label": "供物"
 },
 {
 "id": "fauna:Flock",
@@ -6473,6 +6466,13 @@
 "confidence": 0.165,
 "match_method": "canonical",
 "preferred_label": "山羊"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "綿羊"
 }
 ]
 }
@@ -6552,6 +6552,13 @@
 "preferred_label": "律例"
 },
 {
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "以色列"
+},
+{
 "id": "person:Aaron",
 "type": "person",
 "confidence": 0.6,
@@ -6564,13 +6571,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "供物"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "以色列"
 },
 {
 "id": "keyterm:Slaughtering",
@@ -6604,13 +6604,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Smear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "塗抹"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -6623,6 +6616,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "以色列"
+},
+{
+"id": "keyterm:Smear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "塗抹"
 }
 ]
 }
@@ -6691,20 +6691,6 @@
 "preferred_label": "祭司的職分"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.39,
-"match_method": "canonical",
-"preferred_label": "祭壇"
-},
-{
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.39,
-"match_method": "canonical",
-"preferred_label": "祭壇"
-},
-{
 "id": "realia:TabernacleAltar",
 "type": "realia",
 "confidence": 0.39,
@@ -6712,11 +6698,25 @@
 "preferred_label": "帳幕的壇"
 },
 {
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.39,
+"match_method": "canonical",
+"preferred_label": "祭壇"
+},
+{
 "id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.39,
 "match_method": "canonical",
 "preferred_label": "石壇"
+},
+{
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.39,
+"match_method": "canonical",
+"preferred_label": "祭壇"
 },
 {
 "id": "fauna:Lamb",
@@ -6733,18 +6733,18 @@
 "preferred_label": "膏油"
 },
 {
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.3525,
-"match_method": "canonical",
-"preferred_label": "橄欖油"
-},
-{
 "id": "realia:TentOfMeeting",
 "type": "realia",
 "confidence": 0.3525,
 "match_method": "canonical",
 "preferred_label": "會幕"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.3525,
+"match_method": "canonical",
+"preferred_label": "橄欖油"
 },
 {
 "id": "keyterm:Smear",
@@ -6768,11 +6768,11 @@
 "preferred_label": "牛"
 },
 {
-"id": "keyterm:PleasingOdor",
+"id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "馨香之氣"
+"preferred_label": "犯罪"
 },
 {
 "id": "keyterm:Appease",
@@ -6782,11 +6782,11 @@
 "preferred_label": "平息"
 },
 {
-"id": "keyterm:Sin",
+"id": "keyterm:PleasingOdor",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "犯罪"
+"preferred_label": "馨香之氣"
 },
 {
 "id": "realia:Tunic",
@@ -6824,11 +6824,11 @@
 "preferred_label": "潔淨"
 },
 {
-"id": "realia:Plate",
+"id": "realia:Breast-piece",
 "type": "realia",
 "confidence": 0.1081,
 "match_method": "canonical",
-"preferred_label": "金牌"
+"preferred_label": "胸牌"
 },
 {
 "id": "realia:Ephod",
@@ -6838,18 +6838,11 @@
 "preferred_label": "以弗得"
 },
 {
-"id": "realia:Breast-piece",
+"id": "realia:Plate",
 "type": "realia",
 "confidence": 0.1081,
 "match_method": "canonical",
-"preferred_label": "胸牌"
-},
-{
-"id": "realia:Robe",
-"type": "realia",
-"confidence": 0.1025,
-"match_method": "canonical",
-"preferred_label": "外袍"
+"preferred_label": "金牌"
 },
 {
 "id": "realia:Cake",
@@ -6859,6 +6852,13 @@
 "preferred_label": "餅"
 },
 {
+"id": "realia:Robe",
+"type": "realia",
+"confidence": 0.1025,
+"match_method": "canonical",
+"preferred_label": "外袍"
+},
+{
 "id": "realia:HornsOfAltar",
 "type": "realia",
 "confidence": 0.1025,
@@ -6866,18 +6866,18 @@
 "preferred_label": "壇角"
 },
 {
-"id": "realia:Foundation",
-"type": "realia",
-"confidence": 0.1025,
-"match_method": "canonical",
-"preferred_label": "根基"
-},
-{
 "id": "realia:Crown",
 "type": "realia",
 "confidence": 0.1025,
 "match_method": "canonical",
 "preferred_label": "王冠"
+},
+{
+"id": "realia:Foundation",
+"type": "realia",
+"confidence": 0.1025,
+"match_method": "canonical",
+"preferred_label": "根基"
 }
 ]
 }
@@ -6904,11 +6904,11 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Aaron",
-"type": "person",
+"id": "keyterm:Sin",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "亞倫"
+"preferred_label": "犯罪"
 },
 {
 "id": "keyterm:Offering",
@@ -6918,11 +6918,32 @@
 "preferred_label": "供物"
 },
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
+"id": "person:Aaron",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "犯罪"
+"preferred_label": "亞倫"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "膏油"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "橄欖油"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "牛"
 },
 {
 "id": "realia:UnleavenedBread",
@@ -6937,27 +6958,6 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "綿羊"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "膏油"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "牛"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "橄欖油"
 },
 {
 "id": "realia:Basket",
@@ -7074,18 +7074,18 @@
 "resource": [],
 "acai": [
 {
-"id": "realia:Ephod",
-"type": "realia",
-"confidence": 0.74,
-"match_method": "canonical",
-"preferred_label": "以弗得"
-},
-{
 "id": "realia:Tunic",
 "type": "realia",
 "confidence": 0.74,
 "match_method": "canonical",
 "preferred_label": "內袍"
+},
+{
+"id": "realia:Ephod",
+"type": "realia",
+"confidence": 0.74,
+"match_method": "canonical",
+"preferred_label": "以弗得"
 },
 {
 "id": "realia:Robe",
@@ -7282,13 +7282,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "亞倫"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -7303,11 +7296,18 @@
 "preferred_label": "摩西"
 },
 {
-"id": "realia:Sash",
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "亞倫"
+},
+{
+"id": "realia:Tunic",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "腰帶"
+"preferred_label": "內袍"
 },
 {
 "id": "realia:Turban",
@@ -7317,11 +7317,11 @@
 "preferred_label": "冠冕"
 },
 {
-"id": "realia:Tunic",
+"id": "realia:Sash",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "內袍"
+"preferred_label": "腰帶"
 }
 ]
 }
@@ -7348,11 +7348,11 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Offering",
+"id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "供物"
+"preferred_label": "犯罪"
 },
 {
 "id": "person:Aaron",
@@ -7362,11 +7362,11 @@
 "preferred_label": "亞倫"
 },
 {
-"id": "keyterm:Sin",
+"id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "犯罪"
+"preferred_label": "供物"
 },
 {
 "id": "fauna:Bull",
@@ -7428,18 +7428,11 @@
 "preferred_label": "聖潔"
 },
 {
-"id": "realia:TempleAltar",
+"id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "祭壇"
-},
-{
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "帳幕的壇"
+"preferred_label": "石壇"
 },
 {
 "id": "realia:HornsOfAltar",
@@ -7449,14 +7442,14 @@
 "preferred_label": "壇角"
 },
 {
-"id": "realia:StoneAltar",
+"id": "realia:TabernacleAltar",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "石壇"
+"preferred_label": "帳幕的壇"
 },
 {
-"id": "realia:Altar",
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
@@ -7468,6 +7461,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "根基"
+},
+{
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "祭壇"
 }
 ]
 }
@@ -7502,18 +7502,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "供物"
-},
-{
 "id": "person:Aaron",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "亞倫"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "供物"
 },
 {
 "id": "fauna:Lamb",
@@ -7637,6 +7637,13 @@
 "preferred_label": "耶和華"
 },
 {
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "摩西"
+},
+{
 "id": "keyterm:Priesthood",
 "type": "keyterm",
 "confidence": 0.6,
@@ -7649,13 +7656,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "供物"
-},
-{
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "摩西"
 },
 {
 "id": "fauna:Lamb",
@@ -7697,18 +7697,18 @@
 ],
 "acai": [
 {
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "亞倫"
-},
-{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "摩西"
+},
+{
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "亞倫"
 },
 {
 "id": "keyterm:Holy",
@@ -7718,18 +7718,11 @@
 "preferred_label": "聖潔"
 },
 {
-"id": "realia:TempleAltar",
+"id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "祭壇"
-},
-{
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "帳幕的壇"
+"preferred_label": "膏油"
 },
 {
 "id": "realia:StoneAltar",
@@ -7739,25 +7732,32 @@
 "preferred_label": "石壇"
 },
 {
-"id": "realia:Altar",
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "橄欖油"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "帳幕的壇"
+},
+{
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "祭壇"
 },
 {
-"id": "realia:AnointingOil",
+"id": "realia:Altar",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "膏油"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "橄欖油"
+"preferred_label": "祭壇"
 }
 ]
 }
@@ -7784,11 +7784,11 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Aaron",
+"id": "person:Moses",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "亞倫"
+"preferred_label": "摩西"
 },
 {
 "id": "keyterm:Priesthood",
@@ -7798,11 +7798,11 @@
 "preferred_label": "祭司的職分"
 },
 {
-"id": "person:Moses",
+"id": "person:Aaron",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "摩西"
+"preferred_label": "亞倫"
 },
 {
 "id": "realia:TentOfMeeting",
@@ -7927,18 +7927,18 @@
 ],
 "acai": [
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "摩西"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "以色列"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "摩西"
 },
 {
 "id": "person:Aaron",
@@ -7979,18 +7979,18 @@
 "preferred_label": "供物"
 },
 {
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.64,
-"match_method": "canonical",
-"preferred_label": "綿羊"
-},
-{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.64,
 "match_method": "canonical",
 "preferred_label": "牛"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.64,
+"match_method": "canonical",
+"preferred_label": "綿羊"
 },
 {
 "id": "deity:Lord",
@@ -8000,18 +8000,18 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "keyterm:Complete",
-"type": "keyterm",
-"confidence": 0.5,
-"match_method": "canonical",
-"preferred_label": "完全"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.5,
 "match_method": "canonical",
 "preferred_label": "犯罪"
+},
+{
+"id": "keyterm:Complete",
+"type": "keyterm",
+"confidence": 0.5,
+"match_method": "canonical",
+"preferred_label": "完全"
 },
 {
 "id": "realia:MoltenImage",
@@ -8021,13 +8021,6 @@
 "preferred_label": "鑄成的像"
 },
 {
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "亞倫"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.3,
@@ -8035,11 +8028,11 @@
 "preferred_label": "以色列"
 },
 {
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.24,
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "羊群"
+"preferred_label": "亞倫"
 },
 {
 "id": "realia:AnointingOil",
@@ -8049,18 +8042,25 @@
 "preferred_label": "膏油"
 },
 {
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "山羊"
-},
-{
 "id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.24,
 "match_method": "canonical",
 "preferred_label": "橄欖油"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "羊群"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "山羊"
 }
 ]
 }
@@ -8087,13 +8087,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "榮耀（神的同在）"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -8106,6 +8099,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "摩西"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "榮耀（神的同在）"
 }
 ]
 }
@@ -8132,13 +8132,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "亞倫"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -8151,13 +8144,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "平息"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "供物"
 },
 {
 "id": "person:Moses",
@@ -8174,11 +8160,25 @@
 "preferred_label": "犯罪"
 },
 {
-"id": "realia:TempleAltar",
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "供物"
+},
+{
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "亞倫"
+},
+{
+"id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "祭壇"
+"preferred_label": "石壇"
 },
 {
 "id": "realia:TabernacleAltar",
@@ -8188,11 +8188,11 @@
 "preferred_label": "帳幕的壇"
 },
 {
-"id": "realia:StoneAltar",
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "石壇"
+"preferred_label": "祭壇"
 },
 {
 "id": "realia:Altar",
@@ -8241,20 +8241,6 @@
 "preferred_label": "亞倫"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "祭壇"
-},
-{
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "帳幕的壇"
-},
-{
 "id": "realia:HornsOfAltar",
 "type": "realia",
 "confidence": 0.54,
@@ -8269,7 +8255,14 @@
 "preferred_label": "石壇"
 },
 {
-"id": "realia:Altar",
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "帳幕的壇"
+},
+{
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
@@ -8281,6 +8274,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "根基"
+},
+{
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "祭壇"
 }
 ]
 }
@@ -8314,11 +8314,11 @@
 "preferred_label": "供物"
 },
 {
-"id": "realia:TempleAltar",
+"id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "祭壇"
+"preferred_label": "石壇"
 },
 {
 "id": "realia:TabernacleAltar",
@@ -8328,11 +8328,11 @@
 "preferred_label": "帳幕的壇"
 },
 {
-"id": "realia:StoneAltar",
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "石壇"
+"preferred_label": "祭壇"
 },
 {
 "id": "realia:Altar",
@@ -8432,11 +8432,11 @@
 "preferred_label": "供物"
 },
 {
-"id": "realia:TempleAltar",
+"id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "祭壇"
+"preferred_label": "石壇"
 },
 {
 "id": "realia:TabernacleAltar",
@@ -8446,11 +8446,11 @@
 "preferred_label": "帳幕的壇"
 },
 {
-"id": "realia:StoneAltar",
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "石壇"
+"preferred_label": "祭壇"
 },
 {
 "id": "realia:Altar",
@@ -8484,13 +8484,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Nadab",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "拿答"
-},
-{
 "id": "person:Abihu",
 "type": "person",
 "confidence": 0.8,
@@ -8498,11 +8491,11 @@
 "preferred_label": "亞比戶"
 },
 {
-"id": "person:Aaron",
+"id": "person:Nadab",
 "type": "person",
-"confidence": 0.6,
+"confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "亞倫"
+"preferred_label": "拿答"
 },
 {
 "id": "deity:Lord",
@@ -8510,6 +8503,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "耶和華"
+},
+{
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "亞倫"
 },
 {
 "id": "realia:Shovel",
@@ -8592,18 +8592,18 @@
 "preferred_label": "以他瑪"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.3175,
-"match_method": "canonical",
-"preferred_label": "以色列"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.3175,
 "match_method": "canonical",
 "preferred_label": "犯罪"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.3175,
+"match_method": "canonical",
+"preferred_label": "以色列"
 },
 {
 "id": "person:Eleazar.2",
@@ -8627,11 +8627,25 @@
 "preferred_label": "會幕"
 },
 {
-"id": "person:Nadab",
+"id": "person:Mishael",
 "type": "person",
 "confidence": 0.1825,
 "match_method": "canonical",
-"preferred_label": "拿答"
+"preferred_label": "米沙利"
+},
+{
+"id": "person:Uzziel",
+"type": "person",
+"confidence": 0.1825,
+"match_method": "canonical",
+"preferred_label": "烏薛"
+},
+{
+"id": "person:Elizaphan",
+"type": "person",
+"confidence": 0.1825,
+"match_method": "canonical",
+"preferred_label": "以利撒反"
 },
 {
 "id": "person:Abihu",
@@ -8648,25 +8662,11 @@
 "preferred_label": "俗"
 },
 {
-"id": "person:Elizaphan",
+"id": "person:Nadab",
 "type": "person",
 "confidence": 0.1825,
 "match_method": "canonical",
-"preferred_label": "以利撒反"
-},
-{
-"id": "person:Uzziel",
-"type": "person",
-"confidence": 0.1825,
-"match_method": "canonical",
-"preferred_label": "烏薛"
-},
-{
-"id": "person:Mishael",
-"type": "person",
-"confidence": 0.1825,
-"match_method": "canonical",
-"preferred_label": "米沙利"
+"preferred_label": "拿答"
 },
 {
 "id": "keyterm:BearTheConsequencesOf",
@@ -8676,11 +8676,11 @@
 "preferred_label": "擔當後果"
 },
 {
-"id": "keyterm:Ardour",
+"id": "keyterm:Appease",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "熱情"
+"preferred_label": "平息"
 },
 {
 "id": "keyterm:Defilement",
@@ -8690,25 +8690,25 @@
 "preferred_label": "玷污（行為）"
 },
 {
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "使自己得尊榮"
-},
-{
-"id": "keyterm:Appease",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "平息"
-},
-{
 "id": "keyterm:Slaughtering",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
 "preferred_label": "宰殺祭牲"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "熱情"
+},
+{
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "使自己得尊榮"
 },
 {
 "id": "realia:Wine",
@@ -8718,32 +8718,11 @@
 "preferred_label": "酒"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "祭壇"
-},
-{
 "id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.1125,
 "match_method": "canonical",
 "preferred_label": "膏油"
-},
-{
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "祭壇"
-},
-{
-"id": "realia:Tunic",
-"type": "realia",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "內袍"
 },
 {
 "id": "realia:TabernacleAltar",
@@ -8753,11 +8732,25 @@
 "preferred_label": "帳幕的壇"
 },
 {
-"id": "fauna:Goat",
+"id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.1125,
 "match_method": "canonical",
-"preferred_label": "山羊"
+"preferred_label": "羊群"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "祭壇"
+},
+{
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "石壇"
 },
 {
 "id": "realia:OliveOil",
@@ -8774,6 +8767,20 @@
 "preferred_label": "葡萄樹"
 },
 {
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "山羊"
+},
+{
+"id": "realia:Tunic",
+"type": "realia",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "內袍"
+},
+{
 "id": "realia:UnleavenedBread",
 "type": "realia",
 "confidence": 0.1125,
@@ -8781,25 +8788,18 @@
 "preferred_label": "無酵餅"
 },
 {
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "羊群"
-},
-{
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "石壇"
-},
-{
 "id": "realia:Shovel",
 "type": "realia",
 "confidence": 0.1125,
 "match_method": "canonical",
 "preferred_label": "鏟子"
+},
+{
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "祭壇"
 }
 ]
 }
@@ -8857,13 +8857,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "亞倫"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -8878,18 +8871,25 @@
 "preferred_label": "摩西"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "聖潔"
-},
-{
 "id": "keyterm:BringHonorAndGloryOnOneself",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "使自己得尊榮"
+},
+{
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "亞倫"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "聖潔"
 }
 ]
 }
@@ -8916,6 +8916,13 @@
 "resource": [],
 "acai": [
 {
+"id": "person:Mishael",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "米沙利"
+},
+{
 "id": "person:Uzziel",
 "type": "person",
 "confidence": 0.8,
@@ -8930,18 +8937,11 @@
 "preferred_label": "以利撒反"
 },
 {
-"id": "person:Mishael",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "米沙利"
-},
-{
-"id": "person:Aaron",
-"type": "person",
+"id": "keyterm:Holy",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "亞倫"
+"preferred_label": "聖潔"
 },
 {
 "id": "person:Moses",
@@ -8951,11 +8951,11 @@
 "preferred_label": "摩西"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
+"id": "person:Aaron",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "聖潔"
+"preferred_label": "亞倫"
 }
 ]
 }
@@ -9027,13 +9027,6 @@
 "preferred_label": "以他瑪"
 },
 {
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "亞倫"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -9060,6 +9053,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "以利亞撒"
+},
+{
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "亞倫"
 }
 ]
 }
@@ -9100,18 +9100,18 @@
 "preferred_label": "摩西"
 },
 {
-"id": "realia:TentOfMeeting",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "會幕"
-},
-{
 "id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "膏油"
+},
+{
+"id": "realia:TentOfMeeting",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "會幕"
 },
 {
 "id": "realia:OliveOil",
@@ -9159,6 +9159,13 @@
 "preferred_label": "酒"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "耶和華"
+},
+{
 "id": "keyterm:Defilement",
 "type": "keyterm",
 "confidence": 0.3,
@@ -9178,13 +9185,6 @@
 "confidence": 0.3,
 "match_method": "canonical",
 "preferred_label": "亞倫"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "耶和華"
 },
 {
 "id": "keyterm:Holy",
@@ -9284,20 +9284,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Ithamar",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "以他瑪"
-},
-{
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "亞倫"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -9305,11 +9291,11 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
+"id": "person:Ithamar",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "供物"
+"preferred_label": "以他瑪"
 },
 {
 "id": "person:Moses",
@@ -9319,6 +9305,27 @@
 "preferred_label": "摩西"
 },
 {
+"id": "person:Eleazar.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "以利亞撒"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "供物"
+},
+{
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "亞倫"
+},
+{
 "id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.6,
@@ -9326,11 +9333,18 @@
 "preferred_label": "聖潔"
 },
 {
-"id": "person:Eleazar.2",
-"type": "person",
-"confidence": 0.6,
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "以利亞撒"
+"preferred_label": "石壇"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "帳幕的壇"
 },
 {
 "id": "realia:UnleavenedBread",
@@ -9345,20 +9359,6 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "祭壇"
-},
-{
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "帳幕的壇"
-},
-{
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "石壇"
 },
 {
 "id": "realia:Altar",
@@ -9413,11 +9413,11 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "keyterm:Pure",
+"id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "潔淨"
+"preferred_label": "聖潔"
 },
 {
 "id": "person:Israel",
@@ -9427,18 +9427,18 @@
 "preferred_label": "以色列"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "聖潔"
-},
-{
 "id": "keyterm:Slaughtering",
 "type": "keyterm",
 "confidence": 0.3,
 "match_method": "canonical",
 "preferred_label": "宰殺祭牲"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "潔淨"
 }
 ]
 }
@@ -9465,18 +9465,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.65,
-"match_method": "canonical",
-"preferred_label": "供物"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.65,
 "match_method": "canonical",
 "preferred_label": "犯罪"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.65,
+"match_method": "canonical",
+"preferred_label": "供物"
 },
 {
 "id": "keyterm:BearTheConsequencesOf",
@@ -9486,11 +9486,11 @@
 "preferred_label": "擔當後果"
 },
 {
-"id": "person:Eleazar.2",
-"type": "person",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "以利亞撒"
+"preferred_label": "耶和華"
 },
 {
 "id": "keyterm:Ardour",
@@ -9500,25 +9500,11 @@
 "preferred_label": "熱情"
 },
 {
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "亞倫"
-},
-{
 "id": "person:Ithamar",
 "type": "person",
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "以他瑪"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "耶和華"
 },
 {
 "id": "keyterm:Appease",
@@ -9535,6 +9521,20 @@
 "preferred_label": "摩西"
 },
 {
+"id": "person:Eleazar.2",
+"type": "person",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "以利亞撒"
+},
+{
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "亞倫"
+},
+{
 "id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.375,
@@ -9542,18 +9542,18 @@
 "preferred_label": "聖潔"
 },
 {
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.315,
-"match_method": "canonical",
-"preferred_label": "山羊"
-},
-{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.315,
 "match_method": "canonical",
 "preferred_label": "羊群"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.315,
+"match_method": "canonical",
+"preferred_label": "山羊"
 }
 ]
 }
@@ -9580,25 +9580,11 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "亞倫"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "耶和華"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "供物"
 },
 {
 "id": "person:Moses",
@@ -9613,6 +9599,20 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "犯罪"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "供物"
+},
+{
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "亞倫"
 }
 ]
 }
@@ -9681,18 +9681,18 @@
 "preferred_label": "平息"
 },
 {
-"id": "keyterm:Instruction",
-"type": "keyterm",
-"confidence": 0.3676,
-"match_method": "canonical",
-"preferred_label": "訓誨"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.3676,
 "match_method": "canonical",
 "preferred_label": "犯罪"
+},
+{
+"id": "keyterm:Instruction",
+"type": "keyterm",
+"confidence": 0.3676,
+"match_method": "canonical",
+"preferred_label": "訓誨"
 },
 {
 "id": "keyterm:Kind.2",
@@ -9807,13 +9807,6 @@
 "preferred_label": "牛膝草"
 },
 {
-"id": "flora:Cedar",
-"type": "flora",
-"confidence": 0.301,
-"match_method": "canonical",
-"preferred_label": "香柏樹"
-},
-{
 "id": "realia:PurpleCloth",
 "type": "realia",
 "confidence": 0.301,
@@ -9826,6 +9819,13 @@
 "confidence": 0.301,
 "match_method": "canonical",
 "preferred_label": "會幕"
+},
+{
+"id": "flora:Cedar",
+"type": "flora",
+"confidence": 0.301,
+"match_method": "canonical",
+"preferred_label": "香柏樹"
 },
 {
 "id": "realia:Linen",
@@ -9918,11 +9918,11 @@
 "preferred_label": "以色列"
 },
 {
-"id": "fauna:Hyrax",
+"id": "fauna:Pig",
 "type": "fauna",
 "confidence": 0.1829,
 "match_method": "canonical",
-"preferred_label": "沙番"
+"preferred_label": "豬"
 },
 {
 "id": "fauna:Hare",
@@ -9932,11 +9932,11 @@
 "preferred_label": "兔子"
 },
 {
-"id": "fauna:Pig",
+"id": "fauna:Hyrax",
 "type": "fauna",
 "confidence": 0.1829,
 "match_method": "canonical",
-"preferred_label": "豬"
+"preferred_label": "沙番"
 },
 {
 "id": "fauna:Jackal",
@@ -9984,18 +9984,18 @@
 "preferred_label": "玷污（行為）"
 },
 {
-"id": "fauna:Hare",
-"type": "fauna",
-"confidence": 0.415,
-"match_method": "canonical",
-"preferred_label": "兔子"
-},
-{
 "id": "fauna:Hyrax",
 "type": "fauna",
 "confidence": 0.415,
 "match_method": "canonical",
 "preferred_label": "沙番"
+},
+{
+"id": "fauna:Hare",
+"type": "fauna",
+"confidence": 0.415,
+"match_method": "canonical",
+"preferred_label": "兔子"
 }
 ]
 }
@@ -10089,13 +10089,6 @@
 "preferred_label": "禿鷹"
 },
 {
-"id": "fauna:Nightjar",
-"type": "fauna",
-"confidence": 0.1829,
-"match_method": "canonical",
-"preferred_label": "夜鷹"
-},
-{
 "id": "fauna:Osprey",
 "type": "fauna",
 "confidence": 0.1829,
@@ -10103,53 +10096,25 @@
 "preferred_label": "禿鵰"
 },
 {
-"id": "fauna:Jackdaw",
-"type": "fauna",
-"confidence": 0.1829,
-"match_method": "canonical",
-"preferred_label": "寒鴉"
-},
-{
-"id": "fauna:Bat",
-"type": "fauna",
-"confidence": 0.1829,
-"match_method": "canonical",
-"preferred_label": "蝙蝠"
-},
-{
-"id": "fauna:TawnyOwl",
-"type": "fauna",
-"confidence": 0.1829,
-"match_method": "canonical",
-"preferred_label": "灰林鴞"
-},
-{
-"id": "fauna:BlackKite",
-"type": "fauna",
-"confidence": 0.1829,
-"match_method": "canonical",
-"preferred_label": "黑鳶"
-},
-{
-"id": "fauna:Owl.2",
-"type": "fauna",
-"confidence": 0.1829,
-"match_method": "canonical",
-"preferred_label": "鴞鳥"
-},
-{
-"id": "fauna:Hoopoe",
-"type": "fauna",
-"confidence": 0.1829,
-"match_method": "canonical",
-"preferred_label": "戴鵀"
-},
-{
 "id": "fauna:Seagull",
 "type": "fauna",
 "confidence": 0.1829,
 "match_method": "canonical",
 "preferred_label": "海鷗"
+},
+{
+"id": "fauna:Nightjar",
+"type": "fauna",
+"confidence": 0.1829,
+"match_method": "canonical",
+"preferred_label": "夜鷹"
+},
+{
+"id": "fauna:Cormorant",
+"type": "fauna",
+"confidence": 0.1829,
+"match_method": "canonical",
+"preferred_label": "鸕鶿"
 },
 {
 "id": "fauna:BarnOwl",
@@ -10173,11 +10138,39 @@
 "preferred_label": "鷺鷥"
 },
 {
-"id": "fauna:Cormorant",
+"id": "fauna:TawnyOwl",
 "type": "fauna",
 "confidence": 0.1829,
 "match_method": "canonical",
-"preferred_label": "鸕鶿"
+"preferred_label": "灰林鴞"
+},
+{
+"id": "fauna:Bat",
+"type": "fauna",
+"confidence": 0.1829,
+"match_method": "canonical",
+"preferred_label": "蝙蝠"
+},
+{
+"id": "fauna:Owl.2",
+"type": "fauna",
+"confidence": 0.1829,
+"match_method": "canonical",
+"preferred_label": "鴞鳥"
+},
+{
+"id": "fauna:BlackKite",
+"type": "fauna",
+"confidence": 0.1829,
+"match_method": "canonical",
+"preferred_label": "黑鳶"
+},
+{
+"id": "fauna:Jackdaw",
+"type": "fauna",
+"confidence": 0.1829,
+"match_method": "canonical",
+"preferred_label": "寒鴉"
 },
 {
 "id": "fauna:Owl",
@@ -10187,11 +10180,11 @@
 "preferred_label": "貓頭鷹"
 },
 {
-"id": "fauna:Ostrich",
+"id": "fauna:Hoopoe",
 "type": "fauna",
-"confidence": 0.1543,
+"confidence": 0.1829,
 "match_method": "canonical",
-"preferred_label": "鴕鳥"
+"preferred_label": "戴鵀"
 },
 {
 "id": "fauna:Crow",
@@ -10199,6 +10192,13 @@
 "confidence": 0.1543,
 "match_method": "canonical",
 "preferred_label": "烏鴉"
+},
+{
+"id": "fauna:Ostrich",
+"type": "fauna",
+"confidence": 0.1543,
+"match_method": "canonical",
+"preferred_label": "鴕鳥"
 }
 ]
 }
@@ -10322,11 +10322,11 @@
 "preferred_label": "巨蜥"
 },
 {
-"id": "fauna:Gecko",
+"id": "fauna:Mongoose",
 "type": "fauna",
 "confidence": 0.3067,
 "match_method": "canonical",
-"preferred_label": "壁虎"
+"preferred_label": "獴"
 },
 {
 "id": "fauna:Skink",
@@ -10343,11 +10343,11 @@
 "preferred_label": "老鼠"
 },
 {
-"id": "fauna:Mongoose",
+"id": "fauna:Gecko",
 "type": "fauna",
 "confidence": 0.3067,
 "match_method": "canonical",
-"preferred_label": "獴"
+"preferred_label": "壁虎"
 },
 {
 "id": "keyterm:Kind.2",
@@ -10395,18 +10395,18 @@
 "preferred_label": "潔淨"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "大麥"
-},
-{
 "id": "flora:Coriander",
 "type": "flora",
 "confidence": 0.24,
 "match_method": "canonical",
 "preferred_label": "芫荽"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "大麥"
 },
 {
 "id": "realia:Bag",
@@ -10513,18 +10513,18 @@
 "preferred_label": "芫荽"
 },
 {
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "潔淨"
-},
-{
 "id": "keyterm:Defilement",
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "玷污（行為）"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "潔淨"
 }
 ]
 }
@@ -10604,18 +10604,18 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "玷污（行為）"
-},
-{
 "id": "place:Egypt",
 "type": "place",
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "埃及"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "玷污（行為）"
 }
 ]
 }
@@ -10642,13 +10642,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "聖潔"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -10661,6 +10654,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "埃及"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "聖潔"
 }
 ]
 }
@@ -10709,13 +10709,6 @@
 "preferred_label": "潔淨"
 },
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.3125,
-"match_method": "canonical",
-"preferred_label": "玷污（行為）"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.3125,
@@ -10723,11 +10716,11 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "keyterm:Offering",
+"id": "keyterm:Defilement",
 "type": "keyterm",
 "confidence": 0.3125,
 "match_method": "canonical",
-"preferred_label": "供物"
+"preferred_label": "玷污（行為）"
 },
 {
 "id": "keyterm:Appease",
@@ -10744,11 +10737,11 @@
 "preferred_label": "犯罪"
 },
 {
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.2525,
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.3125,
 "match_method": "canonical",
-"preferred_label": "綿羊"
+"preferred_label": "供物"
 },
 {
 "id": "fauna:Dove",
@@ -10756,6 +10749,13 @@
 "confidence": 0.2525,
 "match_method": "canonical",
 "preferred_label": "鴿子"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.2525,
+"match_method": "canonical",
+"preferred_label": "綿羊"
 },
 {
 "id": "keyterm:Circumcision",
@@ -10831,18 +10831,18 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "以色列"
-},
-{
 "id": "keyterm:Defilement",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "玷污（行為）"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "以色列"
 }
 ]
 }
@@ -10907,18 +10907,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "聖潔"
-},
-{
 "id": "keyterm:Pure",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "潔淨"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "聖潔"
 }
 ]
 }
@@ -10991,11 +10991,11 @@
 ],
 "acai": [
 {
-"id": "keyterm:Pure",
+"id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "潔淨"
+"preferred_label": "犯罪"
 },
 {
 "id": "keyterm:Offering",
@@ -11005,11 +11005,11 @@
 "preferred_label": "供物"
 },
 {
-"id": "keyterm:Sin",
+"id": "keyterm:Pure",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "犯罪"
+"preferred_label": "潔淨"
 },
 {
 "id": "realia:TentOfMeeting",
@@ -11019,18 +11019,18 @@
 "preferred_label": "會幕"
 },
 {
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "綿羊"
-},
-{
 "id": "fauna:Dove",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "鴿子"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "綿羊"
 }
 ]
 }
@@ -11065,13 +11065,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Instruction",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "訓誨"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -11091,6 +11084,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "平息"
+},
+{
+"id": "keyterm:Instruction",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "訓誨"
 }
 ]
 }
@@ -11117,20 +11117,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "潔淨"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "供物"
-},
-{
 "id": "keyterm:Appease",
 "type": "keyterm",
 "confidence": 0.6,
@@ -11145,11 +11131,18 @@
 "preferred_label": "犯罪"
 },
 {
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.54,
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "綿羊"
+"preferred_label": "供物"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "潔淨"
 },
 {
 "id": "fauna:Dove",
@@ -11157,6 +11150,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "鴿子"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "綿羊"
 }
 ]
 }
@@ -11384,18 +11384,18 @@
 "preferred_label": "牛膝草"
 },
 {
-"id": "flora:Cedar",
-"type": "flora",
-"confidence": 0.3094,
-"match_method": "canonical",
-"preferred_label": "香柏樹"
-},
-{
 "id": "realia:PurpleCloth",
 "type": "realia",
 "confidence": 0.3094,
 "match_method": "canonical",
 "preferred_label": "紫色布"
+},
+{
+"id": "flora:Cedar",
+"type": "flora",
+"confidence": 0.3094,
+"match_method": "canonical",
+"preferred_label": "香柏樹"
 },
 {
 "id": "person:Aaron",
@@ -11440,13 +11440,6 @@
 "preferred_label": "迦南"
 },
 {
-"id": "keyterm:Complete",
-"type": "keyterm",
-"confidence": 0.1539,
-"match_method": "canonical",
-"preferred_label": "完全"
-},
-{
 "id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.1539,
@@ -11454,11 +11447,11 @@
 "preferred_label": "聖潔"
 },
 {
-"id": "fauna:Dove",
-"type": "fauna",
-"confidence": 0.1478,
+"id": "keyterm:Complete",
+"type": "keyterm",
+"confidence": 0.1539,
 "match_method": "canonical",
-"preferred_label": "鴿子"
+"preferred_label": "完全"
 },
 {
 "id": "realia:TentOfMeeting",
@@ -11468,11 +11461,18 @@
 "preferred_label": "會幕"
 },
 {
-"id": "realia:TempleAltar",
+"id": "fauna:Dove",
+"type": "fauna",
+"confidence": 0.1478,
+"match_method": "canonical",
+"preferred_label": "鴿子"
+},
+{
+"id": "realia:TabernacleAltar",
 "type": "realia",
 "confidence": 0.0939,
 "match_method": "canonical",
-"preferred_label": "祭壇"
+"preferred_label": "帳幕的壇"
 }
 ]
 }
@@ -11911,18 +11911,18 @@
 "preferred_label": "傳染性皮膚病"
 },
 {
-"id": "realia:Linen",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "細麻布"
-},
-{
 "id": "realia:Wool",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "羊毛"
+},
+{
+"id": "realia:Linen",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "細麻布"
 }
 ]
 }
@@ -11970,18 +11970,18 @@
 "preferred_label": "傳染性皮膚病"
 },
 {
-"id": "realia:Linen",
-"type": "realia",
-"confidence": 0.3785,
-"match_method": "canonical",
-"preferred_label": "細麻布"
-},
-{
 "id": "realia:Wool",
 "type": "realia",
 "confidence": 0.3785,
 "match_method": "canonical",
 "preferred_label": "羊毛"
+},
+{
+"id": "realia:Linen",
+"type": "realia",
+"confidence": 0.3785,
+"match_method": "canonical",
+"preferred_label": "細麻布"
 },
 {
 "id": "keyterm:Defilement",
@@ -12085,18 +12085,18 @@
 "preferred_label": "綿羊"
 },
 {
-"id": "keyterm:InfectiousSkinDisease",
-"type": "keyterm",
-"confidence": 0.3563,
-"match_method": "canonical",
-"preferred_label": "傳染性皮膚病"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.3563,
 "match_method": "canonical",
 "preferred_label": "犯罪"
+},
+{
+"id": "keyterm:InfectiousSkinDisease",
+"type": "keyterm",
+"confidence": 0.3563,
+"match_method": "canonical",
+"preferred_label": "傳染性皮膚病"
 },
 {
 "id": "fauna:Bird",
@@ -12113,32 +12113,11 @@
 "preferred_label": "訓誨"
 },
 {
-"id": "flora:Cedar",
-"type": "flora",
-"confidence": 0.1681,
-"match_method": "canonical",
-"preferred_label": "香柏樹"
-},
-{
-"id": "flora:Hyssop",
-"type": "flora",
-"confidence": 0.1681,
-"match_method": "canonical",
-"preferred_label": "牛膝草"
-},
-{
 "id": "realia:PurpleCloth",
 "type": "realia",
 "confidence": 0.1681,
 "match_method": "canonical",
 "preferred_label": "紫色布"
-},
-{
-"id": "fauna:Dove",
-"type": "fauna",
-"confidence": 0.1681,
-"match_method": "canonical",
-"preferred_label": "鴿子"
 },
 {
 "id": "realia:TentOfMeeting",
@@ -12148,18 +12127,32 @@
 "preferred_label": "會幕"
 },
 {
+"id": "fauna:Dove",
+"type": "fauna",
+"confidence": 0.1681,
+"match_method": "canonical",
+"preferred_label": "鴿子"
+},
+{
+"id": "flora:Hyssop",
+"type": "flora",
+"confidence": 0.1681,
+"match_method": "canonical",
+"preferred_label": "牛膝草"
+},
+{
+"id": "flora:Cedar",
+"type": "flora",
+"confidence": 0.1681,
+"match_method": "canonical",
+"preferred_label": "香柏樹"
+},
+{
 "id": "keyterm:Defilement",
 "type": "keyterm",
 "confidence": 0.1641,
 "match_method": "canonical",
 "preferred_label": "玷污（行為）"
-},
-{
-"id": "keyterm:Complete",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "完全"
 },
 {
 "id": "person:Moses",
@@ -12176,11 +12169,32 @@
 "preferred_label": "聖潔"
 },
 {
+"id": "keyterm:Complete",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "完全"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "帳幕的壇"
+},
+{
 "id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.1041,
 "match_method": "canonical",
 "preferred_label": "祭壇"
+},
+{
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "石壇"
 },
 {
 "id": "realia:Tent",
@@ -12195,20 +12209,6 @@
 "confidence": 0.1041,
 "match_method": "canonical",
 "preferred_label": "祭壇"
-},
-{
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "帳幕的壇"
-},
-{
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "石壇"
 }
 ]
 }
@@ -12242,11 +12242,11 @@
 "preferred_label": "潔淨"
 },
 {
-"id": "fauna:Bird",
-"type": "fauna",
+"id": "flora:Hyssop",
+"type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "鳥"
+"preferred_label": "牛膝草"
 },
 {
 "id": "realia:PurpleCloth",
@@ -12263,11 +12263,11 @@
 "preferred_label": "香柏樹"
 },
 {
-"id": "flora:Hyssop",
-"type": "flora",
+"id": "fauna:Bird",
+"type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "牛膝草"
+"preferred_label": "鳥"
 }
 ]
 }
@@ -12315,6 +12315,13 @@
 "preferred_label": "潔淨"
 },
 {
+"id": "flora:Hyssop",
+"type": "flora",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "牛膝草"
+},
+{
 "id": "realia:PurpleCloth",
 "type": "realia",
 "confidence": 0.24,
@@ -12327,13 +12334,6 @@
 "confidence": 0.24,
 "match_method": "canonical",
 "preferred_label": "香柏樹"
-},
-{
-"id": "flora:Hyssop",
-"type": "flora",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "牛膝草"
 }
 ]
 }
@@ -12426,13 +12426,6 @@
 "preferred_label": "供物"
 },
 {
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "綿羊"
-},
-{
 "id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.54,
@@ -12445,6 +12438,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "橄欖油"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "綿羊"
 }
 ]
 }
@@ -12479,18 +12479,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "潔淨"
-},
-{
 "id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "供物"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "潔淨"
 }
 ]
 }
@@ -12531,13 +12531,6 @@
 "preferred_label": "橄欖油"
 },
 {
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "潔淨"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.3,
@@ -12550,6 +12543,13 @@
 "confidence": 0.3,
 "match_method": "canonical",
 "preferred_label": "供物"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "潔淨"
 },
 {
 "id": "realia:Log",
@@ -12590,20 +12590,6 @@
 "preferred_label": "玷污（行為）"
 },
 {
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "潔淨"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "供物"
-},
-{
 "id": "keyterm:Appease",
 "type": "keyterm",
 "confidence": 0.6,
@@ -12616,6 +12602,20 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "犯罪"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "供物"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "潔淨"
 }
 ]
 }
@@ -12650,13 +12650,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "潔淨"
-},
-{
 "id": "keyterm:Appease",
 "type": "keyterm",
 "confidence": 0.6,
@@ -12671,11 +12664,18 @@
 "preferred_label": "供物"
 },
 {
-"id": "realia:TempleAltar",
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "潔淨"
+},
+{
+"id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "祭壇"
+"preferred_label": "石壇"
 },
 {
 "id": "realia:TabernacleAltar",
@@ -12685,11 +12685,11 @@
 "preferred_label": "帳幕的壇"
 },
 {
-"id": "realia:StoneAltar",
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "石壇"
+"preferred_label": "祭壇"
 },
 {
 "id": "realia:Altar",
@@ -12723,18 +12723,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.575,
-"match_method": "canonical",
-"preferred_label": "潔淨"
-},
-{
 "id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.575,
 "match_method": "canonical",
 "preferred_label": "供物"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.575,
+"match_method": "canonical",
+"preferred_label": "潔淨"
 },
 {
 "id": "deity:Lord",
@@ -12793,18 +12793,18 @@
 "preferred_label": "鴿子"
 },
 {
-"id": "keyterm:InfectiousSkinDisease",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "傳染性皮膚病"
-},
-{
 "id": "keyterm:Instruction",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
 "preferred_label": "訓誨"
+},
+{
+"id": "keyterm:InfectiousSkinDisease",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "傳染性皮膚病"
 },
 {
 "id": "realia:TentOfMeeting",
@@ -12895,13 +12895,6 @@
 "preferred_label": "潔淨"
 },
 {
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.2429,
-"match_method": "canonical",
-"preferred_label": "潔淨"
-},
-{
 "id": "keyterm:InfectiousSkinDisease",
 "type": "keyterm",
 "confidence": 0.2429,
@@ -12909,11 +12902,11 @@
 "preferred_label": "傳染性皮膚病"
 },
 {
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.1714,
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.2429,
 "match_method": "canonical",
-"preferred_label": "亞倫"
+"preferred_label": "潔淨"
 },
 {
 "id": "deity:Lord",
@@ -12942,6 +12935,13 @@
 "confidence": 0.1714,
 "match_method": "canonical",
 "preferred_label": "摩西"
+},
+{
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "亞倫"
 }
 ]
 }
@@ -13104,18 +13104,18 @@
 "preferred_label": "訓誨"
 },
 {
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "潔淨"
-},
-{
 "id": "keyterm:Defilement",
 "type": "keyterm",
 "confidence": 0.2625,
 "match_method": "canonical",
 "preferred_label": "玷污（行為）"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "潔淨"
 },
 {
 "id": "realia:House",
@@ -13199,11 +13199,11 @@
 "preferred_label": "平息"
 },
 {
-"id": "keyterm:Offering",
+"id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.2273,
 "match_method": "canonical",
-"preferred_label": "供物"
+"preferred_label": "犯罪"
 },
 {
 "id": "person:Israel",
@@ -13213,11 +13213,11 @@
 "preferred_label": "以色列"
 },
 {
-"id": "keyterm:Sin",
+"id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.2273,
 "match_method": "canonical",
-"preferred_label": "犯罪"
+"preferred_label": "供物"
 },
 {
 "id": "realia:TentOfMeeting",
@@ -13232,13 +13232,6 @@
 "confidence": 0.1673,
 "match_method": "canonical",
 "preferred_label": "鴿子"
-},
-{
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.1636,
-"match_method": "canonical",
-"preferred_label": "亞倫"
 },
 {
 "id": "keyterm:WithdrawOneself",
@@ -13260,6 +13253,13 @@
 "confidence": 0.1636,
 "match_method": "canonical",
 "preferred_label": "摩西"
+},
+{
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.1636,
+"match_method": "canonical",
+"preferred_label": "亞倫"
 },
 {
 "id": "realia:Leather",
@@ -13293,18 +13293,18 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "以色列"
-},
-{
 "id": "keyterm:Defilement",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "玷污（行為）"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "以色列"
 }
 ]
 }
@@ -13338,20 +13338,6 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "潔淨"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "供物"
-},
-{
 "id": "keyterm:Appease",
 "type": "keyterm",
 "confidence": 0.3,
@@ -13364,6 +13350,20 @@
 "confidence": 0.3,
 "match_method": "canonical",
 "preferred_label": "犯罪"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "供物"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "潔淨"
 },
 {
 "id": "realia:TentOfMeeting",
@@ -13578,18 +13578,18 @@
 "preferred_label": "會幕"
 },
 {
-"id": "fauna:Dove",
-"type": "fauna",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "鴿子"
-},
-{
 "id": "realia:Bed",
 "type": "realia",
 "confidence": 0.18,
 "match_method": "canonical",
 "preferred_label": "床"
+},
+{
+"id": "fauna:Dove",
+"type": "fauna",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "鴿子"
 }
 ]
 }
@@ -13738,20 +13738,6 @@
 "preferred_label": "會幕"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.3562,
-"match_method": "canonical",
-"preferred_label": "祭壇"
-},
-{
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.3562,
-"match_method": "canonical",
-"preferred_label": "祭壇"
-},
-{
 "id": "realia:TabernacleAltar",
 "type": "realia",
 "confidence": 0.3562,
@@ -13759,11 +13745,25 @@
 "preferred_label": "帳幕的壇"
 },
 {
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.3562,
+"match_method": "canonical",
+"preferred_label": "祭壇"
+},
+{
 "id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.3562,
 "match_method": "canonical",
 "preferred_label": "石壇"
+},
+{
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.3562,
+"match_method": "canonical",
+"preferred_label": "祭壇"
 },
 {
 "id": "deity:Azazel",
@@ -13815,11 +13815,11 @@
 "preferred_label": "幔子"
 },
 {
-"id": "keyterm:Ardour",
+"id": "keyterm:Rebel",
 "type": "keyterm",
 "confidence": 0.2265,
 "match_method": "canonical",
-"preferred_label": "熱情"
+"preferred_label": "反叛（行動）"
 },
 {
 "id": "keyterm:Defilement",
@@ -13829,6 +13829,13 @@
 "preferred_label": "玷污（行為）"
 },
 {
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.2265,
+"match_method": "canonical",
+"preferred_label": "熱情"
+},
+{
 "id": "keyterm:Pure",
 "type": "keyterm",
 "confidence": 0.2265,
@@ -13836,25 +13843,11 @@
 "preferred_label": "潔淨"
 },
 {
-"id": "keyterm:Rebel",
-"type": "keyterm",
-"confidence": 0.2265,
-"match_method": "canonical",
-"preferred_label": "反叛（行動）"
-},
-{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.1665,
 "match_method": "canonical",
 "preferred_label": "綿羊"
-},
-{
-"id": "keyterm:Smear",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "塗抹"
 },
 {
 "id": "keyterm:Priesthood",
@@ -13871,13 +13864,6 @@
 "preferred_label": "約櫃"
 },
 {
-"id": "keyterm:Sabbath",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "安息日"
-},
-{
 "id": "keyterm:Repent",
 "type": "keyterm",
 "confidence": 0.1632,
@@ -13885,11 +13871,18 @@
 "preferred_label": "悔改"
 },
 {
-"id": "keyterm:BearTheConsequencesOf",
+"id": "keyterm:Sabbath",
 "type": "keyterm",
 "confidence": 0.1632,
 "match_method": "canonical",
-"preferred_label": "擔當後果"
+"preferred_label": "安息日"
+},
+{
+"id": "keyterm:Smear",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "塗抹"
 },
 {
 "id": "keyterm:Witness.2",
@@ -13899,18 +13892,18 @@
 "preferred_label": "法度"
 },
 {
+"id": "keyterm:BearTheConsequencesOf",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "擔當後果"
+},
+{
 "id": "realia:Tunic",
 "type": "realia",
 "confidence": 0.1091,
 "match_method": "canonical",
 "preferred_label": "內袍"
-},
-{
-"id": "realia:ArkOfTheCovenant",
-"type": "realia",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "約櫃"
 },
 {
 "id": "realia:Breeches",
@@ -13934,11 +13927,11 @@
 "preferred_label": "腰帶"
 },
 {
-"id": "realia:Turban",
+"id": "realia:ArkOfTheCovenant",
 "type": "realia",
 "confidence": 0.1032,
 "match_method": "canonical",
-"preferred_label": "冠冕"
+"preferred_label": "約櫃"
 },
 {
 "id": "realia:Shovel",
@@ -13946,6 +13939,13 @@
 "confidence": 0.1032,
 "match_method": "canonical",
 "preferred_label": "鏟子"
+},
+{
+"id": "realia:Turban",
+"type": "realia",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "冠冕"
 }
 ]
 }
@@ -13972,13 +13972,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "亞倫"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -14000,18 +13993,18 @@
 "preferred_label": "摩西"
 },
 {
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "亞倫"
+},
+{
 "id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "聖潔"
-},
-{
-"id": "realia:CoverLid",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "施恩座"
 },
 {
 "id": "realia:ArkOfTheCovenant",
@@ -14026,6 +14019,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "幔子"
+},
+{
+"id": "realia:CoverLid",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "施恩座"
 }
 ]
 }
@@ -14052,13 +14052,6 @@
 "resource": [],
 "acai": [
 {
-"id": "realia:Linen",
-"type": "realia",
-"confidence": 0.74,
-"match_method": "canonical",
-"preferred_label": "細麻布"
-},
-{
 "id": "realia:Tunic",
 "type": "realia",
 "confidence": 0.74,
@@ -14066,18 +14059,18 @@
 "preferred_label": "內袍"
 },
 {
+"id": "realia:Linen",
+"type": "realia",
+"confidence": 0.74,
+"match_method": "canonical",
+"preferred_label": "細麻布"
+},
+{
 "id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "聖潔"
-},
-{
-"id": "realia:Sash",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "腰帶"
 },
 {
 "id": "realia:Breeches",
@@ -14092,6 +14085,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "冠冕"
+},
+{
+"id": "realia:Sash",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "腰帶"
 }
 ]
 }
@@ -14118,18 +14118,18 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "亞倫"
-},
-{
 "id": "keyterm:Appease",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "平息"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "犯罪"
 },
 {
 "id": "keyterm:Offering",
@@ -14139,11 +14139,11 @@
 "preferred_label": "供物"
 },
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
+"id": "person:Aaron",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "犯罪"
+"preferred_label": "亞倫"
 },
 {
 "id": "fauna:Bull",
@@ -14177,18 +14177,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Azazel",
-"type": "deity",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "阿撒瀉勒"
-},
-{
 "id": "keyterm:Lot",
 "type": "keyterm",
 "confidence": 0.8,
 "match_method": "canonical",
 "preferred_label": "鬮（物件）"
+},
+{
+"id": "deity:Azazel",
+"type": "deity",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "阿撒瀉勒"
 },
 {
 "id": "realia:Lot",
@@ -14198,18 +14198,18 @@
 "preferred_label": "鬮"
 },
 {
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "亞倫"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "耶和華"
+},
+{
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "亞倫"
 },
 {
 "id": "fauna:Flock",
@@ -14257,13 +14257,6 @@
 "preferred_label": "玷污（行為）"
 },
 {
-"id": "place:HolyPlace",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "聖所（會幕）"
-},
-{
 "id": "keyterm:Appease",
 "type": "keyterm",
 "confidence": 0.6,
@@ -14271,11 +14264,11 @@
 "preferred_label": "平息"
 },
 {
-"id": "keyterm:Rebel",
+"id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "反叛（行動）"
+"preferred_label": "犯罪"
 },
 {
 "id": "person:Israel",
@@ -14285,11 +14278,18 @@
 "preferred_label": "以色列"
 },
 {
-"id": "keyterm:Sin",
+"id": "keyterm:Rebel",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "犯罪"
+"preferred_label": "反叛（行動）"
+},
+{
+"id": "place:HolyPlace",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "聖所（會幕）"
 },
 {
 "id": "keyterm:Holy",
@@ -14337,11 +14337,11 @@
 "preferred_label": "聖潔"
 },
 {
-"id": "person:Aaron",
-"type": "person",
+"id": "keyterm:Appease",
+"type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "亞倫"
+"preferred_label": "平息"
 },
 {
 "id": "place:HolyPlace",
@@ -14351,18 +14351,18 @@
 "preferred_label": "聖所（會幕）"
 },
 {
-"id": "keyterm:Appease",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "平息"
-},
-{
 "id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "供物"
+},
+{
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "亞倫"
 },
 {
 "id": "realia:TentOfMeeting",
@@ -14403,18 +14403,25 @@
 "resource": [],
 "acai": [
 {
-"id": "place:HolyPlace",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "聖所（會幕）"
-},
-{
 "id": "keyterm:Appease",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "平息"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "犯罪"
+},
+{
+"id": "place:HolyPlace",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "聖所（會幕）"
 },
 {
 "id": "keyterm:Offering",
@@ -14431,11 +14438,11 @@
 "preferred_label": "聖潔"
 },
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.6,
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "犯罪"
+"preferred_label": "牛"
 },
 {
 "id": "fauna:Flock",
@@ -14450,13 +14457,6 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "山羊"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "牛"
 }
 ]
 }
@@ -14664,18 +14664,18 @@
 "preferred_label": "完全"
 },
 {
-"id": "keyterm:Covenant",
-"type": "keyterm",
-"confidence": 0.3594,
-"match_method": "canonical",
-"preferred_label": "約"
-},
-{
 "id": "keyterm:Work",
 "type": "keyterm",
 "confidence": 0.3594,
 "match_method": "canonical",
 "preferred_label": "做工"
+},
+{
+"id": "keyterm:Covenant",
+"type": "keyterm",
+"confidence": 0.3594,
+"match_method": "canonical",
+"preferred_label": "約"
 },
 {
 "id": "keyterm:Delight",
@@ -14793,18 +14793,18 @@
 "preferred_label": "會幕"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.4429,
-"match_method": "canonical",
-"preferred_label": "供物"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.4429,
 "match_method": "canonical",
 "preferred_label": "以色列"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.4429,
+"match_method": "canonical",
+"preferred_label": "供物"
 },
 {
 "id": "keyterm:Slaughtering",
@@ -14814,13 +14814,6 @@
 "preferred_label": "宰殺祭牲"
 },
 {
-"id": "keyterm:PlayTheProstitute",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "行邪淫（習語）"
-},
-{
 "id": "keyterm:PleasingOdor",
 "type": "keyterm",
 "confidence": 0.2143,
@@ -14828,39 +14821,11 @@
 "preferred_label": "馨香之氣"
 },
 {
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.1543,
+"id": "keyterm:PlayTheProstitute",
+"type": "keyterm",
+"confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "山羊"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.1543,
-"match_method": "canonical",
-"preferred_label": "綿羊"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.1543,
-"match_method": "canonical",
-"preferred_label": "祭壇"
-},
-{
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.1543,
-"match_method": "canonical",
-"preferred_label": "帳幕的壇"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.1543,
-"match_method": "canonical",
-"preferred_label": "羊群"
+"preferred_label": "行邪淫（習語）"
 },
 {
 "id": "realia:StoneAltar",
@@ -14870,11 +14835,11 @@
 "preferred_label": "石壇"
 },
 {
-"id": "realia:Altar",
+"id": "realia:TabernacleAltar",
 "type": "realia",
 "confidence": 0.1543,
 "match_method": "canonical",
-"preferred_label": "祭壇"
+"preferred_label": "帳幕的壇"
 },
 {
 "id": "fauna:Bull",
@@ -14882,6 +14847,41 @@
 "confidence": 0.1543,
 "match_method": "canonical",
 "preferred_label": "牛"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.1543,
+"match_method": "canonical",
+"preferred_label": "祭壇"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.1543,
+"match_method": "canonical",
+"preferred_label": "羊群"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.1543,
+"match_method": "canonical",
+"preferred_label": "山羊"
+},
+{
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.1543,
+"match_method": "canonical",
+"preferred_label": "祭壇"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.1543,
+"match_method": "canonical",
+"preferred_label": "綿羊"
 }
 ]
 }
@@ -15006,11 +15006,11 @@
 "preferred_label": "平息"
 },
 {
-"id": "realia:TempleAltar",
+"id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "祭壇"
+"preferred_label": "石壇"
 },
 {
 "id": "realia:TabernacleAltar",
@@ -15020,11 +15020,11 @@
 "preferred_label": "帳幕的壇"
 },
 {
-"id": "realia:StoneAltar",
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "石壇"
+"preferred_label": "祭壇"
 },
 {
 "id": "realia:Altar",
@@ -15103,18 +15103,18 @@
 "preferred_label": "熱情"
 },
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "玷污（行為）"
-},
-{
 "id": "keyterm:Pure",
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "潔淨"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "玷污（行為）"
 }
 ]
 }
@@ -15183,18 +15183,18 @@
 "preferred_label": "使蒙羞／褻瀆"
 },
 {
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.3191,
-"match_method": "canonical",
-"preferred_label": "熱情"
-},
-{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.3191,
 "match_method": "canonical",
 "preferred_label": "懼怕"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.3191,
+"match_method": "canonical",
+"preferred_label": "熱情"
 },
 {
 "id": "keyterm:Spirit",
@@ -15204,11 +15204,11 @@
 "preferred_label": "交鬼的"
 },
 {
-"id": "keyterm:Offering",
+"id": "keyterm:PlayTheProstitute",
 "type": "keyterm",
 "confidence": 0.2644,
 "match_method": "canonical",
-"preferred_label": "供物"
+"preferred_label": "行邪淫（習語）"
 },
 {
 "id": "person:Israel",
@@ -15218,18 +15218,18 @@
 "preferred_label": "以色列"
 },
 {
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.2644,
+"match_method": "canonical",
+"preferred_label": "供物"
+},
+{
 "id": "place:Egypt",
 "type": "place",
 "confidence": 0.2644,
 "match_method": "canonical",
 "preferred_label": "埃及"
-},
-{
-"id": "keyterm:PlayTheProstitute",
-"type": "keyterm",
-"confidence": 0.2644,
-"match_method": "canonical",
-"preferred_label": "行邪淫（習語）"
 },
 {
 "id": "person:Moses",
@@ -15281,6 +15281,13 @@
 "preferred_label": "委派"
 },
 {
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.1548,
+"match_method": "canonical",
+"preferred_label": "犯罪"
+},
+{
 "id": "keyterm:Kindness",
 "type": "keyterm",
 "confidence": 0.1548,
@@ -15288,25 +15295,18 @@
 "preferred_label": "慈愛（團結互助）"
 },
 {
-"id": "keyterm:Dispossess",
+"id": "keyterm:Swear",
 "type": "keyterm",
 "confidence": 0.1548,
 "match_method": "canonical",
-"preferred_label": "趕逐奪業"
+"preferred_label": "起誓"
 },
 {
-"id": "keyterm:Foreskin",
+"id": "keyterm:LandFlowingOfMilkAndHoney",
 "type": "keyterm",
 "confidence": 0.1548,
 "match_method": "canonical",
-"preferred_label": "包皮"
-},
-{
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.1548,
-"match_method": "canonical",
-"preferred_label": "潔淨"
+"preferred_label": "流奶與蜜之地"
 },
 {
 "id": "keyterm:Forgive",
@@ -15323,32 +15323,32 @@
 "preferred_label": "救贖"
 },
 {
-"id": "keyterm:RegardAsForbidden",
+"id": "keyterm:Appease",
 "type": "keyterm",
 "confidence": 0.1548,
 "match_method": "canonical",
-"preferred_label": "視為禁忌"
+"preferred_label": "平息"
 },
 {
-"id": "keyterm:LandFlowingOfMilkAndHoney",
+"id": "keyterm:Dispossess",
 "type": "keyterm",
 "confidence": 0.1548,
 "match_method": "canonical",
-"preferred_label": "流奶與蜜之地"
+"preferred_label": "趕逐奪業"
 },
 {
-"id": "place:Canaan",
-"type": "place",
-"confidence": 0.1548,
-"match_method": "canonical",
-"preferred_label": "迦南"
-},
-{
-"id": "keyterm:Swear",
+"id": "keyterm:Foreskin",
 "type": "keyterm",
 "confidence": 0.1548,
 "match_method": "canonical",
-"preferred_label": "起誓"
+"preferred_label": "包皮"
+},
+{
+"id": "keyterm:Forbidden",
+"type": "keyterm",
+"confidence": 0.1548,
+"match_method": "canonical",
+"preferred_label": "禁戒"
 }
 ]
 }
@@ -15927,13 +15927,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "聖潔"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -15946,6 +15939,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "以色列"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "聖潔"
 }
 ]
 }
@@ -16093,13 +16093,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Swear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "起誓"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -16112,6 +16105,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "使蒙羞／褻瀆"
+},
+{
+"id": "keyterm:Swear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "起誓"
 }
 ]
 }
@@ -16284,18 +16284,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "愛"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "耶和華"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "愛"
 }
 ]
 }
@@ -16374,13 +16374,6 @@
 "preferred_label": "綿羊"
 },
 {
-"id": "keyterm:Forgive",
-"type": "keyterm",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "赦免"
-},
-{
 "id": "keyterm:Redeem",
 "type": "keyterm",
 "confidence": 0.3,
@@ -16393,6 +16386,13 @@
 "confidence": 0.3,
 "match_method": "canonical",
 "preferred_label": "平息"
+},
+{
+"id": "keyterm:Forgive",
+"type": "keyterm",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "赦免"
 },
 {
 "id": "keyterm:Sin",
@@ -16736,13 +16736,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "愛"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.375,
@@ -16755,6 +16748,13 @@
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "埃及"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "愛"
 }
 ]
 }
@@ -16781,13 +16781,6 @@
 "resource": [],
 "acai": [
 {
-"id": "realia:Hin",
-"type": "realia",
-"confidence": 0.415,
-"match_method": "canonical",
-"preferred_label": "欣"
-},
-{
 "id": "realia:Ephah",
 "type": "realia",
 "confidence": 0.415,
@@ -16802,11 +16795,11 @@
 "preferred_label": "天平"
 },
 {
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.375,
+"id": "realia:Hin",
+"type": "realia",
+"confidence": 0.415,
 "match_method": "canonical",
-"preferred_label": "埃及"
+"preferred_label": "欣"
 },
 {
 "id": "deity:Lord",
@@ -16814,6 +16807,13 @@
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "耶和華"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "埃及"
 }
 ]
 }
@@ -16908,18 +16908,18 @@
 "preferred_label": "擔當後果"
 },
 {
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.2474,
-"match_method": "canonical",
-"preferred_label": "熱情"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.2474,
 "match_method": "canonical",
 "preferred_label": "耶和華"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.2474,
+"match_method": "canonical",
+"preferred_label": "熱情"
 },
 {
 "id": "fauna:Bull",
@@ -16936,13 +16936,6 @@
 "preferred_label": "玷污（行為）"
 },
 {
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "潔淨"
-},
-{
 "id": "keyterm:Dispossess",
 "type": "keyterm",
 "confidence": 0.1737,
@@ -16950,11 +16943,18 @@
 "preferred_label": "趕逐奪業"
 },
 {
-"id": "keyterm:Kindness",
+"id": "keyterm:Pure",
 "type": "keyterm",
 "confidence": 0.1737,
 "match_method": "canonical",
-"preferred_label": "慈愛（團結互助）"
+"preferred_label": "潔淨"
+},
+{
+"id": "keyterm:LandFlowingOfMilkAndHoney",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "流奶與蜜之地"
 },
 {
 "id": "keyterm:Spirit",
@@ -16964,18 +16964,18 @@
 "preferred_label": "交鬼的"
 },
 {
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "慈愛（團結互助）"
+},
+{
 "id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.1737,
 "match_method": "canonical",
 "preferred_label": "聖潔"
-},
-{
-"id": "keyterm:LandFlowingOfMilkAndHoney",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "流奶與蜜之地"
 }
 ]
 }
@@ -17064,18 +17064,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:BearTheConsequencesOf",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "擔當後果"
-},
-{
 "id": "keyterm:Kindness",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "慈愛（團結互助）"
+},
+{
+"id": "keyterm:BearTheConsequencesOf",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "擔當後果"
 },
 {
 "id": "keyterm:Ardour",
@@ -17155,18 +17155,18 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "趕逐奪業"
-},
-{
 "id": "keyterm:LandFlowingOfMilkAndHoney",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "流奶與蜜之地"
+},
+{
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "趕逐奪業"
 }
 ]
 }
@@ -17200,20 +17200,6 @@
 "preferred_label": "玷污（行為）"
 },
 {
-"id": "keyterm:Dishonor",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "使蒙羞／褻瀆"
-},
-{
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "亞倫"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.2625,
@@ -17221,11 +17207,25 @@
 "preferred_label": "耶和華"
 },
 {
+"id": "keyterm:Dishonor",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "使蒙羞／褻瀆"
+},
+{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.2625,
 "match_method": "canonical",
 "preferred_label": "摩西"
+},
+{
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "亞倫"
 }
 ]
 }
@@ -17336,11 +17336,11 @@
 "preferred_label": "綿羊"
 },
 {
-"id": "keyterm:Pure",
+"id": "keyterm:Slaughtering",
 "type": "keyterm",
 "confidence": 0.2158,
 "match_method": "canonical",
-"preferred_label": "潔淨"
+"preferred_label": "宰殺祭牲"
 },
 {
 "id": "keyterm:Complete",
@@ -17350,18 +17350,11 @@
 "preferred_label": "完全"
 },
 {
-"id": "keyterm:Slaughtering",
+"id": "keyterm:Pure",
 "type": "keyterm",
 "confidence": 0.2158,
 "match_method": "canonical",
-"preferred_label": "宰殺祭牲"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.2137,
-"match_method": "canonical",
-"preferred_label": "山羊"
+"preferred_label": "潔淨"
 },
 {
 "id": "fauna:Flock",
@@ -17371,11 +17364,18 @@
 "preferred_label": "羊群"
 },
 {
-"id": "keyterm:Praise",
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.2137,
+"match_method": "canonical",
+"preferred_label": "山羊"
+},
+{
+"id": "keyterm:PlayTheProstitute",
 "type": "keyterm",
 "confidence": 0.1579,
 "match_method": "canonical",
-"preferred_label": "稱謝"
+"preferred_label": "行邪淫（習語）"
 },
 {
 "id": "keyterm:InfectiousSkinDisease",
@@ -17385,11 +17385,11 @@
 "preferred_label": "傳染性皮膚病"
 },
 {
-"id": "keyterm:Ardour",
+"id": "keyterm:Consecration.2",
 "type": "keyterm",
 "confidence": 0.1579,
 "match_method": "canonical",
-"preferred_label": "熱情"
+"preferred_label": "成聖"
 },
 {
 "id": "place:Egypt",
@@ -17406,11 +17406,18 @@
 "preferred_label": "離俗"
 },
 {
-"id": "keyterm:PlayTheProstitute",
+"id": "keyterm:Ardour",
 "type": "keyterm",
 "confidence": 0.1579,
 "match_method": "canonical",
-"preferred_label": "行邪淫（習語）"
+"preferred_label": "熱情"
+},
+{
+"id": "keyterm:Praise",
+"type": "keyterm",
+"confidence": 0.1579,
+"match_method": "canonical",
+"preferred_label": "稱謝"
 },
 {
 "id": "keyterm:BearTheConsequencesOf",
@@ -17418,27 +17425,6 @@
 "confidence": 0.1579,
 "match_method": "canonical",
 "preferred_label": "擔當後果"
-},
-{
-"id": "keyterm:Consecration.2",
-"type": "keyterm",
-"confidence": 0.1579,
-"match_method": "canonical",
-"preferred_label": "成聖"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.1558,
-"match_method": "canonical",
-"preferred_label": "祭壇"
-},
-{
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.1558,
-"match_method": "canonical",
-"preferred_label": "祭壇"
 },
 {
 "id": "realia:AnointingOil",
@@ -17453,6 +17439,20 @@
 "confidence": 0.1558,
 "match_method": "canonical",
 "preferred_label": "帳幕的壇"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.1558,
+"match_method": "canonical",
+"preferred_label": "祭壇"
+},
+{
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.1558,
+"match_method": "canonical",
+"preferred_label": "石壇"
 },
 {
 "id": "realia:OliveOil",
@@ -17531,13 +17531,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "聖潔"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -17557,6 +17550,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "使蒙羞／褻瀆"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "聖潔"
 }
 ]
 }
@@ -17583,18 +17583,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "聖潔"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "耶和華"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "聖潔"
 }
 ]
 }
@@ -17621,18 +17621,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Dishonor",
-"type": "keyterm",
-"confidence": 0.35,
-"match_method": "canonical",
-"preferred_label": "使蒙羞／褻瀆"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.35,
 "match_method": "canonical",
 "preferred_label": "耶和華"
+},
+{
+"id": "keyterm:Dishonor",
+"type": "keyterm",
+"confidence": 0.35,
+"match_method": "canonical",
+"preferred_label": "使蒙羞／褻瀆"
 },
 {
 "id": "realia:AnointingOil",
@@ -17656,18 +17656,18 @@
 "preferred_label": "玷污（行為）"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "聖潔"
-},
-{
 "id": "keyterm:Consecration.2",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
 "preferred_label": "成聖"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "聖潔"
 }
 ]
 }
@@ -17694,18 +17694,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "聖潔"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "耶和華"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "聖潔"
 }
 ]
 }
@@ -17746,13 +17746,6 @@
 "preferred_label": "聖潔"
 },
 {
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.38,
-"match_method": "canonical",
-"preferred_label": "亞倫"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.38,
@@ -17767,11 +17760,11 @@
 "preferred_label": "以色列"
 },
 {
-"id": "keyterm:Dishonor",
-"type": "keyterm",
-"confidence": 0.24,
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.38,
 "match_method": "canonical",
-"preferred_label": "使蒙羞／褻瀆"
+"preferred_label": "亞倫"
 },
 {
 "id": "keyterm:WithdrawOneself",
@@ -17781,11 +17774,11 @@
 "preferred_label": "離俗"
 },
 {
-"id": "keyterm:InfectiousSkinDisease",
+"id": "keyterm:Dishonor",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "傳染性皮膚病"
+"preferred_label": "使蒙羞／褻瀆"
 },
 {
 "id": "keyterm:Pure",
@@ -17793,6 +17786,13 @@
 "confidence": 0.24,
 "match_method": "canonical",
 "preferred_label": "潔淨"
+},
+{
+"id": "keyterm:InfectiousSkinDisease",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "傳染性皮膚病"
 }
 ]
 }
@@ -17850,13 +17850,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:BearTheConsequencesOf",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "擔當後果"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -17864,11 +17857,11 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "keyterm:Holy",
+"id": "keyterm:BearTheConsequencesOf",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "聖潔"
+"preferred_label": "擔當後果"
 },
 {
 "id": "keyterm:Dishonor",
@@ -17876,6 +17869,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "使蒙羞／褻瀆"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "聖潔"
 }
 ]
 }
@@ -17947,18 +17947,18 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "keyterm:Dishonor",
-"type": "keyterm",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "使蒙羞／褻瀆"
-},
-{
 "id": "keyterm:Ardour",
 "type": "keyterm",
 "confidence": 0.3,
 "match_method": "canonical",
 "preferred_label": "熱情"
+},
+{
+"id": "keyterm:Dishonor",
+"type": "keyterm",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "使蒙羞／褻瀆"
 },
 {
 "id": "person:Israel",
@@ -17992,13 +17992,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "聖潔"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -18018,6 +18011,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "使蒙羞／褻瀆"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "聖潔"
 }
 ]
 }
@@ -18044,6 +18044,13 @@
 "resource": [],
 "acai": [
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "耶和華"
+},
+{
 "id": "keyterm:Vow",
 "type": "keyterm",
 "confidence": 0.6,
@@ -18051,18 +18058,11 @@
 "preferred_label": "許願"
 },
 {
-"id": "person:Aaron",
+"id": "person:Israel",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "亞倫"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "耶和華"
+"preferred_label": "以色列"
 },
 {
 "id": "keyterm:Offering",
@@ -18072,11 +18072,11 @@
 "preferred_label": "供物"
 },
 {
-"id": "person:Israel",
+"id": "person:Aaron",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "以色列"
+"preferred_label": "亞倫"
 }
 ]
 }
@@ -18103,18 +18103,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Vow",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "許願"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "耶和華"
+},
+{
+"id": "keyterm:Vow",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "許願"
 },
 {
 "id": "keyterm:Complete",
@@ -18145,6 +18145,13 @@
 "preferred_label": "宰殺祭牲"
 },
 {
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "牛"
+},
+{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.54,
@@ -18157,13 +18164,6 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "山羊"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "牛"
 }
 ]
 }
@@ -18190,13 +18190,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "供物"
-},
-{
 "id": "keyterm:Vow",
 "type": "keyterm",
 "confidence": 0.6,
@@ -18204,11 +18197,11 @@
 "preferred_label": "許願"
 },
 {
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.54,
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "綿羊"
+"preferred_label": "供物"
 },
 {
 "id": "fauna:Bull",
@@ -18216,6 +18209,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "牛"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "綿羊"
 }
 ]
 }
@@ -18256,11 +18256,11 @@
 "preferred_label": "供物"
 },
 {
-"id": "fauna:Lamb",
+"id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "綿羊"
+"preferred_label": "牛"
 },
 {
 "id": "fauna:Flock",
@@ -18277,11 +18277,11 @@
 "preferred_label": "山羊"
 },
 {
-"id": "fauna:Bull",
+"id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "牛"
+"preferred_label": "綿羊"
 }
 ]
 }
@@ -18308,18 +18308,18 @@
 "resource": [],
 "acai": [
 {
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "綿羊"
-},
-{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "牛"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "綿羊"
 }
 ]
 }
@@ -18353,13 +18353,6 @@
 "preferred_label": "節期"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "聖潔"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -18372,6 +18365,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "以色列"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "聖潔"
 }
 ]
 }
@@ -18451,18 +18451,18 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.425,
-"match_method": "canonical",
-"preferred_label": "聖潔"
-},
-{
 "id": "keyterm:Work",
 "type": "keyterm",
 "confidence": 0.425,
 "match_method": "canonical",
 "preferred_label": "做工"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.425,
+"match_method": "canonical",
+"preferred_label": "聖潔"
 },
 {
 "id": "keyterm:Passover",
@@ -18570,13 +18570,6 @@
 "preferred_label": "供物"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.46,
-"match_method": "canonical",
-"preferred_label": "大麥"
-},
-{
 "id": "realia:Sickle",
 "type": "realia",
 "confidence": 0.46,
@@ -18584,25 +18577,11 @@
 "preferred_label": "鐮刀"
 },
 {
-"id": "keyterm:Delight",
-"type": "keyterm",
-"confidence": 0.24,
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.46,
 "match_method": "canonical",
-"preferred_label": "喜悅"
-},
-{
-"id": "keyterm:Complete",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "完全"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "以色列"
+"preferred_label": "大麥"
 },
 {
 "id": "keyterm:PleasingOdor",
@@ -18612,6 +18591,13 @@
 "preferred_label": "馨香之氣"
 },
 {
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "以色列"
+},
+{
 "id": "keyterm:Sabbath",
 "type": "keyterm",
 "confidence": 0.24,
@@ -18619,18 +18605,25 @@
 "preferred_label": "安息日"
 },
 {
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.18,
+"id": "keyterm:Complete",
+"type": "keyterm",
+"confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "橄欖油"
+"preferred_label": "完全"
 },
 {
-"id": "realia:Hin",
+"id": "keyterm:Delight",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "喜悅"
+},
+{
+"id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "欣"
+"preferred_label": "膏油"
 },
 {
 "id": "realia:Wine",
@@ -18640,6 +18633,13 @@
 "preferred_label": "酒"
 },
 {
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "橄欖油"
+},
+{
 "id": "flora:Vine",
 "type": "flora",
 "confidence": 0.18,
@@ -18647,18 +18647,18 @@
 "preferred_label": "葡萄樹"
 },
 {
+"id": "realia:Hin",
+"type": "realia",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "欣"
+},
+{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.18,
 "match_method": "canonical",
 "preferred_label": "綿羊"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "膏油"
 }
 ]
 }
@@ -18700,13 +18700,6 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "keyterm:Delight",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "喜悅"
-},
-{
 "id": "keyterm:Sabbath",
 "type": "keyterm",
 "confidence": 0.6,
@@ -18714,11 +18707,11 @@
 "preferred_label": "安息日"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.54,
+"id": "keyterm:Delight",
+"type": "keyterm",
+"confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "大麥"
+"preferred_label": "喜悅"
 },
 {
 "id": "realia:Sickle",
@@ -18726,6 +18719,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "鐮刀"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "大麥"
 }
 ]
 }
@@ -18819,6 +18819,13 @@
 "preferred_label": "綿羊"
 },
 {
+"id": "keyterm:Sabbath",
+"type": "keyterm",
+"confidence": 0.3286,
+"match_method": "canonical",
+"preferred_label": "安息日"
+},
+{
 "id": "keyterm:Complete",
 "type": "keyterm",
 "confidence": 0.3286,
@@ -18831,13 +18838,6 @@
 "confidence": 0.3286,
 "match_method": "canonical",
 "preferred_label": "聖潔"
-},
-{
-"id": "keyterm:Sabbath",
-"type": "keyterm",
-"confidence": 0.3286,
-"match_method": "canonical",
-"preferred_label": "安息日"
 },
 {
 "id": "keyterm:PleasingOdor",
@@ -18854,13 +18854,6 @@
 "preferred_label": "犯罪"
 },
 {
-"id": "keyterm:Slaughtering",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "宰殺祭牲"
-},
-{
 "id": "keyterm:Work",
 "type": "keyterm",
 "confidence": 0.2143,
@@ -18868,11 +18861,39 @@
 "preferred_label": "做工"
 },
 {
+"id": "keyterm:Slaughtering",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "宰殺祭牲"
+},
+{
 "id": "realia:Wine",
 "type": "realia",
 "confidence": 0.1543,
 "match_method": "canonical",
 "preferred_label": "酒"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.1543,
+"match_method": "canonical",
+"preferred_label": "羊群"
+},
+{
+"id": "realia:Sickle",
+"type": "realia",
+"confidence": 0.1543,
+"match_method": "canonical",
+"preferred_label": "鐮刀"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.1543,
+"match_method": "canonical",
+"preferred_label": "牛"
 },
 {
 "id": "fauna:Goat",
@@ -18887,27 +18908,6 @@
 "confidence": 0.1543,
 "match_method": "canonical",
 "preferred_label": "大麥"
-},
-{
-"id": "realia:Sickle",
-"type": "realia",
-"confidence": 0.1543,
-"match_method": "canonical",
-"preferred_label": "鐮刀"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.1543,
-"match_method": "canonical",
-"preferred_label": "羊群"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.1543,
-"match_method": "canonical",
-"preferred_label": "牛"
 }
 ]
 }
@@ -18941,6 +18941,13 @@
 "preferred_label": "耶和華"
 },
 {
+"id": "keyterm:PleasingOdor",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "馨香之氣"
+},
+{
 "id": "keyterm:Complete",
 "type": "keyterm",
 "confidence": 0.6,
@@ -18955,13 +18962,6 @@
 "preferred_label": "供物"
 },
 {
-"id": "keyterm:PleasingOdor",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "馨香之氣"
-},
-{
 "id": "realia:Wine",
 "type": "realia",
 "confidence": 0.54,
@@ -18969,18 +18969,18 @@
 "preferred_label": "酒"
 },
 {
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "綿羊"
-},
-{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "牛"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "綿羊"
 }
 ]
 }
@@ -19007,18 +19007,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "聖潔"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "以色列"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "聖潔"
 }
 ]
 }
@@ -19052,13 +19052,6 @@
 "preferred_label": "贖罪"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "聖潔"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -19071,6 +19064,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "供物"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "聖潔"
 }
 ]
 }
@@ -19135,18 +19135,18 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.385,
-"match_method": "canonical",
-"preferred_label": "供物"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.385,
 "match_method": "canonical",
 "preferred_label": "以色列"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.385,
+"match_method": "canonical",
+"preferred_label": "供物"
 },
 {
 "id": "keyterm:Holy",
@@ -19170,18 +19170,18 @@
 "preferred_label": "住棚節"
 },
 {
+"id": "group:Israel",
+"type": "group",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "以色列人"
+},
+{
 "id": "keyterm:Vow",
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
 "preferred_label": "許願"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "埃及"
 },
 {
 "id": "keyterm:AppointedFeast",
@@ -19191,13 +19191,6 @@
 "preferred_label": "節期"
 },
 {
-"id": "keyterm:Slaughtering",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "宰殺祭牲"
-},
-{
 "id": "keyterm:Sabbath",
 "type": "keyterm",
 "confidence": 0.195,
@@ -19205,11 +19198,32 @@
 "preferred_label": "安息日"
 },
 {
-"id": "group:Israel",
-"type": "group",
+"id": "place:Egypt",
+"type": "place",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "以色列人"
+"preferred_label": "埃及"
+},
+{
+"id": "keyterm:Slaughtering",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "宰殺祭牲"
+},
+{
+"id": "flora:CitronTree",
+"type": "flora",
+"confidence": 0.155,
+"match_method": "canonical",
+"preferred_label": "香櫞"
+},
+{
+"id": "flora:DatePalm",
+"type": "flora",
+"confidence": 0.155,
+"match_method": "canonical",
+"preferred_label": "棗椰樹"
 },
 {
 "id": "flora:Poplar",
@@ -19224,20 +19238,6 @@
 "confidence": 0.155,
 "match_method": "canonical",
 "preferred_label": "柳樹"
-},
-{
-"id": "flora:DatePalm",
-"type": "flora",
-"confidence": 0.155,
-"match_method": "canonical",
-"preferred_label": "棗椰樹"
-},
-{
-"id": "flora:CitronTree",
-"type": "flora",
-"confidence": 0.155,
-"match_method": "canonical",
-"preferred_label": "香櫞"
 },
 {
 "id": "realia:Wine",
@@ -19309,18 +19309,18 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "以色列"
-},
-{
 "id": "place:Egypt",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "埃及"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "以色列"
 }
 ]
 }
@@ -19392,18 +19392,18 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "keyterm:MemorialOrTokenPortion",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "作為紀念的供物"
-},
-{
 "id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "供物"
+},
+{
+"id": "keyterm:MemorialOrTokenPortion",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "作為紀念的供物"
 }
 ]
 }
@@ -19465,13 +19465,6 @@
 "preferred_label": "牛"
 },
 {
-"id": "person:Shelomith.2",
-"type": "person",
-"confidence": 0.1964,
-"match_method": "canonical",
-"preferred_label": "示羅密"
-},
-{
 "id": "person:Dibri",
 "type": "person",
 "confidence": 0.1964,
@@ -19479,11 +19472,18 @@
 "preferred_label": "底伯利"
 },
 {
-"id": "place:Egypt",
+"id": "person:Shelomith.2",
+"type": "person",
+"confidence": 0.1964,
+"match_method": "canonical",
+"preferred_label": "示羅密"
+},
+{
+"id": "place:Dan",
 "type": "place",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "埃及"
+"preferred_label": "但"
 },
 {
 "id": "keyterm:BearTheConsequencesOf",
@@ -19507,11 +19507,11 @@
 "preferred_label": "埃及人"
 },
 {
-"id": "place:Dan",
+"id": "place:Egypt",
 "type": "place",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "但"
+"preferred_label": "埃及"
 }
 ]
 }
@@ -19538,13 +19538,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Shelomith.2",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "示羅密"
-},
-{
 "id": "person:Dibri",
 "type": "person",
 "confidence": 0.8,
@@ -19552,11 +19545,25 @@
 "preferred_label": "底伯利"
 },
 {
-"id": "group:Dan",
+"id": "person:Shelomith.2",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "示羅密"
+},
+{
+"id": "group:Israel",
 "type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "但支派"
+"preferred_label": "以色列人"
+},
+{
+"id": "place:Dan",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "但"
 },
 {
 "id": "person:Moses",
@@ -19573,18 +19580,11 @@
 "preferred_label": "以色列"
 },
 {
-"id": "place:Dan",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "但"
-},
-{
-"id": "group:Israel",
+"id": "group:Dan",
 "type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "以色列人"
+"preferred_label": "但支派"
 }
 ]
 }
@@ -19753,18 +19753,18 @@
 "preferred_label": "房屋"
 },
 {
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.2745,
-"match_method": "canonical",
-"preferred_label": "埃及"
-},
-{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.2745,
 "match_method": "canonical",
 "preferred_label": "懼怕"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.2745,
+"match_method": "canonical",
+"preferred_label": "埃及"
 },
 {
 "id": "keyterm:EnticedToServe",
@@ -19781,25 +19781,18 @@
 "preferred_label": "利未"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.2164,
-"match_method": "canonical",
-"preferred_label": "聖潔"
-},
-{
-"id": "keyterm:Complete",
-"type": "keyterm",
-"confidence": 0.2164,
-"match_method": "canonical",
-"preferred_label": "完全"
-},
-{
 "id": "group:Levi",
 "type": "group",
 "confidence": 0.2164,
 "match_method": "canonical",
 "preferred_label": "利未支派"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.2164,
+"match_method": "canonical",
+"preferred_label": "聖潔"
 },
 {
 "id": "keyterm:Safety",
@@ -19809,11 +19802,11 @@
 "preferred_label": "安全"
 },
 {
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.2145,
+"id": "keyterm:Complete",
+"type": "keyterm",
+"confidence": 0.2164,
 "match_method": "canonical",
-"preferred_label": "金錢"
+"preferred_label": "完全"
 },
 {
 "id": "flora:Vine",
@@ -19823,11 +19816,11 @@
 "preferred_label": "葡萄樹"
 },
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.1582,
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.2145,
 "match_method": "canonical",
-"preferred_label": "賜福（認可）"
+"preferred_label": "金錢"
 },
 {
 "id": "keyterm:Dispossess",
@@ -19837,18 +19830,11 @@
 "preferred_label": "趕逐奪業"
 },
 {
-"id": "keyterm:Work",
+"id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.1582,
 "match_method": "canonical",
-"preferred_label": "做工"
-},
-{
-"id": "keyterm:Atonement",
-"type": "keyterm",
-"confidence": 0.1582,
-"match_method": "canonical",
-"preferred_label": "贖罪"
+"preferred_label": "賜福（認可）"
 },
 {
 "id": "place:Canaan",
@@ -19858,6 +19844,20 @@
 "preferred_label": "迦南"
 },
 {
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.1582,
+"match_method": "canonical",
+"preferred_label": "摩西"
+},
+{
+"id": "keyterm:Work",
+"type": "keyterm",
+"confidence": 0.1582,
+"match_method": "canonical",
+"preferred_label": "做工"
+},
+{
 "id": "place:SinaiMount",
 "type": "place",
 "confidence": 0.1582,
@@ -19865,11 +19865,11 @@
 "preferred_label": "西奈山"
 },
 {
-"id": "person:Moses",
-"type": "person",
+"id": "keyterm:Atonement",
+"type": "keyterm",
 "confidence": 0.1582,
 "match_method": "canonical",
-"preferred_label": "摩西"
+"preferred_label": "贖罪"
 },
 {
 "id": "flora:Barley",
@@ -19886,6 +19886,13 @@
 "preferred_label": "羊角"
 },
 {
+"id": "flora:Sorghum",
+"type": "flora",
+"confidence": 0.0982,
+"match_method": "canonical",
+"preferred_label": "高粱"
+},
+{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.0982,
@@ -19898,13 +19905,6 @@
 "confidence": 0.0982,
 "match_method": "canonical",
 "preferred_label": "小麥"
-},
-{
-"id": "flora:Sorghum",
-"type": "flora",
-"confidence": 0.0982,
-"match_method": "canonical",
-"preferred_label": "高粱"
 }
 ]
 }
@@ -19959,18 +19959,18 @@
 "preferred_label": "以色列"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "大麥"
-},
-{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.165,
 "match_method": "canonical",
 "preferred_label": "牛"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "大麥"
 }
 ]
 }
@@ -20071,6 +20071,13 @@
 "preferred_label": "耶和華"
 },
 {
+"id": "keyterm:Sabbath",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "安息日"
+},
+{
 "id": "keyterm:Atonement",
 "type": "keyterm",
 "confidence": 0.195,
@@ -20083,13 +20090,6 @@
 "confidence": 0.195,
 "match_method": "canonical",
 "preferred_label": "懼怕"
-},
-{
-"id": "keyterm:Sabbath",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "安息日"
 },
 {
 "id": "realia:RamsHorn",
@@ -20447,18 +20447,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "懼怕"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "耶和華"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "懼怕"
 },
 {
 "id": "realia:Money",
@@ -20499,18 +20499,18 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "埃及"
-},
-{
 "id": "place:Canaan",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "迦南"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "埃及"
 }
 ]
 }
@@ -20552,18 +20552,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:YearOfAcquittance",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "豁免年"
-},
-{
 "id": "keyterm:EnticedToServe",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "強迫服事"
+},
+{
+"id": "keyterm:YearOfAcquittance",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "豁免年"
 }
 ]
 }
@@ -20659,11 +20659,11 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Dispossess",
+"id": "keyterm:EnticedToServe",
 "type": "keyterm",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "趕逐奪業"
+"preferred_label": "強迫服事"
 },
 {
 "id": "person:Israel",
@@ -20673,11 +20673,11 @@
 "preferred_label": "以色列"
 },
 {
-"id": "keyterm:EnticedToServe",
+"id": "keyterm:Dispossess",
 "type": "keyterm",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "強迫服事"
+"preferred_label": "趕逐奪業"
 }
 ]
 }
@@ -20725,13 +20725,6 @@
 "preferred_label": "金錢"
 },
 {
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "埃及"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.2,
@@ -20744,6 +20737,13 @@
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "以色列"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "埃及"
 }
 ]
 }
@@ -20777,18 +20777,18 @@
 "preferred_label": "雕刻的偶像"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "耶和華"
-},
-{
 "id": "keyterm:Idol",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "偶像"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "耶和華"
 },
 {
 "id": "realia:SacredPillar",
@@ -20887,11 +20887,11 @@
 "preferred_label": "熱情"
 },
 {
-"id": "keyterm:PleasingOdor",
+"id": "keyterm:Strength",
 "type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "馨香之氣"
+"preferred_label": "力量"
 },
 {
 "id": "place:Egypt",
@@ -20901,11 +20901,18 @@
 "preferred_label": "埃及"
 },
 {
-"id": "keyterm:Strength",
+"id": "keyterm:PleasingOdor",
 "type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "力量"
+"preferred_label": "馨香之氣"
+},
+{
+"id": "keyterm:Safety",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "安全"
 },
 {
 "id": "keyterm:Complete",
@@ -20920,13 +20927,6 @@
 "confidence": 0.1622,
 "match_method": "canonical",
 "preferred_label": "平安"
-},
-{
-"id": "keyterm:Safety",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "安全"
 },
 {
 "id": "realia:HighPlace",
@@ -20950,60 +20950,11 @@
 "preferred_label": "獅子"
 },
 {
-"id": "fauna:Jackal",
-"type": "fauna",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "豺狗"
-},
-{
-"id": "fauna:Hyena",
-"type": "fauna",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "鬣狗"
-},
-{
-"id": "realia:Image",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "像"
-},
-{
-"id": "flora:Pine",
-"type": "flora",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "義大利石松"
-},
-{
 "id": "realia:Sword",
 "type": "realia",
 "confidence": 0.1022,
 "match_method": "canonical",
 "preferred_label": "刀劍"
-},
-{
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "大麥"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "牛"
-},
-{
-"id": "flora:Coriander",
-"type": "flora",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "芫荽"
 },
 {
 "id": "fauna:Bear",
@@ -21013,11 +20964,60 @@
 "preferred_label": "熊"
 },
 {
+"id": "realia:Image",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "像"
+},
+{
+"id": "fauna:Jackal",
+"type": "fauna",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "豺狗"
+},
+{
 "id": "flora:Vine",
 "type": "flora",
 "confidence": 0.1022,
 "match_method": "canonical",
 "preferred_label": "葡萄樹"
+},
+{
+"id": "fauna:Hyena",
+"type": "fauna",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "鬣狗"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "牛"
+},
+{
+"id": "flora:Pine",
+"type": "flora",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "義大利石松"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "大麥"
+},
+{
+"id": "flora:Coriander",
+"type": "flora",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "芫荽"
 }
 ]
 }
@@ -21219,13 +21219,6 @@
 "preferred_label": "犯罪"
 },
 {
-"id": "keyterm:Covenant",
-"type": "keyterm",
-"confidence": 0.2346,
-"match_method": "canonical",
-"preferred_label": "約"
-},
-{
 "id": "keyterm:Sabbath",
 "type": "keyterm",
 "confidence": 0.2346,
@@ -21233,18 +21226,18 @@
 "preferred_label": "安息日"
 },
 {
+"id": "keyterm:Covenant",
+"type": "keyterm",
+"confidence": 0.2346,
+"match_method": "canonical",
+"preferred_label": "約"
+},
+{
 "id": "keyterm:Ardour",
 "type": "keyterm",
 "confidence": 0.175,
 "match_method": "canonical",
 "preferred_label": "熱情"
-},
-{
-"id": "keyterm:Complete",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "完全"
 },
 {
 "id": "keyterm:Strength",
@@ -21261,11 +21254,32 @@
 "preferred_label": "馨香之氣"
 },
 {
+"id": "keyterm:Complete",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "完全"
+},
+{
 "id": "realia:HighPlace",
 "type": "realia",
 "confidence": 0.115,
 "match_method": "canonical",
 "preferred_label": "邱壇"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "牛"
+},
+{
+"id": "flora:Coriander",
+"type": "flora",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "芫荽"
 },
 {
 "id": "realia:Sword",
@@ -21275,11 +21289,11 @@
 "preferred_label": "刀劍"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
+"id": "flora:Pine",
+"type": "flora",
 "confidence": 0.1073,
 "match_method": "canonical",
-"preferred_label": "牛"
+"preferred_label": "義大利石松"
 },
 {
 "id": "flora:Barley",
@@ -21294,20 +21308,6 @@
 "confidence": 0.1073,
 "match_method": "canonical",
 "preferred_label": "像"
-},
-{
-"id": "flora:Pine",
-"type": "flora",
-"confidence": 0.1073,
-"match_method": "canonical",
-"preferred_label": "義大利石松"
-},
-{
-"id": "flora:Coriander",
-"type": "flora",
-"confidence": 0.1073,
-"match_method": "canonical",
-"preferred_label": "芫荽"
 }
 ]
 }
@@ -21591,25 +21591,11 @@
 "preferred_label": "悔改"
 },
 {
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "埃及"
-},
-{
 "id": "person:Isaac",
 "type": "person",
 "confidence": 0.225,
 "match_method": "canonical",
 "preferred_label": "以撒"
-},
-{
-"id": "keyterm:Unfaithful",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "行事不忠"
 },
 {
 "id": "person:Israel",
@@ -21626,11 +21612,25 @@
 "preferred_label": "安息日"
 },
 {
+"id": "keyterm:Unfaithful",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "行事不忠"
+},
+{
 "id": "person:Abraham",
 "type": "person",
 "confidence": 0.225,
 "match_method": "canonical",
 "preferred_label": "亞伯拉罕"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "埃及"
 }
 ]
 }
@@ -21695,18 +21695,18 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Isaac",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "以撒"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "以色列"
+},
+{
+"id": "person:Isaac",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "以撒"
 },
 {
 "id": "keyterm:Covenant",
@@ -21810,11 +21810,11 @@
 "preferred_label": "牛"
 },
 {
-"id": "keyterm:Offering",
+"id": "keyterm:Vow",
 "type": "keyterm",
 "confidence": 0.2265,
 "match_method": "canonical",
-"preferred_label": "供物"
+"preferred_label": "許願"
 },
 {
 "id": "person:Israel",
@@ -21824,11 +21824,11 @@
 "preferred_label": "以色列"
 },
 {
-"id": "keyterm:Vow",
+"id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.2265,
 "match_method": "canonical",
-"preferred_label": "許願"
+"preferred_label": "供物"
 },
 {
 "id": "keyterm:Defilement",
@@ -21887,25 +21887,25 @@
 "preferred_label": "賀梅珥"
 },
 {
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "綿羊"
-},
-{
-"id": "realia:Rod",
-"type": "realia",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "杖"
-},
-{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.1032,
 "match_method": "canonical",
 "preferred_label": "羊群"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "山羊"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "綿羊"
 },
 {
 "id": "realia:Staff",
@@ -21915,11 +21915,11 @@
 "preferred_label": "杖"
 },
 {
-"id": "fauna:Goat",
-"type": "fauna",
+"id": "realia:Rod",
+"type": "realia",
 "confidence": 0.1032,
 "match_method": "canonical",
-"preferred_label": "山羊"
+"preferred_label": "杖"
 }
 ]
 }
@@ -21953,18 +21953,18 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "以色列"
-},
-{
 "id": "keyterm:Vow",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "許願"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "以色列"
 }
 ]
 }
@@ -22120,18 +22120,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Redeem",
-"type": "keyterm",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "救贖"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.3,
 "match_method": "canonical",
 "preferred_label": "耶和華"
+},
+{
+"id": "keyterm:Redeem",
+"type": "keyterm",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "救贖"
 },
 {
 "id": "keyterm:Defilement",
@@ -22186,18 +22186,18 @@
 "preferred_label": "房屋"
 },
 {
-"id": "keyterm:Redeem",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "救贖"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "耶和華"
+},
+{
+"id": "keyterm:Redeem",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "救贖"
 },
 {
 "id": "realia:Money",
@@ -22252,18 +22252,18 @@
 "preferred_label": "金錢"
 },
 {
-"id": "keyterm:Redeem",
-"type": "keyterm",
-"confidence": 0.35,
-"match_method": "canonical",
-"preferred_label": "救贖"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.35,
 "match_method": "canonical",
 "preferred_label": "耶和華"
+},
+{
+"id": "keyterm:Redeem",
+"type": "keyterm",
+"confidence": 0.35,
+"match_method": "canonical",
+"preferred_label": "救贖"
 },
 {
 "id": "keyterm:SomethingDevotedToGod",
@@ -22325,18 +22325,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "聖潔"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "耶和華"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "聖潔"
 },
 {
 "id": "keyterm:SomethingDevotedToGod",
@@ -22422,18 +22422,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "聖潔"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "耶和華"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "聖潔"
 },
 {
 "id": "fauna:Bull",
@@ -22481,11 +22481,11 @@
 "preferred_label": "分別歸上帝"
 },
 {
-"id": "keyterm:SomethingDevotedToGod",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "當滅的物"
+"preferred_label": "耶和華"
 },
 {
 "id": "keyterm:Redeem",
@@ -22495,11 +22495,11 @@
 "preferred_label": "救贖"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:SomethingDevotedToGod",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "耶和華"
+"preferred_label": "當滅的物"
 },
 {
 "id": "keyterm:Holy",
@@ -22547,18 +22547,18 @@
 "preferred_label": "分別歸上帝"
 },
 {
-"id": "keyterm:SomethingDevotedToGod",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "當滅的物"
-},
-{
 "id": "keyterm:Redeem",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "救贖"
+},
+{
+"id": "keyterm:SomethingDevotedToGod",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "當滅的物"
 }
 ]
 }
@@ -22585,18 +22585,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "聖潔"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "耶和華"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "聖潔"
 },
 {
 "id": "flora:Barley",
@@ -22682,28 +22682,7 @@
 "preferred_label": "聖潔"
 },
 {
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "羊群"
-},
-{
 "id": "realia:Staff",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "杖"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "山羊"
-},
-{
-"id": "realia:Rod",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
@@ -22715,6 +22694,27 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "牛"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "羊群"
+},
+{
+"id": "realia:Rod",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "杖"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "山羊"
 }
 ]
 }
@@ -22741,13 +22741,6 @@
 "resource": [],
 "acai": [
 {
-"id": "place:SinaiMount",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "西奈山"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -22767,6 +22760,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "以色列"
+},
+{
+"id": "place:SinaiMount",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "西奈山"
 }
 ]
 }

@@ -21,13 +21,6 @@
 "resource": [],
 "acai": [
 {
-"id": "place:Pontus",
-"type": "place",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "بُنْتُسُ"
-},
-{
 "id": "place:Cappadocia",
 "type": "place",
 "confidence": 0.8,
@@ -49,11 +42,18 @@
 "preferred_label": "غَلَاطِيَّةَ"
 },
 {
-"id": "person:Jesus.2",
+"id": "place:Pontus",
+"type": "place",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "بُنْتُسُ"
+},
+{
+"id": "person:Peter",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "يَسوع"
+"preferred_label": "بُطْرُس"
 },
 {
 "id": "place:Asia",
@@ -63,11 +63,11 @@
 "preferred_label": "أَسِيَّا"
 },
 {
-"id": "person:Peter",
+"id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "بُطْرُس"
+"preferred_label": "يَسوع"
 },
 {
 "id": "keyterm:Chosen",
@@ -108,18 +108,18 @@
 "preferred_label": "تكريس"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "يَسوع"
+"preferred_label": "الرَّبّ"
 },
 {
-"id": "keyterm:Peace",
+"id": "keyterm:Blood",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "صُنْعُ ٱلسَّلَامِ"
+"preferred_label": "دم"
 },
 {
 "id": "keyterm:Favor",
@@ -129,11 +129,11 @@
 "preferred_label": "حظوة"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Peace",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "الرَّبّ"
+"preferred_label": "صُنْعُ ٱلسَّلَامِ"
 },
 {
 "id": "deity:HolySpirit",
@@ -143,11 +143,11 @@
 "preferred_label": "الروح القدس"
 },
 {
-"id": "keyterm:Blood",
-"type": "keyterm",
+"id": "person:Jesus.2",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "دم"
+"preferred_label": "يَسوع"
 }
 ]
 }
@@ -181,25 +181,11 @@
 "preferred_label": "رَجَاء"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "يَسوع"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "يبارك"
-},
-{
-"id": "keyterm:Mercy",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "رَحْمَة"
+"preferred_label": "الرَّبّ"
 },
 {
 "id": "keyterm:Resurrection",
@@ -209,11 +195,11 @@
 "preferred_label": "قيامة"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Mercy",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "الرَّبّ"
+"preferred_label": "رَحْمَة"
 },
 {
 "id": "keyterm:Life",
@@ -221,6 +207,20 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "حَيَاة"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يبارك"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يَسوع"
 }
 ]
 }
@@ -254,25 +254,11 @@
 "preferred_label": "يؤمن"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.3286,
-"match_method": "canonical",
-"preferred_label": "يَسوع"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.3286,
 "match_method": "canonical",
 "preferred_label": "الرَّبّ"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.3286,
-"match_method": "canonical",
-"preferred_label": "خَلَاص"
 },
 {
 "id": "keyterm:Glory",
@@ -282,11 +268,18 @@
 "preferred_label": "مجد"
 },
 {
-"id": "keyterm:Hope",
+"id": "keyterm:Salvation",
 "type": "keyterm",
-"confidence": 0.2429,
+"confidence": 0.3286,
 "match_method": "canonical",
-"preferred_label": "رَجَاء"
+"preferred_label": "خَلَاص"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.3286,
+"match_method": "canonical",
+"preferred_label": "يَسوع"
 },
 {
 "id": "keyterm:Imperishable",
@@ -296,53 +289,11 @@
 "preferred_label": "عَدِيمُ ٱلْفَسَادِ"
 },
 {
-"id": "keyterm:Ability",
+"id": "keyterm:Hope",
 "type": "keyterm",
-"confidence": 0.2143,
+"confidence": 0.2429,
 "match_method": "canonical",
-"preferred_label": "قُدْرَة"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "يبارك"
-},
-{
-"id": "keyterm:Mercy",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "رَحْمَة"
-},
-{
-"id": "keyterm:Resurrection",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "قيامة"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "محبة"
-},
-{
-"id": "keyterm:Life",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "حَيَاة"
-},
-{
-"id": "keyterm:CauseOfJoy",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "سَبَبُ فَرَحٍ"
+"preferred_label": "رَجَاء"
 },
 {
 "id": "keyterm:Undefiled",
@@ -352,11 +303,53 @@
 "preferred_label": "طَاهِر"
 },
 {
-"id": "keyterm:Interpret",
+"id": "keyterm:Resurrection",
 "type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "اختبار"
+"preferred_label": "قيامة"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "يبارك"
+},
+{
+"id": "keyterm:CauseOfJoy",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "سَبَبُ فَرَحٍ"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "حَيَاة"
+},
+{
+"id": "keyterm:Mercy",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "رَحْمَة"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "قُدْرَة"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "محبة"
 },
 {
 "id": "keyterm:Heaven",
@@ -364,6 +357,13 @@
 "confidence": 0.2143,
 "match_method": "canonical",
 "preferred_label": "سماء"
+},
+{
+"id": "keyterm:Interpret",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "اختبار"
 }
 ]
 }
@@ -397,18 +397,18 @@
 "preferred_label": "عَدِيمُ ٱلْفَسَادِ"
 },
 {
-"id": "keyterm:Undefiled",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "طَاهِر"
-},
-{
 "id": "keyterm:Heaven",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "سماء"
+},
+{
+"id": "keyterm:Undefiled",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "طَاهِر"
 }
 ]
 }
@@ -449,18 +449,18 @@
 "preferred_label": "قُدْرَة"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "يؤمن"
-},
-{
 "id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "خَلَاص"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يؤمن"
 }
 ]
 }
@@ -487,20 +487,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "مجد"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "يَسوع"
-},
-{
 "id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.6,
@@ -513,6 +499,20 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "اختبار"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "مجد"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يَسوع"
 }
 ]
 }
@@ -584,39 +584,11 @@
 "preferred_label": "الروح القدس"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "يَسوع"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "مَلَاك"
-},
-{
-"id": "keyterm:Favor",
+"id": "keyterm:GoodNews",
 "type": "keyterm",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "حظوة"
-},
-{
-"id": "keyterm:Speak",
-"type": "keyterm",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "يَتَنَبَّأُ"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "خَلَاص"
+"preferred_label": "بشارة"
 },
 {
 "id": "keyterm:Glory",
@@ -626,11 +598,39 @@
 "preferred_label": "مجد"
 },
 {
-"id": "keyterm:Serve",
+"id": "keyterm:Favor",
 "type": "keyterm",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "يَخْدِم"
+"preferred_label": "حظوة"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "مَلَاك"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "خَلَاص"
+},
+{
+"id": "keyterm:Speak",
+"type": "keyterm",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "يَتَنَبَّأُ"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "يَسوع"
 },
 {
 "id": "keyterm:Heaven",
@@ -640,11 +640,11 @@
 "preferred_label": "سماء"
 },
 {
-"id": "keyterm:GoodNews",
+"id": "keyterm:Serve",
 "type": "keyterm",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "بشارة"
+"preferred_label": "يَخْدِم"
 }
 ]
 }
@@ -678,18 +678,18 @@
 "preferred_label": "مجد"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "يَسوع"
-},
-{
 "id": "deity:HolySpirit",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "الروح القدس"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يَسوع"
 }
 ]
 }
@@ -716,11 +716,25 @@
 "resource": [],
 "acai": [
 {
+"id": "keyterm:GoodNews",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "بشارة"
+},
+{
 "id": "deity:Angel",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "مَلَاك"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "سماء"
 },
 {
 "id": "deity:HolySpirit",
@@ -735,20 +749,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "يَخْدِم"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "سماء"
-},
-{
-"id": "keyterm:GoodNews",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "بشارة"
 }
 ]
 }
@@ -775,20 +775,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Mind.2",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "فكر"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "يَسوع"
-},
-{
 "id": "keyterm:Hope",
 "type": "keyterm",
 "confidence": 0.6,
@@ -801,6 +787,20 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "حظوة"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يَسوع"
+},
+{
+"id": "keyterm:Mind.2",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "فكر"
 }
 ]
 }
@@ -834,11 +834,11 @@
 "preferred_label": "مقدس"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
+"id": "keyterm:Hope",
+"type": "keyterm",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "يَسوع"
+"preferred_label": "رَجَاء"
 },
 {
 "id": "deity:Lord",
@@ -848,11 +848,18 @@
 "preferred_label": "الرَّبّ"
 },
 {
-"id": "keyterm:Hope",
-"type": "keyterm",
+"id": "person:Jesus.2",
+"type": "person",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "رَجَاء"
+"preferred_label": "يَسوع"
+},
+{
+"id": "keyterm:Liberation",
+"type": "keyterm",
+"confidence": 0.2222,
+"match_method": "canonical",
+"preferred_label": "تَحَرُّر"
 },
 {
 "id": "keyterm:CallUpon",
@@ -869,67 +876,11 @@
 "preferred_label": "بِلَا عَيْبٍ"
 },
 {
-"id": "keyterm:Liberation",
-"type": "keyterm",
-"confidence": 0.2222,
-"match_method": "canonical",
-"preferred_label": "تَحَرُّر"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "قُدْرَة"
-},
-{
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "حظوة"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "خوف"
-},
-{
-"id": "keyterm:Worthless",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "بَاطِل"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "مجد"
-},
-{
-"id": "keyterm:Decided",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "قضى"
-},
-{
 "id": "keyterm:Resurrection",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "قيامة"
-},
-{
-"id": "keyterm:Mind.2",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "فكر"
 },
 {
 "id": "keyterm:AboveCriticism",
@@ -939,11 +890,18 @@
 "preferred_label": "بِلَا لَوْمٍ"
 },
 {
-"id": "keyterm:Faithfulness",
+"id": "keyterm:Favor",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "أمانة"
+"preferred_label": "حظوة"
+},
+{
+"id": "keyterm:Worthless",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "بَاطِل"
 },
 {
 "id": "keyterm:Believe",
@@ -951,6 +909,48 @@
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "يؤمن"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "خوف"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "مجد"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "قُدْرَة"
+},
+{
+"id": "keyterm:Decided",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "قضى"
+},
+{
+"id": "keyterm:Mind.2",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "فكر"
+},
+{
+"id": "keyterm:Faithfulness",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "أمانة"
 },
 {
 "id": "keyterm:Blood",
@@ -1119,11 +1119,11 @@
 "preferred_label": "بِلَا عَيْبٍ"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
+"id": "keyterm:AboveCriticism",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "يَسوع"
+"preferred_label": "بِلَا لَوْمٍ"
 },
 {
 "id": "keyterm:Blood",
@@ -1133,11 +1133,11 @@
 "preferred_label": "دم"
 },
 {
-"id": "keyterm:AboveCriticism",
-"type": "keyterm",
+"id": "person:Jesus.2",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "بِلَا لَوْمٍ"
+"preferred_label": "يَسوع"
 },
 {
 "id": "fauna:Lamb",
@@ -1217,25 +1217,11 @@
 "preferred_label": "المحبة الأخوية"
 },
 {
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "طَاهِر"
-},
-{
 "id": "keyterm:Heart",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "قَلْب"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "محبة"
 },
 {
 "id": "keyterm:Truth",
@@ -1250,6 +1236,20 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "بِلَا رِيَاء"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "محبة"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "طَاهِر"
 }
 ]
 }
@@ -1290,32 +1290,11 @@
 "preferred_label": "المحبة الأخوية"
 },
 {
-"id": "keyterm:Salvation",
+"id": "keyterm:Good",
 "type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "خَلَاص"
-},
-{
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "جَسَد"
-},
-{
-"id": "keyterm:Life",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "حَيَاة"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "مجد"
+"preferred_label": "صالح"
 },
 {
 "id": "keyterm:Imperishable",
@@ -1325,46 +1304,18 @@
 "preferred_label": "عَدِيمُ ٱلْفَسَادِ"
 },
 {
-"id": "keyterm:Good",
+"id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "صالح"
+"preferred_label": "خَلَاص"
 },
 {
-"id": "keyterm:Hypocrisy",
+"id": "keyterm:Life",
 "type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "رِيَاء"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "يَسوع"
-},
-{
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "طَاهِر"
-},
-{
-"id": "keyterm:Heart",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "قَلْب"
-},
-{
-"id": "keyterm:Unadulterated",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "عَدِيمُ الْغِشِّ"
+"preferred_label": "حَيَاة"
 },
 {
 "id": "keyterm:Truth",
@@ -1372,20 +1323,6 @@
 "confidence": 0.2143,
 "match_method": "canonical",
 "preferred_label": "حق"
-},
-{
-"id": "keyterm:Unhypocritical",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "بِلَا رِيَاء"
-},
-{
-"id": "keyterm:LongFor",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "اشتاق إلى"
 },
 {
 "id": "keyterm:Word",
@@ -1402,11 +1339,46 @@
 "preferred_label": "محبة"
 },
 {
+"id": "keyterm:Heart",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "قَلْب"
+},
+{
 "id": "keyterm:Rational",
 "type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
 "preferred_label": "عَقْلِيّ"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "مجد"
+},
+{
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "إِلى الأَبَد"
+},
+{
+"id": "keyterm:Unadulterated",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "عَدِيمُ الْغِشِّ"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "جَسَد"
 },
 {
 "id": "keyterm:GoodNews",
@@ -1416,11 +1388,39 @@
 "preferred_label": "بشارة"
 },
 {
-"id": "keyterm:Always",
+"id": "keyterm:Hypocrisy",
 "type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "إِلى الأَبَد"
+"preferred_label": "رِيَاء"
+},
+{
+"id": "keyterm:LongFor",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "اشتاق إلى"
+},
+{
+"id": "keyterm:Unhypocritical",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "بِلَا رِيَاء"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "طَاهِر"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "يَسوع"
 },
 {
 "id": "flora:Grass",
@@ -1461,13 +1461,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Rational",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "عَقْلِيّ"
-},
-{
 "id": "keyterm:Unadulterated",
 "type": "keyterm",
 "confidence": 0.6,
@@ -1487,6 +1480,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "اشتاق إلى"
+},
+{
+"id": "keyterm:Rational",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "عَقْلِيّ"
 }
 ]
 }
@@ -1513,18 +1513,18 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "يَسوع"
-},
-{
 "id": "keyterm:Good",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "صالح"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يَسوع"
 }
 ]
 }
@@ -1558,13 +1558,6 @@
 "preferred_label": "رَفَضَ"
 },
 {
-"id": "keyterm:Chosen",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "مختار"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -1577,6 +1570,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "حَيَاة"
+},
+{
+"id": "keyterm:Chosen",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "مختار"
 }
 ]
 }
@@ -1617,13 +1617,6 @@
 "preferred_label": "الرَّبّ"
 },
 {
-"id": "keyterm:Priesthood",
-"type": "keyterm",
-"confidence": 0.3571,
-"match_method": "canonical",
-"preferred_label": "كهنوت"
-},
-{
 "id": "keyterm:Reject",
 "type": "keyterm",
 "confidence": 0.3571,
@@ -1631,11 +1624,11 @@
 "preferred_label": "رَفَضَ"
 },
 {
-"id": "keyterm:Believe",
+"id": "keyterm:Priesthood",
 "type": "keyterm",
-"confidence": 0.3286,
+"confidence": 0.3571,
 "match_method": "canonical",
-"preferred_label": "يؤمن"
+"preferred_label": "كهنوت"
 },
 {
 "id": "keyterm:Life",
@@ -1643,6 +1636,13 @@
 "confidence": 0.3286,
 "match_method": "canonical",
 "preferred_label": "حَيَاة"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.3286,
+"match_method": "canonical",
+"preferred_label": "يؤمن"
 },
 {
 "id": "keyterm:Holy",
@@ -1673,18 +1673,11 @@
 "preferred_label": "معثرة"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "يَسوع"
-},
-{
-"id": "keyterm:Ability",
+"id": "keyterm:Scripture",
 "type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "قُدْرَة"
+"preferred_label": "مَكْتُوب"
 },
 {
 "id": "keyterm:Mercy",
@@ -1692,6 +1685,13 @@
 "confidence": 0.2143,
 "match_method": "canonical",
 "preferred_label": "رَحْمَة"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "قُدْرَة"
 },
 {
 "id": "keyterm:Disbelieve",
@@ -1708,18 +1708,11 @@
 "preferred_label": "تَقْدِمَة"
 },
 {
-"id": "keyterm:Scripture",
-"type": "keyterm",
+"id": "person:Jesus.2",
+"type": "person",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "مَكْتُوب"
-},
-{
-"id": "realia:Temple",
-"type": "realia",
-"confidence": 0.1543,
-"match_method": "canonical",
-"preferred_label": "الهيكل"
+"preferred_label": "يَسوع"
 },
 {
 "id": "realia:House",
@@ -1727,6 +1720,13 @@
 "confidence": 0.1543,
 "match_method": "canonical",
 "preferred_label": "بَيْت"
+},
+{
+"id": "realia:Temple",
+"type": "realia",
+"confidence": 0.1543,
+"match_method": "canonical",
+"preferred_label": "الهيكل"
 }
 ]
 }
@@ -1753,39 +1753,11 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "يَسوع"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "قُدْرَة"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "الرَّبّ"
-},
-{
-"id": "keyterm:Priesthood",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "كهنوت"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "تَقْدِمَة"
 },
 {
 "id": "keyterm:Life",
@@ -1795,6 +1767,27 @@
 "preferred_label": "حَيَاة"
 },
 {
+"id": "keyterm:Priesthood",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "كهنوت"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "قُدْرَة"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "تَقْدِمَة"
+},
+{
 "id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.6,
@@ -1802,11 +1795,11 @@
 "preferred_label": "مقدس"
 },
 {
-"id": "realia:Temple",
-"type": "realia",
-"confidence": 0.54,
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "الهيكل"
+"preferred_label": "يَسوع"
 },
 {
 "id": "realia:House",
@@ -1814,6 +1807,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "بَيْت"
+},
+{
+"id": "realia:Temple",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "الهيكل"
 }
 ]
 }
@@ -1868,20 +1868,6 @@
 "preferred_label": "معثرة"
 },
 {
-"id": "keyterm:Disbelieve",
-"type": "keyterm",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "لَا يُؤْمِن"
-},
-{
-"id": "keyterm:Chosen",
-"type": "keyterm",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "مختار"
-},
-{
 "id": "keyterm:Scripture",
 "type": "keyterm",
 "confidence": 0.3,
@@ -1894,6 +1880,20 @@
 "confidence": 0.3,
 "match_method": "canonical",
 "preferred_label": "رَفَضَ"
+},
+{
+"id": "keyterm:Disbelieve",
+"type": "keyterm",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "لَا يُؤْمِن"
+},
+{
+"id": "keyterm:Chosen",
+"type": "keyterm",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "مختار"
 }
 ]
 }
@@ -1951,18 +1951,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Chosen",
-"type": "keyterm",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "مختار"
-},
-{
 "id": "keyterm:Priesthood",
 "type": "keyterm",
 "confidence": 0.8,
 "match_method": "canonical",
 "preferred_label": "كهنوت"
+},
+{
+"id": "keyterm:Chosen",
+"type": "keyterm",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "مختار"
 },
 {
 "id": "keyterm:Holy",
@@ -2048,18 +2048,18 @@
 "preferred_label": "جَسَدِيّ"
 },
 {
-"id": "keyterm:AskFor",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "طَلَب"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "الرَّبّ"
+},
+{
+"id": "group:Gentile",
+"type": "group",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "أمميون"
 },
 {
 "id": "keyterm:Glory",
@@ -2069,11 +2069,11 @@
 "preferred_label": "مجد"
 },
 {
-"id": "group:Gentile",
-"type": "group",
+"id": "keyterm:AskFor",
+"type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "أمميون"
+"preferred_label": "طَلَب"
 },
 {
 "id": "keyterm:Beloved",
@@ -2107,13 +2107,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "مجد"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -2126,6 +2119,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "أمميون"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "مجد"
 }
 ]
 }
@@ -2204,18 +2204,18 @@
 "preferred_label": "يَصْنَعُ خَيْرًا"
 },
 {
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.3175,
-"match_method": "canonical",
-"preferred_label": "حظوة"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.3175,
 "match_method": "canonical",
 "preferred_label": "أَنْ يُخْطِئَ"
+},
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.3175,
+"match_method": "canonical",
+"preferred_label": "حظوة"
 },
 {
 "id": "keyterm:Life",
@@ -2225,25 +2225,11 @@
 "preferred_label": "حَيَاة"
 },
 {
-"id": "keyterm:Pray",
+"id": "keyterm:Good",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "صلّى"
-},
-{
-"id": "keyterm:Spirit.2",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "رُوح"
-},
-{
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "جَسَد"
+"preferred_label": "صالح"
 },
 {
 "id": "keyterm:Imperishable",
@@ -2253,81 +2239,11 @@
 "preferred_label": "عَدِيمُ ٱلْفَسَادِ"
 },
 {
-"id": "keyterm:Gentle",
+"id": "keyterm:Spirit.2",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "حَلِيم"
-},
-{
-"id": "keyterm:Good",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "صالح"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "يَسوع"
-},
-{
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "طَاهِر"
-},
-{
-"id": "keyterm:Heart",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "قَلْب"
-},
-{
-"id": "keyterm:Decided",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "قضى"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "مقدس"
-},
-{
-"id": "keyterm:GrantJustice",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "إِنْصَاف"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "محبة"
-},
-{
-"id": "keyterm:Unjust",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "ظَالِم"
-},
-{
-"id": "person:Abraham",
-"type": "person",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "إِبْرَاهِيمَ"
+"preferred_label": "رُوح"
 },
 {
 "id": "keyterm:Hope",
@@ -2344,11 +2260,95 @@
 "preferred_label": "التَّصَرُّفُ بِبِرّ"
 },
 {
+"id": "keyterm:Pray",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "صلّى"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "محبة"
+},
+{
+"id": "keyterm:Heart",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "قَلْب"
+},
+{
+"id": "keyterm:Unjust",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "ظَالِم"
+},
+{
+"id": "keyterm:Decided",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "قضى"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "جَسَد"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "مقدس"
+},
+{
+"id": "keyterm:Gentle",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "حَلِيم"
+},
+{
+"id": "keyterm:GrantJustice",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "إِنْصَاف"
+},
+{
 "id": "person:Sarah",
 "type": "person",
 "confidence": 0.1725,
 "match_method": "canonical",
 "preferred_label": "سَارَة"
+},
+{
+"id": "person:Abraham",
+"type": "person",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "إِبْرَاهِيمَ"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "طَاهِر"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "يَسوع"
 },
 {
 "id": "realia:GoldJewelry",
@@ -2358,20 +2358,6 @@
 "preferred_label": "حُلِيُّ ذَهَبٍ"
 },
 {
-"id": "realia:Clothing",
-"type": "realia",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "ثِياب"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "حَمَل"
-},
-{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.1125,
@@ -2379,11 +2365,25 @@
 "preferred_label": "قطيع"
 },
 {
+"id": "realia:Clothing",
+"type": "realia",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "ثِياب"
+},
+{
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.1125,
 "match_method": "canonical",
 "preferred_label": "مَاعِز"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "حَمَل"
 }
 ]
 }
@@ -2501,18 +2501,18 @@
 "preferred_label": "خوف"
 },
 {
-"id": "keyterm:Gentle",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "حَلِيم"
-},
-{
 "id": "keyterm:Good",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "صالح"
+},
+{
+"id": "keyterm:Gentle",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "حَلِيم"
 }
 ]
 }
@@ -2539,13 +2539,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.5,
-"match_method": "canonical",
-"preferred_label": "حظوة"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.5,
@@ -2553,11 +2546,11 @@
 "preferred_label": "الرَّبّ"
 },
 {
-"id": "keyterm:Gentle",
+"id": "keyterm:Favor",
 "type": "keyterm",
-"confidence": 0.3,
+"confidence": 0.5,
 "match_method": "canonical",
-"preferred_label": "حَلِيم"
+"preferred_label": "حظوة"
 },
 {
 "id": "keyterm:Good",
@@ -2565,6 +2558,13 @@
 "confidence": 0.3,
 "match_method": "canonical",
 "preferred_label": "صالح"
+},
+{
+"id": "keyterm:DoGood",
+"type": "keyterm",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "يَصْنَعُ خَيْرًا"
 },
 {
 "id": "keyterm:Sin",
@@ -2588,11 +2588,11 @@
 "preferred_label": "ظَالِم"
 },
 {
-"id": "keyterm:DoGood",
+"id": "keyterm:Gentle",
 "type": "keyterm",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "يَصْنَعُ خَيْرًا"
+"preferred_label": "حَلِيم"
 }
 ]
 }
@@ -2626,11 +2626,11 @@
 "preferred_label": "أَنْ يُخْطِئَ"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
+"id": "keyterm:Life",
+"type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "يَسوع"
+"preferred_label": "حَيَاة"
 },
 {
 "id": "keyterm:Just",
@@ -2654,18 +2654,11 @@
 "preferred_label": "جَسَد"
 },
 {
-"id": "keyterm:Life",
-"type": "keyterm",
+"id": "person:Jesus.2",
+"type": "person",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "حَيَاة"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "حَمَل"
+"preferred_label": "يَسوع"
 },
 {
 "id": "fauna:Flock",
@@ -2680,6 +2673,13 @@
 "confidence": 0.18,
 "match_method": "canonical",
 "preferred_label": "مَاعِز"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "حَمَل"
 }
 ]
 }
@@ -2706,11 +2706,11 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Life",
+"id": "keyterm:Body.3",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "حَيَاة"
+"preferred_label": "جَسَد"
 },
 {
 "id": "keyterm:Sin",
@@ -2727,11 +2727,11 @@
 "preferred_label": "التَّصَرُّفُ بِبِرّ"
 },
 {
-"id": "keyterm:Body.3",
+"id": "keyterm:Life",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "جَسَد"
+"preferred_label": "حَيَاة"
 }
 ]
 }
@@ -2795,60 +2795,11 @@
 "preferred_label": "خوف"
 },
 {
-"id": "keyterm:Hope",
+"id": "keyterm:DoGood",
 "type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "رَجَاء"
-},
-{
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "طَاهِر"
-},
-{
-"id": "keyterm:Pray",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "صلّى"
-},
-{
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "حظوة"
-},
-{
-"id": "keyterm:Heart",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "قَلْب"
-},
-{
-"id": "keyterm:Spirit.2",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "رُوح"
-},
-{
-"id": "keyterm:Life",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "حَيَاة"
-},
-{
-"id": "person:Sarah",
-"type": "person",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "سَارَة"
+"preferred_label": "يَصْنَعُ خَيْرًا"
 },
 {
 "id": "keyterm:Imperishable",
@@ -2858,18 +2809,53 @@
 "preferred_label": "عَدِيمُ ٱلْفَسَادِ"
 },
 {
-"id": "keyterm:Holy",
+"id": "keyterm:Heart",
 "type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "مقدس"
+"preferred_label": "قَلْب"
 },
 {
-"id": "keyterm:DoGood",
+"id": "keyterm:Favor",
 "type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "يَصْنَعُ خَيْرًا"
+"preferred_label": "حظوة"
+},
+{
+"id": "person:Sarah",
+"type": "person",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "سَارَة"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "حَيَاة"
+},
+{
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "رُوح"
+},
+{
+"id": "keyterm:Hope",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "رَجَاء"
+},
+{
+"id": "keyterm:Pray",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "صلّى"
 },
 {
 "id": "person:Abraham",
@@ -2877,6 +2863,20 @@
 "confidence": 0.2143,
 "match_method": "canonical",
 "preferred_label": "إِبْرَاهِيمَ"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "مقدس"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "طَاهِر"
 },
 {
 "id": "realia:GoldJewelry",
@@ -2924,13 +2924,6 @@
 "preferred_label": "حُلِيُّ ذَهَبٍ"
 },
 {
-"id": "keyterm:Heart",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "قَلْب"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.375,
@@ -2938,18 +2931,25 @@
 "preferred_label": "الرَّبّ"
 },
 {
-"id": "keyterm:Spirit.2",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "رُوح"
-},
-{
 "id": "keyterm:Imperishable",
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "عَدِيمُ ٱلْفَسَادِ"
+},
+{
+"id": "keyterm:Heart",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "قَلْب"
+},
+{
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "رُوح"
 },
 {
 "id": "realia:Clothing",
@@ -2990,18 +2990,18 @@
 "preferred_label": "خوف"
 },
 {
-"id": "person:Sarah",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "سَارَة"
-},
-{
 "id": "keyterm:DoGood",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "يَصْنَعُ خَيْرًا"
+},
+{
+"id": "person:Sarah",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "سَارَة"
 },
 {
 "id": "person:Abraham",
@@ -3035,6 +3035,13 @@
 "resource": [],
 "acai": [
 {
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "حظوة"
+},
+{
 "id": "keyterm:Life",
 "type": "keyterm",
 "confidence": 0.6,
@@ -3047,13 +3054,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "صلّى"
-},
-{
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "حظوة"
 }
 ]
 }
@@ -3087,11 +3087,11 @@
 "preferred_label": "صالح"
 },
 {
-"id": "keyterm:Peace",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "صُنْعُ ٱلسَّلَامِ"
+"preferred_label": "الرَّبّ"
 },
 {
 "id": "keyterm:Sympathetic",
@@ -3101,11 +3101,25 @@
 "preferred_label": "متعاطف"
 },
 {
-"id": "keyterm:Bless",
+"id": "keyterm:Tenderhearted",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "يبارك"
+"preferred_label": "رَقِيقُ ٱلْقَلْبِ"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "حَيَاة"
+},
+{
+"id": "keyterm:Peace",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "صُنْعُ ٱلسَّلَامِ"
 },
 {
 "id": "keyterm:Just",
@@ -3122,20 +3136,6 @@
 "preferred_label": "صلّى"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "الرَّبّ"
-},
-{
-"id": "keyterm:Life",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "حَيَاة"
-},
-{
 "id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.24,
@@ -3143,11 +3143,11 @@
 "preferred_label": "محبة"
 },
 {
-"id": "keyterm:Tenderhearted",
+"id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "رَقِيقُ ٱلْقَلْبِ"
+"preferred_label": "يبارك"
 }
 ]
 }
@@ -3212,6 +3212,20 @@
 "preferred_label": "صالح"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "الرَّبّ"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "حَيَاة"
+},
+{
 "id": "keyterm:Peace",
 "type": "keyterm",
 "confidence": 0.3,
@@ -3231,20 +3245,6 @@
 "confidence": 0.3,
 "match_method": "canonical",
 "preferred_label": "صلّى"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "الرَّبّ"
-},
-{
-"id": "keyterm:Life",
-"type": "keyterm",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "حَيَاة"
 },
 {
 "id": "keyterm:Love",
@@ -3309,11 +3309,11 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Jesus.2",
-"type": "person",
+"id": "keyterm:Good",
+"type": "keyterm",
 "confidence": 0.38,
 "match_method": "canonical",
-"preferred_label": "يَسوع"
+"preferred_label": "صالح"
 },
 {
 "id": "keyterm:Fear",
@@ -3323,11 +3323,32 @@
 "preferred_label": "خوف"
 },
 {
-"id": "keyterm:Good",
-"type": "keyterm",
+"id": "person:Jesus.2",
+"type": "person",
 "confidence": 0.38,
 "match_method": "canonical",
-"preferred_label": "صالح"
+"preferred_label": "يَسوع"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "الرَّبّ"
+},
+{
+"id": "keyterm:InChrist",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "فِي ٱلْمَسِيحِ"
+},
+{
+"id": "keyterm:DoGood",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "يَصْنَعُ خَيْرًا"
 },
 {
 "id": "keyterm:Happy",
@@ -3335,6 +3356,13 @@
 "confidence": 0.24,
 "match_method": "canonical",
 "preferred_label": "سعيد"
+},
+{
+"id": "keyterm:Heart",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "قَلْب"
 },
 {
 "id": "keyterm:Hope",
@@ -3351,34 +3379,6 @@
 "preferred_label": "التَّصَرُّفُ بِبِرّ"
 },
 {
-"id": "keyterm:Heart",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "قَلْب"
-},
-{
-"id": "keyterm:InChrist",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "فِي ٱلْمَسِيحِ"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "الرَّبّ"
-},
-{
-"id": "keyterm:Conscience",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "ضمير"
-},
-{
 "id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.24,
@@ -3386,11 +3386,11 @@
 "preferred_label": "مقدس"
 },
 {
-"id": "keyterm:DoGood",
+"id": "keyterm:Conscience",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "يَصْنَعُ خَيْرًا"
+"preferred_label": "ضمير"
 }
 ]
 }
@@ -3424,11 +3424,11 @@
 "preferred_label": "سعيد"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
+"id": "keyterm:Heart",
+"type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "يَسوع"
+"preferred_label": "قَلْب"
 },
 {
 "id": "keyterm:Hope",
@@ -3445,11 +3445,11 @@
 "preferred_label": "التَّصَرُّفُ بِبِرّ"
 },
 {
-"id": "keyterm:Heart",
+"id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "قَلْب"
+"preferred_label": "خوف"
 },
 {
 "id": "keyterm:Holy",
@@ -3459,11 +3459,11 @@
 "preferred_label": "مقدس"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
+"id": "person:Jesus.2",
+"type": "person",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "خوف"
+"preferred_label": "يَسوع"
 }
 ]
 }
@@ -3490,11 +3490,18 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Jesus.2",
-"type": "person",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "يَسوع"
+"preferred_label": "الرَّبّ"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "أَنْ يُخْطِئَ"
 },
 {
 "id": "keyterm:Just",
@@ -3504,13 +3511,6 @@
 "preferred_label": "التَّصَرُّفُ بِبِرّ"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "الرَّبّ"
-},
-{
 "id": "keyterm:Body.3",
 "type": "keyterm",
 "confidence": 0.6,
@@ -3518,11 +3518,11 @@
 "preferred_label": "جَسَد"
 },
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
+"id": "person:Jesus.2",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "أَنْ يُخْطِئَ"
+"preferred_label": "يَسوع"
 }
 ]
 }
@@ -3577,18 +3577,32 @@
 "preferred_label": "يَسوع"
 },
 {
-"id": "keyterm:Ability",
+"id": "keyterm:Good",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "قُدْرَة"
+"preferred_label": "صالح"
 },
 {
-"id": "keyterm:Proclaim",
+"id": "keyterm:Resurrection",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "يكرز"
+"preferred_label": "قيامة"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "أَنْ يُخْطِئَ"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "مَلَاك"
 },
 {
 "id": "keyterm:Spirit.2",
@@ -3598,11 +3612,32 @@
 "preferred_label": "رُوح"
 },
 {
-"id": "keyterm:Good",
+"id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "صالح"
+"preferred_label": "التَّصَرُّفُ بِبِرّ"
+},
+{
+"id": "keyterm:Proclaim",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "يكرز"
+},
+{
+"id": "person:Noah",
+"type": "person",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "نُوح"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "سماء"
 },
 {
 "id": "keyterm:Baptism",
@@ -3619,39 +3654,11 @@
 "preferred_label": "ضمير"
 },
 {
-"id": "keyterm:Heaven",
+"id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "سماء"
-},
-{
-"id": "keyterm:Resurrection",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "قيامة"
-},
-{
-"id": "person:Noah",
-"type": "person",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "نُوح"
-},
-{
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "التَّصَرُّفُ بِبِرّ"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "مَلَاك"
+"preferred_label": "قُدْرَة"
 },
 {
 "id": "keyterm:Authority.2",
@@ -3659,13 +3666,6 @@
 "confidence": 0.24,
 "match_method": "canonical",
 "preferred_label": "سُلْطَان"
-},
-{
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "أَنْ يُخْطِئَ"
 },
 {
 "id": "realia:Boat",
@@ -3727,11 +3727,11 @@
 "preferred_label": "الرَّبّ"
 },
 {
-"id": "keyterm:Spirit.2",
-"type": "keyterm",
+"id": "person:Noah",
+"type": "person",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "رُوح"
+"preferred_label": "نُوح"
 },
 {
 "id": "keyterm:Salvation",
@@ -3741,11 +3741,11 @@
 "preferred_label": "خَلَاص"
 },
 {
-"id": "person:Noah",
-"type": "person",
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "نُوح"
+"preferred_label": "رُوح"
 },
 {
 "id": "realia:Prison",
@@ -3831,18 +3831,18 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Jesus.2",
-"type": "person",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "يَسوع"
+"preferred_label": "الرَّبّ"
 },
 {
-"id": "keyterm:Baptism",
+"id": "keyterm:Good",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "مَعْمُودِيَّة"
+"preferred_label": "صالح"
 },
 {
 "id": "keyterm:Resurrection",
@@ -3850,13 +3850,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "قيامة"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "الرَّبّ"
 },
 {
 "id": "keyterm:Salvation",
@@ -3873,18 +3866,25 @@
 "preferred_label": "جَسَد"
 },
 {
+"id": "keyterm:Baptism",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "مَعْمُودِيَّة"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يَسوع"
+},
+{
 "id": "keyterm:Conscience",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "ضمير"
-},
-{
-"id": "keyterm:Good",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "صالح"
 }
 ]
 }
@@ -3911,11 +3911,11 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Ability",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "قُدْرَة"
+"preferred_label": "الرَّبّ"
 },
 {
 "id": "deity:Angel",
@@ -3932,11 +3932,11 @@
 "preferred_label": "سُلْطَان"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Ability",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "الرَّبّ"
+"preferred_label": "قُدْرَة"
 },
 {
 "id": "keyterm:Heaven",
@@ -3970,11 +3970,11 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Jesus.2",
-"type": "person",
+"id": "keyterm:Body.3",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "يَسوع"
+"preferred_label": "جَسَد"
 },
 {
 "id": "keyterm:Sin",
@@ -3984,11 +3984,11 @@
 "preferred_label": "أَنْ يُخْطِئَ"
 },
 {
-"id": "keyterm:Body.3",
-"type": "keyterm",
+"id": "person:Jesus.2",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "جَسَد"
+"preferred_label": "يَسوع"
 }
 ]
 }
@@ -4029,13 +4029,6 @@
 "preferred_label": "الرَّبّ"
 },
 {
-"id": "keyterm:Decided",
-"type": "keyterm",
-"confidence": 0.35,
-"match_method": "canonical",
-"preferred_label": "قضى"
-},
-{
 "id": "keyterm:Life",
 "type": "keyterm",
 "confidence": 0.35,
@@ -4043,32 +4036,11 @@
 "preferred_label": "حَيَاة"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "يَسوع"
-},
-{
-"id": "keyterm:Idolatry",
+"id": "keyterm:Decided",
 "type": "keyterm",
-"confidence": 0.225,
+"confidence": 0.35,
 "match_method": "canonical",
-"preferred_label": "عِبَادَةُ ٱلْأَوْثَانِ"
-},
-{
-"id": "keyterm:Spirit.2",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "رُوح"
-},
-{
-"id": "keyterm:DailyLife",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "الحياة اليومية"
+"preferred_label": "قضى"
 },
 {
 "id": "group:Gentile",
@@ -4078,20 +4050,6 @@
 "preferred_label": "أمميون"
 },
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "أَنْ يُخْطِئَ"
-},
-{
-"id": "keyterm:Blaspheme",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "جدّف"
-},
-{
 "id": "keyterm:GoodNews",
 "type": "keyterm",
 "confidence": 0.225,
@@ -4099,11 +4057,53 @@
 "preferred_label": "بشارة"
 },
 {
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "أَنْ يُخْطِئَ"
+},
+{
 "id": "keyterm:Disgusting",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
 "preferred_label": "مُقْرِف"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "يَسوع"
+},
+{
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "رُوح"
+},
+{
+"id": "keyterm:Idolatry",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "عِبَادَةُ ٱلْأَوْثَانِ"
+},
+{
+"id": "keyterm:DailyLife",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "الحياة اليومية"
+},
+{
+"id": "keyterm:Blaspheme",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "جدّف"
 }
 ]
 }
@@ -4130,13 +4130,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Idolatry",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "عِبَادَةُ ٱلْأَوْثَانِ"
-},
-{
 "id": "group:Gentile",
 "type": "group",
 "confidence": 0.6,
@@ -4149,6 +4142,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "مُقْرِف"
+},
+{
+"id": "keyterm:Idolatry",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "عِبَادَةُ ٱلْأَوْثَانِ"
 }
 ]
 }
@@ -4182,25 +4182,11 @@
 "preferred_label": "الرَّبّ"
 },
 {
-"id": "keyterm:Decided",
+"id": "keyterm:GoodNews",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "قضى"
-},
-{
-"id": "keyterm:Spirit.2",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "رُوح"
-},
-{
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "جَسَد"
+"preferred_label": "بشارة"
 },
 {
 "id": "keyterm:Life",
@@ -4210,11 +4196,25 @@
 "preferred_label": "حَيَاة"
 },
 {
-"id": "keyterm:GoodNews",
+"id": "keyterm:Spirit.2",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "بشارة"
+"preferred_label": "رُوح"
+},
+{
+"id": "keyterm:Decided",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "قضى"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "جَسَد"
 }
 ]
 }
@@ -4286,18 +4286,18 @@
 "preferred_label": "يَخْدِم"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "يَسوع"
-},
-{
-"id": "keyterm:Pray",
+"id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "صلّى"
+"preferred_label": "مجد"
+},
+{
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "إِلى الأَبَد"
 },
 {
 "id": "keyterm:Favor",
@@ -4307,25 +4307,11 @@
 "preferred_label": "حظوة"
 },
 {
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "مجد"
-},
-{
 "id": "keyterm:Surely",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
 "preferred_label": "حقاً!"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "محبة"
 },
 {
 "id": "keyterm:Sin",
@@ -4335,11 +4321,25 @@
 "preferred_label": "أَنْ يُخْطِئَ"
 },
 {
-"id": "keyterm:Always",
+"id": "keyterm:Pray",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "إِلى الأَبَد"
+"preferred_label": "صلّى"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "محبة"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "يَسوع"
 }
 ]
 }
@@ -4366,18 +4366,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "محبة"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "أَنْ يُخْطِئَ"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "محبة"
 }
 ]
 }
@@ -4404,13 +4404,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Serve",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "يَخْدِم"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -4423,6 +4416,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "حظوة"
+},
+{
+"id": "keyterm:Serve",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يَخْدِم"
 }
 ]
 }
@@ -4449,13 +4449,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "يَسوع"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -4470,11 +4463,11 @@
 "preferred_label": "مجد"
 },
 {
-"id": "keyterm:Serve",
+"id": "keyterm:Always",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "يَخْدِم"
+"preferred_label": "إِلى الأَبَد"
 },
 {
 "id": "keyterm:Surely",
@@ -4484,11 +4477,18 @@
 "preferred_label": "حقاً!"
 },
 {
-"id": "keyterm:Always",
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يَسوع"
+},
+{
+"id": "keyterm:Serve",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "إِلى الأَبَد"
+"preferred_label": "يَخْدِم"
 }
 ]
 }
@@ -4553,13 +4553,6 @@
 "preferred_label": "الرَّبّ"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.4187,
-"match_method": "canonical",
-"preferred_label": "يَسوع"
-},
-{
 "id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.4187,
@@ -4567,11 +4560,11 @@
 "preferred_label": "مجد"
 },
 {
-"id": "group:Christ",
-"type": "group",
-"confidence": 0.2313,
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.4187,
 "match_method": "canonical",
-"preferred_label": "مسيحيون"
+"preferred_label": "يَسوع"
 },
 {
 "id": "keyterm:Share",
@@ -4581,25 +4574,18 @@
 "preferred_label": "شَارَكَ"
 },
 {
-"id": "keyterm:Happy",
-"type": "keyterm",
-"confidence": 0.2063,
+"id": "group:Christ",
+"type": "group",
+"confidence": 0.2313,
 "match_method": "canonical",
-"preferred_label": "سعيد"
+"preferred_label": "مسيحيون"
 },
 {
-"id": "keyterm:Judgment",
+"id": "keyterm:GoodNews",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "دَينونَة"
-},
-{
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "التَّصَرُّفُ بِبِرّ"
+"preferred_label": "بشارة"
 },
 {
 "id": "keyterm:DoGood",
@@ -4609,11 +4595,18 @@
 "preferred_label": "يَصْنَعُ خَيْرًا"
 },
 {
-"id": "deity:HolySpirit",
-"type": "deity",
+"id": "keyterm:Happy",
+"type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "الروح القدس"
+"preferred_label": "سعيد"
+},
+{
+"id": "keyterm:Faithfulness",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "أمانة"
 },
 {
 "id": "keyterm:Salvation",
@@ -4637,18 +4630,25 @@
 "preferred_label": "حبيب"
 },
 {
-"id": "keyterm:GoodNews",
+"id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "بشارة"
+"preferred_label": "التَّصَرُّفُ بِبِرّ"
 },
 {
-"id": "keyterm:Faithfulness",
+"id": "keyterm:Judgment",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "أمانة"
+"preferred_label": "دَينونَة"
+},
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "الروح القدس"
 }
 ]
 }
@@ -4720,32 +4720,11 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Happy",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "سعيد"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "يَسوع"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "الرَّبّ"
-},
-{
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "الروح القدس"
 },
 {
 "id": "keyterm:Glory",
@@ -4755,11 +4734,32 @@
 "preferred_label": "مجد"
 },
 {
+"id": "keyterm:Happy",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "سعيد"
+},
+{
 "id": "keyterm:Name",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "اسم"
+},
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "الروح القدس"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يَسوع"
 }
 ]
 }
@@ -4800,18 +4800,18 @@
 "preferred_label": "الرَّبّ"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "يَسوع"
-},
-{
 "id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "مجد"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يَسوع"
 }
 ]
 }
@@ -4838,18 +4838,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Judgment",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "دَينونَة"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "الرَّبّ"
+},
+{
+"id": "keyterm:Judgment",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "دَينونَة"
 },
 {
 "id": "keyterm:GoodNews",
@@ -4911,18 +4911,18 @@
 "preferred_label": "حَمَل"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "الرَّبّ"
+},
+{
 "id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.2625,
 "match_method": "canonical",
 "preferred_label": "طَلَب"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "يَسوع"
 },
 {
 "id": "keyterm:Witness",
@@ -4932,11 +4932,11 @@
 "preferred_label": "شَاهِد"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "person:Jesus.2",
+"type": "person",
 "confidence": 0.2625,
 "match_method": "canonical",
-"preferred_label": "الرَّبّ"
+"preferred_label": "يَسوع"
 },
 {
 "id": "realia:Crown",
@@ -5019,18 +5019,18 @@
 "preferred_label": "مَاعِز"
 },
 {
-"id": "keyterm:InChrist",
-"type": "keyterm",
-"confidence": 0.2643,
-"match_method": "canonical",
-"preferred_label": "فِي ٱلْمَسِيحِ"
-},
-{
 "id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.2643,
 "match_method": "canonical",
 "preferred_label": "طَلَب"
+},
+{
+"id": "keyterm:InChrist",
+"type": "keyterm",
+"confidence": 0.2643,
+"match_method": "canonical",
+"preferred_label": "فِي ٱلْمَسِيحِ"
 },
 {
 "id": "keyterm:Always",
@@ -5054,53 +5054,11 @@
 "preferred_label": "بَابِلُ"
 },
 {
-"id": "keyterm:Witness",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "شَاهِد"
-},
-{
-"id": "keyterm:Peace",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "صُنْعُ ٱلسَّلَامِ"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "قُدْرَة"
-},
-{
-"id": "keyterm:True",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "حقّ"
-},
-{
 "id": "person:Silas",
 "type": "person",
 "confidence": 0.1821,
 "match_method": "canonical",
 "preferred_label": "سِيلَا"
-},
-{
-"id": "keyterm:Surely",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "حقاً!"
-},
-{
-"id": "person:Mark",
-"type": "person",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "مَرْقُس"
 },
 {
 "id": "keyterm:Love",
@@ -5110,11 +5068,18 @@
 "preferred_label": "محبة"
 },
 {
-"id": "keyterm:Faithfulness",
+"id": "keyterm:True",
 "type": "keyterm",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "أمانة"
+"preferred_label": "حقّ"
+},
+{
+"id": "keyterm:Peace",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "صُنْعُ ٱلسَّلَامِ"
 },
 {
 "id": "keyterm:Believe",
@@ -5124,6 +5089,41 @@
 "preferred_label": "يؤمن"
 },
 {
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "قُدْرَة"
+},
+{
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "حقاً!"
+},
+{
+"id": "keyterm:Faithfulness",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "أمانة"
+},
+{
+"id": "person:Mark",
+"type": "person",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "مَرْقُس"
+},
+{
+"id": "keyterm:Witness",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "شَاهِد"
+},
+{
 "id": "fauna:Lion",
 "type": "fauna",
 "confidence": 0.1221,
@@ -5131,18 +5131,18 @@
 "preferred_label": "أَسَد"
 },
 {
-"id": "realia:Crown",
-"type": "realia",
-"confidence": 0.1221,
-"match_method": "canonical",
-"preferred_label": "تاج"
-},
-{
 "id": "realia:Crown.2",
 "type": "realia",
 "confidence": 0.1221,
 "match_method": "canonical",
 "preferred_label": "إِكْليل"
+},
+{
+"id": "realia:Crown",
+"type": "realia",
+"confidence": 0.1221,
+"match_method": "canonical",
+"preferred_label": "تاج"
 }
 ]
 }
@@ -5176,13 +5176,6 @@
 "preferred_label": "الرَّبّ"
 },
 {
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "مَاعِز"
-},
-{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.54,
@@ -5195,6 +5188,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "قطيع"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "مَاعِز"
 }
 ]
 }
@@ -5259,18 +5259,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "قُدْرَة"
-},
-{
 "id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "يؤمن"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "قُدْرَة"
 }
 ]
 }
@@ -5297,27 +5297,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "يَسوع"
-},
-{
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "حظوة"
-},
-{
-"id": "keyterm:InChrist",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "فِي ٱلْمَسِيحِ"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -5332,11 +5311,32 @@
 "preferred_label": "مجد"
 },
 {
+"id": "keyterm:InChrist",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "فِي ٱلْمَسِيحِ"
+},
+{
 "id": "keyterm:Always",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "إِلى الأَبَد"
+},
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "حظوة"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يَسوع"
 }
 ]
 }
@@ -5363,20 +5363,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:AskFor",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "طَلَب"
-},
-{
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "حظوة"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -5391,11 +5377,11 @@
 "preferred_label": "حقّ"
 },
 {
-"id": "person:Silas",
-"type": "person",
+"id": "keyterm:AskFor",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "سِيلَا"
+"preferred_label": "طَلَب"
 },
 {
 "id": "keyterm:Faithfulness",
@@ -5403,6 +5389,20 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "أمانة"
+},
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "حظوة"
+},
+{
+"id": "person:Silas",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "سِيلَا"
 }
 ]
 }
